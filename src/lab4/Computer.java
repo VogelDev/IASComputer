@@ -2,8 +2,8 @@ package lab4;
 
 public class Computer {
 
-    private long ac, mq, mbr, ibr, ir;
-    private int pc, mar;
+    private long ac, mq, mbr, ibr;
+    private int pc, mar, ir;
     private boolean left, ibrLoad;
     private Memory memory;
     private String description;
@@ -27,28 +27,42 @@ public class Computer {
         pc = 0;
         left = true;
         if (ibrLoad) {
-            //ir = ibr op
-            //mar = ibr address
+            // ir = ibr op
+            ir = (int) (ibr >>> 12);
+            // mar = ibr address
+            mar = (int) (ibr & Integer.valueOf("fff", 16));
+            // pc++
         } else {
             mar = pc;
             mbr = memory.getMemory(mar);
             if (left) {
-                //ibr = mbr right
-                //ir = mbr left op
-                //mar = mbr left address
-                //compute
-            }else{
-                //ir = mbr right op
-                //mar = mbr right address
-                //pc++
+                // ibr = mbr right
+                ibr = mbr & Integer.valueOf("fffff", 16);
+                ibrLoad = true;
+
+                int leftIn = (int) (mbr >>> 20);
+                // ir = mbr left op
+                ir = leftIn >>> 12;
+                // mar = mbr left address
+                mar = (int) (leftIn & Integer.valueOf("fff", 16));
+            } else {
+                int rightIn = (int) (mbr & Integer.valueOf("fffff", 16));
+                // ir = mbr right op
+                ir = rightIn >>> 12;
+                // mar = mbr right address
+                mar = (int) (rightIn & Integer.valueOf("fff", 16));
+                // pc++
+                pc++;
             }
         }
+
+        compute(ir, mar);
     }
 
-    public void compute(int instruction) {
+    public void compute(int opcode, int address) {
         boolean setDesc = true;
 
-        switch (instruction) {
+        switch (opcode) {
         case Opcode.HALT:
 
             break;
@@ -120,7 +134,7 @@ public class Computer {
         }
 
         if (setDesc)
-            description = Opcode.DESCRIPTION[instruction];
+            description = Opcode.DESCRIPTION[opcode];
         else
             description = "ERROR, INSTRUCTION NOT FOUND";
     }
