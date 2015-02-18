@@ -8,25 +8,49 @@ public class Computer {
     private Memory memory;
     private String description;
 
+    public Computer(Memory memory) {
+        this.memory = memory;
 
-    
-    public void read(String hex){
+        ac = mq = mbr = ibr = ir = pc = mar = 0;
+
+        left = true;
+        ibrLoad = false;
+        description = "";
+
+    }
+
+    public void read(String hex) {
         memory.setMemory(pc++, Long.valueOf(hex, 16));
     }
-    
-    public void run(){
+
+    public void run() {
         pc = 0;
         left = true;
-        mar = pc;
-        mbr = memory.getMemory(mar);
+        if (ibrLoad) {
+            //ir = ibr op
+            //mar = ibr address
+        } else {
+            mar = pc;
+            mbr = memory.getMemory(mar);
+            if (left) {
+                //ibr = mbr right
+                //ir = mbr left op
+                //mar = mbr left address
+                //compute
+            }else{
+                //ir = mbr right op
+                //mar = mbr right address
+                //pc++
+            }
+        }
     }
-    
+
     public void compute(int instruction) {
         boolean setDesc = true;
-        
+
         switch (instruction) {
         case Opcode.HALT:
-            
+
             break;
         case Opcode.LOADMX:
             // load mx to ac
