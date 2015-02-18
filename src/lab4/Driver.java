@@ -3,25 +3,19 @@ package lab4;
 public class Driver {
 
     public static void main(String[] args) {
-       String hex = "0d0050d005";
-       
-       long m = Long.valueOf(hex, 16);
-       
-       System.out.println(m);
 
-       String binary = Long.toBinaryString(m);
-       
-       System.out.println(binary);
-       
-       long leftIn = m>>>20;
-       long rightIn = m & Integer.valueOf("fffff", 16);
-       long leftOp = leftIn >>>12;
-       long leftAd = leftIn & Integer.valueOf("fff", 16);
-       long rightOp = rightIn >>>12;
-       long rightAd = rightIn & Integer.valueOf("fff", 16);
+	Memory memory = new Memory(100);
 
-       System.out.println(leftIn + " " + rightIn);
-       System.out.println(leftOp + " " + leftAd);
-       System.out.println(rightOp + " " + rightAd);
+	for(int i =0;i<args.length;i++){
+	    memory.setMemory(i, Long.parseLong(args[i], 16));
+	}
+
+	for( int i =args.length; i<100; i++){
+	    memory.setMemory(i, 0l);
+	}
+	
+	Computer computer = new Computer(memory);
+	computer.run();
+	
     }
 }
