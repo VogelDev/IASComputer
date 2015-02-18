@@ -15,6 +15,15 @@ public class Computer {
         description = "";
     }
 
+    public Computer(Memory memory) {
+        this.memory = memory;
+
+        mq = 0;
+        ac = 0;
+        description = "";
+    }
+
+    
     public void compute(int location, int instruction, int address) {
         boolean setDesc = true;
 
