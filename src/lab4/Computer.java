@@ -1,5 +1,10 @@
 package lab4;
 
+/**
+ * IAS Computer for CIS126
+ * @author Rob Vogel
+ * @version 0.0.1
+ */
 public class Computer {
 
     private long ac, mq, mbr, ibr;
@@ -8,6 +13,10 @@ public class Computer {
     private Memory memory;
     private String description;
 
+    /**
+     * Constructor for Computer, takes in a memory set.
+     * @param memory
+     */
     public Computer(Memory memory) {
         this.memory = memory;
 
@@ -19,10 +28,9 @@ public class Computer {
 
     }
 
-    public void read(String hex) {
-        memory.setMemory(pc++, Long.valueOf(hex, 16));
-    }
-
+    /**
+     * Fetch cycle for IASComputer
+     */
     public void run() {
         pc = 0;
         left = true;
@@ -33,6 +41,7 @@ public class Computer {
             mar = (int) (ibr & Integer.valueOf("fff", 16));
             // pc++
             pc++;
+            ibrLoad = false;
         } else {
             mar = pc;
             mbr = memory.getMemory(mar);
@@ -60,6 +69,11 @@ public class Computer {
         compute(ir, mar);
     }
 
+    /**
+     * Execution cycle for IASComputer
+     * @param opcode
+     * @param address
+     */
     public void compute(int opcode, int address) {
         boolean setDesc = true;
 
