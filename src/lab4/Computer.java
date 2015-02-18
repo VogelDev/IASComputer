@@ -3,13 +3,13 @@ package lab4;
 /**
  * IAS Computer for CIS126
  * @author Rob Vogel
- * @version 0.0.1
+ * @version 0.0.2
  */
 public class Computer {
 
     private long ac, mq, mbr, ibr;
     private int pc, mar, ir;
-    private boolean left, ibrLoad;
+    private boolean left, ibrLoad, run;
     private Memory memory;
     private String description;
 
@@ -24,6 +24,7 @@ public class Computer {
 
         left = true;
         ibrLoad = false;
+        run = true;
         description = "";
 
     }
@@ -32,8 +33,6 @@ public class Computer {
      * Fetch cycle for IASComputer
      */
     public void run() {
-        pc = 0;
-        left = true;
         if (ibrLoad) {
             // ir = ibr op
             ir = (int) (ibr >>> 12);
@@ -79,7 +78,7 @@ public class Computer {
 
         switch (opcode) {
         case Opcode.HALT:
-
+            run = false;
             break;
         case Opcode.LOADMX:
             // load mx to ac
@@ -179,5 +178,8 @@ public class Computer {
             description = Opcode.DESCRIPTION[opcode];
         else
             description = "ERROR, INSTRUCTION NOT FOUND";
+        
+        if(run)
+            run();
     }
 }
