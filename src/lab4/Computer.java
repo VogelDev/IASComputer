@@ -2,24 +2,31 @@ package lab4;
 
 public class Computer {
 
-    private long ac, mq, mbr, ibr, ir, mar;
-    private int pc;
+    private long ac, mq, mbr, ibr, ir;
+    private int pc, mar;
+    private boolean left, ibrLoad;
     private Memory memory;
     private String description;
 
-    public Computer() {
-        memory = new Memory(100);
 
-        mq = 0;
-        ac = 0;
-        description = "";
+    
+    public void read(String hex){
+        memory.setMemory(pc++, Long.valueOf(hex, 16));
     }
-
-    public void compute(int location, int instruction, int address) {
+    
+    public void run(){
+        pc = 0;
+        left = true;
+        mar = pc;
+        mbr = memory.getMemory(mar);
+    }
+    
+    public void compute(int instruction) {
         boolean setDesc = true;
-
+        
         switch (instruction) {
         case Opcode.HALT:
+            
             break;
         case Opcode.LOADMX:
             // load mx to ac
@@ -50,7 +57,6 @@ public class Computer {
             break;
         case Opcode.LOADMQ:
             // xfer mq to ac
-            mq = ac;
             break;
         case Opcode.MULMX:
             // multiply ac by mx, most sig in ac, least sig in mq
@@ -93,9 +99,5 @@ public class Computer {
             description = Opcode.DESCRIPTION[instruction];
         else
             description = "ERROR, INSTRUCTION NOT FOUND";
-    }
-
-    public void run() {
-        
     }
 }

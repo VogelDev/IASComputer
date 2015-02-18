@@ -7,12 +7,12 @@ public class Memory {
         memory = new long[wordCount];
     }
     
-    public long getWord(int location){
+    public long getMemory(int location){
         return memory[location];
     }
     
-    public void setWord(int location, long address){
-        memory[location] = address;
+    public void setMemory(int location, long value){
+        memory[location] = value;
     }
     
     public long[] getMemory(){
