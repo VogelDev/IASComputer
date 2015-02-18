@@ -1,17 +1,21 @@
 package lab4;
 
 public class Memory {
-    Word[] memory;
+    long[] memory;
     
     public Memory(int wordCount){
-        memory = new Word[wordCount];
+        memory = new long[wordCount];
     }
     
-    public Word getWord(int address){
-        return memory[address];
+    public long getWord(int location){
+        return memory[location];
     }
     
-    public void setWord(int location, Word word){
-        memory[location] = word;
+    public void setWord(int location, long address){
+        memory[location] = address;
+    }
+    
+    public long[] getMemory(){
+        return memory;
     }
 }

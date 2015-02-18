@@ -3,14 +3,25 @@ package lab4;
 public class Driver {
 
     public static void main(String[] args) {
-        String number = Integer.toHexString(255);
-        number = String.format("%3f", number);
-        String hex = "ff";
-        //number = number.substring(number.length() - 24, number.length());
-        int num = Integer.valueOf(hex, 16);
-        
-        //System.out.println(hex);
-        System.out.println(number);
-    }
+       String hex = "0d0050d005";
+       
+       long m = Long.valueOf(hex, 16);
+       
+       System.out.println(m);
 
+       String binary = Long.toBinaryString(m);
+       
+       System.out.println(binary);
+       
+       long leftIn = m>>>20;
+       long rightIn = m & Integer.valueOf("fffff", 16);
+       long leftOp = leftIn >>>12;
+       long leftAd = leftIn & Integer.valueOf("fff", 16);
+       long rightOp = rightIn >>>12;
+       long rightAd = rightIn & Integer.valueOf("fff", 16);
+
+       System.out.println(leftIn + " " + rightIn);
+       System.out.println(leftOp + " " + leftAd);
+       System.out.println(rightOp + " " + rightAd);
+    }
 }
