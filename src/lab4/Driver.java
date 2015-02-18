@@ -15,6 +15,7 @@ public class Driver {
 	}
 	
 	Computer computer = new Computer(memory);
+	computer.run();
 	
     }
 }
