@@ -26,13 +26,22 @@ public class Computer {
         ibrLoad = false;
         run = true;
         description = "";
-
+    }
+    
+    /**
+     * Runs the computer until the opcode 0 is found
+     */
+    public void run(){
+        while(run){
+            fetch();
+            execute(ir, mar);
+        }
     }
 
     /**
      * Fetch cycle for IASComputer
      */
-    public void run() {
+    public void fetch() {
         if (ibrLoad) {
             // ir = ibr op
             ir = (int) (ibr >>> 12);
@@ -64,8 +73,6 @@ public class Computer {
                 pc++;
             }
         }
-
-        compute(ir, mar);
     }
 
     /**
@@ -73,7 +80,7 @@ public class Computer {
      * @param opcode
      * @param address
      */
-    public void compute(int opcode, int address) {
+    public void execute(int opcode, int address) {
         boolean setDesc = true;
 
         switch (opcode) {
@@ -178,8 +185,5 @@ public class Computer {
             description = Opcode.DESCRIPTION[opcode];
         else
             description = "ERROR, INSTRUCTION NOT FOUND";
-        
-        if(run)
-            run();
     }
 }
