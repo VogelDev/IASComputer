@@ -7,11 +7,11 @@ public class Driver {
 	Memory memory = new Memory(100);
 
 	for(int i =0;i<args.length;i++){
-	    memory.setWord(i, Long.parseLong(args[i], 16));
+	    memory.setMemory(i, Long.parseLong(args[i], 16));
 	}
 
 	for( int i =args.length; i<100; i++){
-	    memory.setWord(i, 0l);
+	    memory.setMemory(i, 0l);
 	}
 	
 	Computer computer = new Computer(memory);

@@ -2,8 +2,9 @@ package lab4;
 
 public class Computer {
 
-    private long ac, mq, mbr, ibr, ir, mar;
-    private int pc;
+    private long ac, mq, mbr, ibr, ir;
+    private int pc, mar;
+    private boolean left, ibrLoad;
     private Memory memory;
     private String description;
 
@@ -21,6 +22,13 @@ public class Computer {
         mq = 0;
         ac = 0;
         description = "";
+    }
+
+   public void run(){
+        pc = 0;
+        left = true;
+        mar = pc;
+        mbr = memory.getMemory(mar);
     }
 
     
