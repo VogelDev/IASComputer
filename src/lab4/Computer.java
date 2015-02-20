@@ -36,6 +36,8 @@ public class Computer {
             fetch();
             execute(ir, mar);
         }
+        
+        System.out.println(memory);
     }
 
     /**
@@ -63,6 +65,7 @@ public class Computer {
                 ir = leftIn >>> 12;
                 // mar = mbr left address
                 mar = (int) (leftIn & Integer.valueOf("fff", 16));
+                pc++;
             } else {
                 int rightIn = (int) (mbr & Integer.valueOf("fffff", 16));
                 // ir = mbr right op
@@ -185,5 +188,7 @@ public class Computer {
             description = Opcode.DESCRIPTION[opcode];
         else
             description = "ERROR, INSTRUCTION NOT FOUND";
+        
+        System.out.println(description);
     }
 }

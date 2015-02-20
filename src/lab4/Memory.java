@@ -1,5 +1,7 @@
 package lab4;
 
+import java.util.Arrays;
+
 public class Memory {
     long[] memory;
     
@@ -17,5 +19,16 @@ public class Memory {
     
     public long[] getMemory(){
         return memory;
+    }
+
+    @Override
+    public String toString() {
+        String output = "";
+        
+        for(long item: memory){
+            output += Long.toHexString(item) + "\n";
+        }
+        
+        return output;
     }
 }
