@@ -33,11 +33,13 @@ public class Computer {
      */
     public void run(){
         while(run){
+            System.out.println("left: " + left);
+            System.out.println("ibrLoad: " + ibrLoad);
             fetch();
+            System.out.println(ir);
             execute(ir, mar);
+            //System.out.println(this);
         }
-        
-        System.out.println(memory);
     }
 
     /**
@@ -52,6 +54,7 @@ public class Computer {
             // pc++
             pc++;
             ibrLoad = false;
+            left = true;
         } else {
             mar = pc;
             mbr = memory.getMemory(mar);
@@ -59,21 +62,19 @@ public class Computer {
                 // ibr = mbr right
                 ibr = mbr & Integer.valueOf("fffff", 16);
                 ibrLoad = true;
+                left = false;
 
                 int leftIn = (int) (mbr >>> 20);
                 // ir = mbr left op
                 ir = leftIn >>> 12;
                 // mar = mbr left address
                 mar = (int) (leftIn & Integer.valueOf("fff", 16));
-                pc++;
             } else {
                 int rightIn = (int) (mbr & Integer.valueOf("fffff", 16));
                 // ir = mbr right op
                 ir = rightIn >>> 12;
                 // mar = mbr right address
                 mar = (int) (rightIn & Integer.valueOf("fff", 16));
-                // pc++
-                pc++;
             }
         }
     }
@@ -190,5 +191,13 @@ public class Computer {
             description = "ERROR, INSTRUCTION NOT FOUND";
         
         System.out.println(description);
+    }
+
+    @Override
+    public String toString() {
+        return "Computer [ac=" + Long.toHexString(ac) + ", mq=" + Long.toHexString(mq) + ", mbr=" + Long.toHexString(mbr) + ", ibr="
+                + Long.toHexString(ibr) + ", pc=" + pc + ", mar=" + mar + ", ir=" + Long.toHexString(ac)
+                + ", left=" + left + ", ibrLoad=" + ibrLoad + ", run=" + run
+                + ", memory=" + memory + ", description=" + description + "]";
     }
 }

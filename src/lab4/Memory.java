@@ -20,18 +20,7 @@ public class Memory {
     public long[] getMemory(){
         return memory;
     }
-
-<<<<<<< HEAD
-    @Override
-    public String toString() {
-        String output = "";
-        
-        for(long item: memory){
-            output += Long.toHexString(item) + "\n";
-        }
-        
-        return output;
-=======
+    
     public String toString(){
 	StringBuilder output = new StringBuilder("IAS Memory" + "\n" + "===========");
 	for(int i = 0;i<memory.length;i++){
@@ -42,6 +31,5 @@ public class Memory {
 	}
 	
 	return output.toString();
->>>>>>> origin/master
     }
 }
