@@ -3,7 +3,7 @@ package lab4;
 /**
  * IAS Computer for CIS126
  * @author Rob Vogel
- * @version 0.0.2
+ * @version 0.0.3
  */
 public class Computer {
 
@@ -33,12 +33,8 @@ public class Computer {
      */
     public void run(){
         while(run){
-            System.out.println("left: " + left);
-            System.out.println("ibrLoad: " + ibrLoad);
             fetch();
-            System.out.println(ir);
             execute(ir, mar);
-            //System.out.println(this);
         }
     }
 
@@ -185,9 +181,11 @@ public class Computer {
             setDesc = false;
         }
 
-        if (setDesc)
+        if (setDesc){
             description = Opcode.DESCRIPTION[opcode];
-        else
+            description = description.replace("M(X)", "M(" + ir + ")[value of: " + memory.getMemory(mar) + "]" );
+            description = description.replace("AC", "AC(" + ac + ")");
+        }else
             description = "ERROR, INSTRUCTION NOT FOUND";
         
         System.out.println(description);

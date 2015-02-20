@@ -1,5 +1,10 @@
 package lab4;
 
+/**
+ * 
+ * @author Rob Vogel
+ *@version 0.0.2
+ */
 public class Opcode {
     public static final int HALT = 0, LOADMX = 1, LOADMXNEG = 2, LOADMXABS = 3,
             LOADMXABSNEG = 4, ADDMX = 5, SUBMX = 6, ADDMXABS = 7, SUBMXABS = 8,
