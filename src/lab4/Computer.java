@@ -177,12 +177,19 @@ public class Computer {
             // divide ac by 2 (will be floored)
             ac /= 2;
             break;
+	case Opcode.STOR:
+	    memory.setMemory(address, ac);
+	    break;
         default:
             setDesc = false;
         }
 
         if (setDesc){
-            description = Opcode.DESCRIPTION[opcode];
+	    if(opcode < Opcode.DESCRIPTION.length)
+		description = Opcode.DESCRIPTION[opcode];
+	    else
+		description = Opcode.DESCRIPTION[17]; //special case for 33
+		    
             description = description.replace("M(X)", "M(" + ir + ")[value of: " + memory.getMemory(mar) + "]" );
             description = description.replace("AC", "AC(" + ac + ")");
         }else

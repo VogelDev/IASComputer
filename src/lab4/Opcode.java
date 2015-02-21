@@ -10,7 +10,7 @@ public class Opcode {
             LOADMXABSNEG = 4, ADDMX = 5, SUBMX = 6, ADDMXABS = 7, SUBMXABS = 8,
             LOADMQMX = 9, LOADMQ = 10, MULMX = 11, DIVMX = 12, JUMPMXLEFT = 13,
             JUMPMXRIGHT = 14, JUMPMXPOSLEFT = 15, JUMPMXPOSRIGHT = 16,
-            STORMX = 17, STORMXLEFT = 18, STORMXRIGHT = 19, LSH = 20, RSH = 21;
+	    STORMX = 17, STORMXLEFT = 18, STORMXRIGHT = 19, LSH = 20, RSH = 21, STOR = 33;
     public static final String[] DESCRIPTION = {
         "HALT",
         "Transfer M(X) to the AC",
