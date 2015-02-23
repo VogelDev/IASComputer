@@ -5,6 +5,7 @@ import javax.swing.JTextPane;
 
 /**
  * IAS Computer for CIS126
+ * 
  * @author Rob Vogel
  * @version 0.0.3
  */
@@ -18,6 +19,7 @@ public class Computer {
 
     /**
      * Constructor for Computer, takes in a memory set.
+     * 
      * @param memory
      */
     public Computer(Memory memory) {
@@ -30,23 +32,24 @@ public class Computer {
         run = true;
         description = "";
     }
-    
+
     /**
      * Runs the computer until the opcode 0 is found
      */
-    public void run(){
-        while(run){
+    public void run() {
+        while (run) {
             fetch();
             execute(ir, mar);
         }
     }
-    
+
     /**
      * Runs the computer until the opcode 0 is found
-     * @param descPane 
+     * 
+     * @param descPane
      */
-    public void run(IASComputer comp){
-        while(run){
+    public void run(IASComputer comp) {
+        while (run) {
             fetch();
             execute(ir, mar);
             try {
@@ -99,6 +102,7 @@ public class Computer {
 
     /**
      * Execution cycle for IASComputer
+     * 
      * @param opcode
      * @param address
      */
@@ -203,38 +207,36 @@ public class Computer {
             // divide ac by 2 (will be floored)
             ac /= 2;
             break;
-	case Opcode.STOR:
-	    memory.setMemory(address, ac);
-	    break;
+        case Opcode.STOR:
+            memory.setMemory(address, ac);
+            break;
         default:
             setDesc = false;
         }
 
-        if (setDesc){
-<<<<<<< HEAD
-            description = Opcode.DESCRIPTION[opcode];
+        if (setDesc) {
+
+            if (opcode < Opcode.DESCRIPTION.length)
+                description = Opcode.DESCRIPTION[opcode];
+            else
+                description = Opcode.DESCRIPTION[17]; // special case for 33
+            
             description = description.replace("M(X)", "M(" + address + ")[value of: " + Long.toHexString(memory.getMemory(mar)) + "]" );
             description = description.replace("AC", "AC(" + Long.toHexString(ac) + ")");
-=======
-	    if(opcode < Opcode.DESCRIPTION.length)
-		description = Opcode.DESCRIPTION[opcode];
-	    else
-		description = Opcode.DESCRIPTION[17]; //special case for 33
-		    
-            description = description.replace("M(X)", "M(" + ir + ")[value of: " + memory.getMemory(mar) + "]" );
-            description = description.replace("AC", "AC(" + ac + ")");
->>>>>>> origin/master
-        }else
+
+        } else
             description = "ERROR, INSTRUCTION NOT FOUND";
-        
+
         System.out.println(description);
     }
 
     @Override
     public String toString() {
-        return "Computer [ac=" + Long.toHexString(ac) + ", mq=" + Long.toHexString(mq) + ", mbr=" + Long.toHexString(mbr) + ", ibr="
-                + Long.toHexString(ibr) + ", pc=" + pc + ", mar=" + mar + ", ir=" + Long.toHexString(ac)
-                + ", left=" + left + ", ibrLoad=" + ibrLoad + ", run=" + run
-                + ", memory=" + memory + ", description=" + description + "]";
+        return "Computer [ac=" + Long.toHexString(ac) + ", mq="
+                + Long.toHexString(mq) + ", mbr=" + Long.toHexString(mbr)
+                + ", ibr=" + Long.toHexString(ibr) + ", pc=" + pc + ", mar="
+                + mar + ", ir=" + Long.toHexString(ac) + ", left=" + left
+                + ", ibrLoad=" + ibrLoad + ", run=" + run + ", memory="
+                + memory + ", description=" + description + "]";
     }
 }
