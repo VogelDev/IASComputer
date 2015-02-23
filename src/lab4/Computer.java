@@ -1,5 +1,8 @@
 package lab4;
 
+import javax.swing.JTextArea;
+import javax.swing.JTextPane;
+
 /**
  * IAS Computer for CIS126
  * @author Rob Vogel
@@ -35,6 +38,25 @@ public class Computer {
         while(run){
             fetch();
             execute(ir, mar);
+        }
+    }
+    
+    /**
+     * Runs the computer until the opcode 0 is found
+     * @param descPane 
+     */
+    public void run(IASComputer comp){
+        while(run){
+            fetch();
+            execute(ir, mar);
+            try {
+                Thread.sleep(500);
+            } catch (InterruptedException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+            comp.memoryPane.setText(memory.toString());
+            comp.descPane.setText(description);
         }
     }
 
@@ -138,17 +160,20 @@ public class Computer {
         case Opcode.JUMPMXLEFT:
             // left instruction from mx
             left = true;
+            ibrLoad = false;
             pc = mar;
             break;
         case Opcode.JUMPMXRIGHT:
             // right instruction from mx
             left = false;
+            ibrLoad = false;
             pc = mar;
             break;
         case Opcode.JUMPMXPOSLEFT:
             // ac >=0 left instruction
             if (ac >= 0) {
                 left = true;
+                ibrLoad = false;
                 pc = mar;
             }
             break;
@@ -156,6 +181,7 @@ public class Computer {
             // ac >=0 right instruction
             if (ac >= 0) {
                 left = false;
+                ibrLoad = false;
                 pc = mar;
             }
             break;
@@ -183,8 +209,8 @@ public class Computer {
 
         if (setDesc){
             description = Opcode.DESCRIPTION[opcode];
-            description = description.replace("M(X)", "M(" + ir + ")[value of: " + memory.getMemory(mar) + "]" );
-            description = description.replace("AC", "AC(" + ac + ")");
+            description = description.replace("M(X)", "M(" + address + ")[value of: " + Long.toHexString(memory.getMemory(mar)) + "]" );
+            description = description.replace("AC", "AC(" + Long.toHexString(ac) + ")");
         }else
             description = "ERROR, INSTRUCTION NOT FOUND";
         
