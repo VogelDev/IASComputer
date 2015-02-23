@@ -203,14 +203,27 @@ public class Computer {
             // divide ac by 2 (will be floored)
             ac /= 2;
             break;
+	case Opcode.STOR:
+	    memory.setMemory(address, ac);
+	    break;
         default:
             setDesc = false;
         }
 
         if (setDesc){
+<<<<<<< HEAD
             description = Opcode.DESCRIPTION[opcode];
             description = description.replace("M(X)", "M(" + address + ")[value of: " + Long.toHexString(memory.getMemory(mar)) + "]" );
             description = description.replace("AC", "AC(" + Long.toHexString(ac) + ")");
+=======
+	    if(opcode < Opcode.DESCRIPTION.length)
+		description = Opcode.DESCRIPTION[opcode];
+	    else
+		description = Opcode.DESCRIPTION[17]; //special case for 33
+		    
+            description = description.replace("M(X)", "M(" + ir + ")[value of: " + memory.getMemory(mar) + "]" );
+            description = description.replace("AC", "AC(" + ac + ")");
+>>>>>>> origin/master
         }else
             description = "ERROR, INSTRUCTION NOT FOUND";
         
