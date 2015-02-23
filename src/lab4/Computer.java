@@ -37,29 +37,9 @@ public class Computer {
      * Runs the computer until the opcode 0 is found
      */
     public void run() {
-        while (run) {
+        while (pc < 100) {
             fetch();
             execute(ir, mar);
-        }
-    }
-
-    /**
-     * Runs the computer until the opcode 0 is found
-     * 
-     * @param descPane
-     */
-    public void run(IASComputer comp) {
-        while (run) {
-            fetch();
-            execute(ir, mar);
-            try {
-                Thread.sleep(500);
-            } catch (InterruptedException e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
-            }
-            comp.memoryPane.setText(memory.toString());
-            comp.descPane.setText(description);
         }
     }
 
@@ -220,14 +200,18 @@ public class Computer {
                 description = Opcode.DESCRIPTION[opcode];
             else
                 description = Opcode.DESCRIPTION[17]; // special case for 33
-            
-            description = description.replace("M(X)", "M(" + address + ")[value of: " + Long.toHexString(memory.getMemory(mar)) + "]" );
-            description = description.replace("AC", "AC(" + Long.toHexString(ac) + ")");
+
+            description = description.replace("M(X)", "M(" + address
+                    + ")[value of: " + Long.toHexString(memory.getMemory(mar))
+                    + "]");
+            description = description.replace("AC",
+                    "AC(" + Long.toHexString(ac) + ")");
 
         } else
             description = "ERROR, INSTRUCTION NOT FOUND";
 
-        System.out.println(description);
+        if (!description.equals(Opcode.DESCRIPTION[Opcode.HALT]))
+            System.out.println(description);
     }
 
     @Override
