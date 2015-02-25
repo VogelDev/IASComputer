@@ -16,31 +16,15 @@ public class Memory {
     }
 
     public void setLeft(int location, long value) {
-        long rightIn = memory[location] & Integer.valueOf("fffff", 16);
-        long leftIn = memory[location] >>> 20;
-        long leftOp = leftIn >>> 12;
-
-        long newAdd = value << 20;
-        newAdd >>>= 20;
-        newAdd &= Integer.valueOf("fff", 16);
-
-        long newValue = leftOp << 32;
-        newValue |= newAdd << 20;
-        newValue |= rightIn;
-        
+        value <<= 20;
+        long newValue = memory[location] & Long.valueOf("ff000fffff", 16);
+        newValue |= value & Long.valueOf("00fff00000", 16);
         memory[location] = newValue;
-        
     }
 
     public void setRight(int location, long value) {
-        long rightIn = memory[location] & Integer.valueOf("fffff", 16);
-        long rightOp = rightIn >>12;
-        long leftIn = memory[location] >>> 20;
-
-        long newValue = leftIn << 20;
-        newValue |= rightOp << 12;
-        newValue |= (value & Integer.valueOf("fff", 16));
-        
+        long newValue = memory[location] & Long.valueOf("fffffff000", 16);
+        newValue |= value & Long.valueOf("fff", 16);
         memory[location] = newValue;
     }
 

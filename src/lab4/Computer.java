@@ -177,16 +177,12 @@ public class Computer {
             memory.setMemory(address, ac);
             break;
         case Opcode.STORMXLEFT:
-            // set mx left to ac right
-            long acRight = ac << 20;
-            acRight >>>= 20;            
-            memory.setLeft(address, acRight);
+            // set mx left to ac right      
+            memory.setLeft(address, ac);
             break;
         case Opcode.STORMXRIGHT:
-            // set mx right to ac right
-            acRight = ac << 20;
-            acRight >>>= 20;            
-            memory.setRight(address, acRight);
+            // set mx right to ac right         
+            memory.setRight(address, ac);
             break;
         case Opcode.LSH:
             // multiply ac by 2
