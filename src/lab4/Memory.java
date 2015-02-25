@@ -1,7 +1,5 @@
 package lab4;
 
-import java.util.Arrays;
-
 public class Memory {
     long[] memory;
     
@@ -15,6 +13,21 @@ public class Memory {
     
     public void setMemory(int location, long value){
         memory[location] = value;
+    }
+    
+    public void setLeft(int location, long value){
+        long right = memory[location] & Integer.valueOf("fffff", 16);
+        long left = value << 20;
+        
+        memory[location] = left | right;
+    }
+    
+    public void setRight(int location, long value){
+        long left = memory[location] >>> 20;
+        
+        left <<= 20;
+        
+        memory[location] = left | value;
     }
     
     public long[] getMemory(){
