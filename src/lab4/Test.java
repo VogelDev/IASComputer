@@ -12,5 +12,6 @@ public class Test {
         
         memory.setRight(0, 15);
         System.out.println(memory);
+        
     }
 }

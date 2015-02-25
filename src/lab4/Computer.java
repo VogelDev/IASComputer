@@ -37,7 +37,7 @@ public class Computer {
      * Runs the computer until the opcode 0 is found
      */
     public void run() {
-        while (pc < 100) {
+        while (run) {
             fetch();
             execute(ir, mar);
         }
@@ -76,6 +76,9 @@ public class Computer {
                 ir = rightIn >>> 12;
                 // mar = mbr right address
                 mar = (int) (rightIn & Integer.valueOf("fff", 16));
+                left = true;
+                ibrLoad = false;
+                pc++;
             }
         }
     }
@@ -154,16 +157,16 @@ public class Computer {
             pc = mar;
             break;
         case Opcode.JUMPMXPOSLEFT:
-            // ac >=0 left instruction
-            if (ac >= 0) {
+            // ac >0 left instruction
+            if (ac > 0) {
                 left = true;
                 ibrLoad = false;
                 pc = mar;
             }
             break;
         case Opcode.JUMPMXPOSRIGHT:
-            // ac >=0 right instruction
-            if (ac >= 0) {
+            // ac >0 right instruction
+            if (ac > 0) {
                 left = false;
                 ibrLoad = false;
                 pc = mar;
