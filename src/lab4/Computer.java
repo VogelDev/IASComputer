@@ -39,6 +39,7 @@ public class Computer {
     public void run() {
         while (run) {
             fetch();
+            System.out.print(pc + ":  ");
             execute(ir, mar);
         }
     }
@@ -186,11 +187,11 @@ public class Computer {
             break;
         case Opcode.LSH:
             // multiply ac by 2
-            ac *= 2;
+            ac <<= 2;
             break;
         case Opcode.RSH:
             // divide ac by 2 (will be floored)
-            ac /= 2;
+            ac >>= 1;
             break;
         case Opcode.STOR:
             memory.setMemory(address, ac);
