@@ -1,8 +1,5 @@
 package lab4;
 
-import javax.swing.JTextArea;
-import javax.swing.JTextPane;
-
 /**
  * IAS Computer for CIS126
  * 
@@ -39,8 +36,8 @@ public class Computer {
     public void run() {
         while (run) {
             fetch();
-            System.out.print(pc + ":  ");
             execute(ir, mar);
+            
         }
     }
 
@@ -203,11 +200,11 @@ public class Computer {
         if (setDesc) {
 
             if (opcode < Opcode.DESCRIPTION.length)
-                description = Opcode.DESCRIPTION[opcode];
+                description = Long.toHexString(pc) + ": " + Opcode.DESCRIPTION[opcode];
             else
                 description = Opcode.DESCRIPTION[17]; // special case for 33
 
-            description = description.replace("M(X)", "M(" + address
+            description = description.replace("M(X)", "M(" + Long.toHexString(address)
                     + ")[value of: " + Long.toHexString(memory.getMemory(mar))
                     + "]");
             description = description.replace("AC",

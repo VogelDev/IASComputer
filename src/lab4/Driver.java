@@ -13,7 +13,7 @@ public class Driver {
         String[] input = args;
         try {
             //input = readLines(input[0]);
-            input = readLines("src/moyer.txt");
+            input = readLines("src/code3.txt");
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
