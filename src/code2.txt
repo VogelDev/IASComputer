@@ -1,0 +1,36 @@
+0d00800000#--00 - jump to left side of 8
+0000000001#--01 - constant value 1
+0000000005#--02 - constant number of items 5
+0000000000#--03 - position of lowest counter z
+0000000000#--04 - index position i
+0000000000#--05 - counter position x
+000000001f#--06 - constant first location 1f
+0000000023#--07 - constant final location 23
+010061200b#--08 - load m(6) to ac / store left of 0b
+1300405001#--09 - store right of 4 / add m(1) to increment
+130051200c#--0a - store right of 5 / store left of 0c
+090000a000#--0b - load m(set in 8R) to mq / load mq to ac
+060000f011#--0c - sub m(set in aR) / if AC > 0 goto 11L
+0100505001#--0d - load m(5) to ac / add m(1) to increment
+110051200b#--0e - store ac to m(5)/ store left of 0b
+0100706005#--0f - load m(7) to ac / sub m(5)
+100130e00b#--10 - if AC > 0 goto 13R / goto bR
+0100312012#--11 - load m(5) to ac / store left of 12
+0900011003#--12 - load m(set in 11R) to mq / store ac to m(3)
+0d00d01004#--13 - goto dL / load m(4) to ac
+1201613017#--14 - store left of 16 / store right 17
+0100313016#--15 - load m(3) to ac / store right of 16
+0100011000#--16 - load m(set in 14L) to ac / store ac to m(set in 15R)
+0a00011000#--17 - load mq to ac / store ac to m(set in 14R)
+0100405001#--18 - load m(4) to ac / add 1 to increment
+1300405001#--19 - store right of 4 / add 1 to increment
+1100501007#--1a - store ac to m(5) / load m(7) to ac
+060050f008#--1b - sub m(5) / if ac > 0 goto 8L
+0000000000#--1c - 
+0000000000#--1d - 
+0000000000#--1e - 
+0000000007#--1f - 
+0000000005#--20 - 
+000000000a#--21 - 
+0000000001#--22 - 
+000000000b#--23 - 
