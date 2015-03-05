@@ -10,20 +10,20 @@
 130030d00a#--09 - store right of m(3) / go to aL
 1300405001#--0a - store right of 4 / add m(1) to increment
 130051200d#--0b - store right of 5 / store left of 0d
-090000a000#--0c - load m(set in 8R) to mq / load mq to ac                   bR:COMPARE
+090000a000#--0c - load m(set in 8R) to mq / load mq to ac                   cR:COMPARE
 060000f012#--0d - sub m(set in aR) / if AC > 0 goto 12L
-0100505001#--0e - load m(5) to ac / add m(1) to increment                   dL:NEXTCOUNTER
+0100505001#--0e - load m(5) to ac / add m(1) to increment                   eL:NEXTCOUNTER
 110051200d#--0f - store ac to m(5)/ store left of 0d
 0100706005#--10 - load m(7) to ac / sub m(5)
 1000c0e014#--11 - if AC > 0 goto cR / goto 14R
-0100512013#--12 - load m(5) to ac / store left of 13                        11L:newHold
+0100512013#--12 - load m(5) to ac / store left of 13                        12L:newHold
 0900011003#--13 - load m(set in 12R) to mq / store ac to m(3)
-0d00e01004#--14 - goto eL / load m(4) to ac                                 13R:SWAP
+0d00e01004#--14 - goto eL / load m(4) to ac                                 14R:SWAP
 1201713018#--15 - store left of 17 / store right 18
 0100313017#--16 - load m(3) to ac / store right of 17
 0100011000#--17 - load m(set in 15L) to ac / store ac to m(set in 16R)
 0a00011000#--18 - load mq to ac / store ac to m(set in 15R)
-0100405001#--19 - load m(4) to ac / add 1 to increment                      18L:NEXTINDEX
+0100405001#--19 - load m(4) to ac / add 1 to increment                      19L:NEXTINDEX
 1300413006#--1a - store right of 4 / store right of m(6)
 0500111005#--1b - add 1 to increment / store ac to m(5)
 0100706005#--1c - load m(7) to ac / sub m(5)

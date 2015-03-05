@@ -36,8 +36,8 @@ public class Computer {
     public void run() {
         while (run) {
             fetch();
+            System.out.print(Long.toHexString(pc) + ": ");
             execute(ir, mar);
-            
         }
     }
 
@@ -181,10 +181,11 @@ public class Computer {
         case Opcode.STORMXRIGHT:
             // set mx right to ac right         
             memory.setRight(address, ac);
+            ibrLoad = false;
             break;
         case Opcode.LSH:
             // multiply ac by 2
-            ac <<= 2;
+            ac <<= 1;
             break;
         case Opcode.RSH:
             // divide ac by 2 (will be floored)
@@ -200,7 +201,7 @@ public class Computer {
         if (setDesc) {
 
             if (opcode < Opcode.DESCRIPTION.length)
-                description = Long.toHexString(pc) + ": " + Opcode.DESCRIPTION[opcode];
+                description = Opcode.DESCRIPTION[opcode];
             else
                 description = Opcode.DESCRIPTION[17]; // special case for 33
 

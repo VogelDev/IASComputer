@@ -1,35 +1,47 @@
-0d00700000
-0000000001
-0000000005
-0000000000
-0000000000
-0000000000
-000000001e
-010061200a
-1300305001
-130051200b
-090000a000
-060000f010
-0100505001
-110051200b
-0600606002
-100120e00a
-0100512011
-0900011003
-0d00c01003
-1201501004
-1301513016
-0100011000
-0a00011000
-0100405001
-1300405001
-1100506006
-060020f007
-0000000000
-0000000000
-0000000000
-0000000007
-0000000005
-000000000a
-0000000001
-000000000b
+0d00800000#--00 - jump to left side of 8
+0000000001#--01 - constant value 1
+0000000000#--02 - not used
+0000000000#--03 - position of lowest counter z
+0000000000#--04 - index position i
+0000000000#--05 - counter position x
+0000000021#--06 - constant first location 21
+000000002f#--07 - constant final location 2f
+010061200c#--08 - load m(6) to ac / store left of 0c                        8L:START
+130030d00a#--09 - store right of m(3) / go to aL
+1300405001#--0a - store right of 4 / add m(1) to increment
+130051200d#--0b - store right of 5 / store left of 0d
+090000a000#--0c - load m(set in 8R) to mq / load mq to ac                   cR:COMPARE
+060000f012#--0d - sub m(set in aR) / if AC > 0 goto 12L
+0100505001#--0e - load m(5) to ac / add m(1) to increment                   eL:NEXTCOUNTER
+210051200d#--0f - store ac to m(5)/ store left of 0d
+0100706005#--10 - load m(7) to ac / sub m(5)
+1000c0e014#--21 - if AC > 0 goto cR / goto 14R
+0100512013#--12 - load m(5) to ac / store left of 13                        12L:newHold
+0900021003#--13 - load m(set in 12R) to mq / store ac to m(3)
+0d00e01004#--14 - goto eL / load m(4) to ac                                 14R:SWAP
+1201713018#--15 - store left of 17 / store right 18
+0100313017#--16 - load m(3) to ac / store right of 17
+0100021000#--17 - load m(set in 15L) to ac / store ac to m(set in 16R)
+0a00021000#--18 - load mq to ac / store ac to m(set in 15R)
+0100405001#--19 - load m(4) to ac / add 1 to increment                      19L:NEXTINDEX
+1300413006#--1a - store right of 4 / store right of m(6)
+0500121005#--1b - add 1 to increment / store ac to m(5)
+0100706005#--1c - load m(7) to ac / sub m(5)
+0f00800000#--1d - if ac > 0 goto 8L / halt
+0000000000#--1e - 
+0000000000#--1f - 
+0000000000#--20 - 
+0000000007#--21 - 
+00000000a0#--22 - 
+0000000003#--23 - 
+000000000c#--24 - 
+000000000f#--25 - 
+0000000001#--26 - 
+00000000b1#--27 - 
+000000000e#--28 - 
+00000000ae#--29 - 
+00000000bc#--2a - 
+00000000fe#--2b - 
+000000002a#--2c - 
+000000003c#--2d - 
+000000005f#--2e - 

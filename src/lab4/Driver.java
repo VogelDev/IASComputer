@@ -13,7 +13,7 @@ public class Driver {
         String[] input = args;
         try {
             //input = readLines(input[0]);
-            input = readLines("src/code3.txt");
+            input = readLines("src/code.txt");
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -41,6 +41,10 @@ public class Driver {
         while ((line = bufferedReader.readLine()) != null) {
             if(line.contains("#"))
                 lines.add(line.substring(0, line.indexOf("#")));
+            else if(line.contains("i "))
+                lines.add(line.replace("i ", ""));
+            else if(line.contains("d "))
+                lines.add(line.replace("d ", ""));
             else
                 lines.add(line);
         }
