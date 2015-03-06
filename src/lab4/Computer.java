@@ -1,5 +1,10 @@
 package lab4;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+
 /**
  * IAS Computer for CIS126
  * 
@@ -9,10 +14,11 @@ package lab4;
 public class Computer {
 
     private long ac, mq, mbr, ibr;
-    private int pc, mar, ir;
+    private int pc, mar, ir, counter;
     private boolean left, ibrLoad, run;
     private Memory memory;
     private String description;
+    private String output;
 
     /**
      * Constructor for Computer, takes in a memory set.
@@ -28,6 +34,7 @@ public class Computer {
         ibrLoad = false;
         run = true;
         description = "";
+        output = "";
     }
 
     /**
@@ -35,10 +42,29 @@ public class Computer {
      */
     public void run() {
         while (run) {
+            counter++;
             fetch();
             System.out.print(Long.toHexString(pc) + ": ");
             execute(ir, mar);
         }
+
+        write();
+    }
+
+    private void write() {
+        // FileWriter will find the file and add to it if it already exists
+        FileWriter fwriter = null;
+        try {
+            fwriter = new FileWriter("operations" + System.currentTimeMillis()
+                    + ".txt", true);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        // PrintWriter would overwrite the file if had already existed without
+        // the FileWriter
+        PrintWriter outputFile = new PrintWriter(fwriter);
+        outputFile.println(output);
+        outputFile.close();
     }
 
     /**
@@ -175,11 +201,11 @@ public class Computer {
             memory.setMemory(address, ac);
             break;
         case Opcode.STORMXLEFT:
-            // set mx left to ac right      
+            // set mx left to ac right
             memory.setLeft(address, ac);
             break;
         case Opcode.STORMXRIGHT:
-            // set mx right to ac right         
+            // set mx right to ac right
             memory.setRight(address, ac);
             ibrLoad = false;
             break;
@@ -205,17 +231,20 @@ public class Computer {
             else
                 description = Opcode.DESCRIPTION[17]; // special case for 33
 
-            description = description.replace("M(X)", "M(" + Long.toHexString(address)
-                    + ")[value of: " + Long.toHexString(memory.getMemory(mar))
-                    + "]");
+            description = description.replace(
+                    "M(X)",
+                    "M(" + Long.toHexString(address) + ")[value of: "
+                            + Long.toHexString(memory.getMemory(mar)) + "]");
             description = description.replace("AC",
                     "AC(" + Long.toHexString(ac) + ")");
 
         } else
             description = "ERROR, INSTRUCTION NOT FOUND";
 
-        if (!description.equals(Opcode.DESCRIPTION[Opcode.HALT]))
+        if (!description.equals(Opcode.DESCRIPTION[Opcode.HALT])) {
             System.out.println(description);
+            output += counter + ": " + description + "\n";
+        }
     }
 
     @Override
