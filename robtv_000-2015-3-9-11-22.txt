@@ -1,0 +1,2189 @@
+1: Take next instruction from left half of M(8)[value of: 10061200c]
+2: Transfer M(6)[value of: 1e] to the AC(1e)
+3: Replace left address field at M(c)[value of: 901e0a000] by 12 rightmost bits of AC(1e)
+4: Replace right address field at M(3)[value of: 1e] by 12 rightmost bits of AC(1e)
+5: Take next instruction from left half of M(a)[value of: 1300405001]
+6: Replace right address field at M(4)[value of: 1e] by 12 rightmost bits of AC(1e)
+7: Add M(1)[value of: 1] to the AC(1f), put the result in the AC(1f)
+8: Replace right address field at M(5)[value of: 1f] by 12 rightmost bits of AC(1f)
+9: Replace left address field at M(d)[value of: 601f0f012] by 12 rightmost bits of AC(1f)
+10: Transfer contents of M(1e)[value of: 3cb] to MQ
+11: Transfer contents of register MQ to the AC(3cb)
+12: Subtract M(1f)[value of: 25] from the AC(3a6), put the result in the AC(3a6)
+13: If the number in AC(3a6) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+14: Transfer M(5)[value of: 1f] to the AC(1f)
+15: Replace left address field at M(13)[value of: 901f21003] by 12 rightmost bits of AC(1f)
+16: Transfer contents of M(1f)[value of: 25] to MQ
+17: Transfer contents of AC(1f) to M(3)[value of: 1f]
+18: Take next instruction from left half of M(e)[value of: 100505001]
+19: Transfer M(5)[value of: 1f] to the AC(1f)
+20: Add M(1)[value of: 1] to the AC(20), put the result in the AC(20)
+21: Transfer contents of AC(20) to M(5)[value of: 20]
+22: Replace left address field at M(d)[value of: 60200f012] by 12 rightmost bits of AC(20)
+23: Transfer M(7)[value of: 2f] to the AC(2f)
+24: Subtract M(5)[value of: 20] from the AC(f), put the result in the AC(f)
+25: If the number in AC(f) is nonnegative, take next instruction from right half of M(c)[value of: 901e0a000]
+26: Transfer contents of register MQ to the AC(25)
+27: Subtract M(20)[value of: fff] from the AC(fffffffffffff026), put the result in the AC(fffffffffffff026)
+28: If the number in AC(fffffffffffff026) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+29: Transfer M(5)[value of: 20] to the AC(20)
+30: Add M(1)[value of: 1] to the AC(21), put the result in the AC(21)
+31: Transfer contents of AC(21) to M(5)[value of: 21]
+32: Replace left address field at M(d)[value of: 60210f012] by 12 rightmost bits of AC(21)
+33: Transfer M(7)[value of: 2f] to the AC(2f)
+34: Subtract M(5)[value of: 21] from the AC(e), put the result in the AC(e)
+35: If the number in AC(e) is nonnegative, take next instruction from right half of M(c)[value of: 901e0a000]
+36: Transfer contents of register MQ to the AC(25)
+37: Subtract M(21)[value of: 7] from the AC(1e), put the result in the AC(1e)
+38: If the number in AC(1e) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+39: Transfer M(5)[value of: 21] to the AC(21)
+40: Replace left address field at M(13)[value of: 902121003] by 12 rightmost bits of AC(21)
+41: Transfer contents of M(21)[value of: 7] to MQ
+42: Transfer contents of AC(21) to M(3)[value of: 21]
+43: Take next instruction from left half of M(e)[value of: 100505001]
+44: Transfer M(5)[value of: 21] to the AC(21)
+45: Add M(1)[value of: 1] to the AC(22), put the result in the AC(22)
+46: Transfer contents of AC(22) to M(5)[value of: 22]
+47: Replace left address field at M(d)[value of: 60220f012] by 12 rightmost bits of AC(22)
+48: Transfer M(7)[value of: 2f] to the AC(2f)
+49: Subtract M(5)[value of: 22] from the AC(d), put the result in the AC(d)
+50: If the number in AC(d) is nonnegative, take next instruction from right half of M(c)[value of: 901e0a000]
+51: Transfer contents of register MQ to the AC(7)
+52: Subtract M(22)[value of: a0] from the AC(ffffffffffffff67), put the result in the AC(ffffffffffffff67)
+53: If the number in AC(ffffffffffffff67) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+54: Transfer M(5)[value of: 22] to the AC(22)
+55: Add M(1)[value of: 1] to the AC(23), put the result in the AC(23)
+56: Transfer contents of AC(23) to M(5)[value of: 23]
+57: Replace left address field at M(d)[value of: 60230f012] by 12 rightmost bits of AC(23)
+58: Transfer M(7)[value of: 2f] to the AC(2f)
+59: Subtract M(5)[value of: 23] from the AC(c), put the result in the AC(c)
+60: If the number in AC(c) is nonnegative, take next instruction from right half of M(c)[value of: 901e0a000]
+61: Transfer contents of register MQ to the AC(7)
+62: Subtract M(23)[value of: 3] from the AC(4), put the result in the AC(4)
+63: If the number in AC(4) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+64: Transfer M(5)[value of: 23] to the AC(23)
+65: Replace left address field at M(13)[value of: 902321003] by 12 rightmost bits of AC(23)
+66: Transfer contents of M(23)[value of: 3] to MQ
+67: Transfer contents of AC(23) to M(3)[value of: 23]
+68: Take next instruction from left half of M(e)[value of: 100505001]
+69: Transfer M(5)[value of: 23] to the AC(23)
+70: Add M(1)[value of: 1] to the AC(24), put the result in the AC(24)
+71: Transfer contents of AC(24) to M(5)[value of: 24]
+72: Replace left address field at M(d)[value of: 60240f012] by 12 rightmost bits of AC(24)
+73: Transfer M(7)[value of: 2f] to the AC(2f)
+74: Subtract M(5)[value of: 24] from the AC(b), put the result in the AC(b)
+75: If the number in AC(b) is nonnegative, take next instruction from right half of M(c)[value of: 901e0a000]
+76: Transfer contents of register MQ to the AC(3)
+77: Subtract M(24)[value of: c] from the AC(fffffffffffffff7), put the result in the AC(fffffffffffffff7)
+78: If the number in AC(fffffffffffffff7) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+79: Transfer M(5)[value of: 24] to the AC(24)
+80: Add M(1)[value of: 1] to the AC(25), put the result in the AC(25)
+81: Transfer contents of AC(25) to M(5)[value of: 25]
+82: Replace left address field at M(d)[value of: 60250f012] by 12 rightmost bits of AC(25)
+83: Transfer M(7)[value of: 2f] to the AC(2f)
+84: Subtract M(5)[value of: 25] from the AC(a), put the result in the AC(a)
+85: If the number in AC(a) is nonnegative, take next instruction from right half of M(c)[value of: 901e0a000]
+86: Transfer contents of register MQ to the AC(3)
+87: Subtract M(25)[value of: f] from the AC(fffffffffffffff4), put the result in the AC(fffffffffffffff4)
+88: If the number in AC(fffffffffffffff4) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+89: Transfer M(5)[value of: 25] to the AC(25)
+90: Add M(1)[value of: 1] to the AC(26), put the result in the AC(26)
+91: Transfer contents of AC(26) to M(5)[value of: 26]
+92: Replace left address field at M(d)[value of: 60260f012] by 12 rightmost bits of AC(26)
+93: Transfer M(7)[value of: 2f] to the AC(2f)
+94: Subtract M(5)[value of: 26] from the AC(9), put the result in the AC(9)
+95: If the number in AC(9) is nonnegative, take next instruction from right half of M(c)[value of: 901e0a000]
+96: Transfer contents of register MQ to the AC(3)
+97: Subtract M(26)[value of: 1] from the AC(2), put the result in the AC(2)
+98: If the number in AC(2) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+99: Transfer M(5)[value of: 26] to the AC(26)
+100: Replace left address field at M(13)[value of: 902621003] by 12 rightmost bits of AC(26)
+101: Transfer contents of M(26)[value of: 1] to MQ
+102: Transfer contents of AC(26) to M(3)[value of: 26]
+103: Take next instruction from left half of M(e)[value of: 100505001]
+104: Transfer M(5)[value of: 26] to the AC(26)
+105: Add M(1)[value of: 1] to the AC(27), put the result in the AC(27)
+106: Transfer contents of AC(27) to M(5)[value of: 27]
+107: Replace left address field at M(d)[value of: 60270f012] by 12 rightmost bits of AC(27)
+108: Transfer M(7)[value of: 2f] to the AC(2f)
+109: Subtract M(5)[value of: 27] from the AC(8), put the result in the AC(8)
+110: If the number in AC(8) is nonnegative, take next instruction from right half of M(c)[value of: 901e0a000]
+111: Transfer contents of register MQ to the AC(1)
+112: Subtract M(27)[value of: b1] from the AC(ffffffffffffff50), put the result in the AC(ffffffffffffff50)
+113: If the number in AC(ffffffffffffff50) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+114: Transfer M(5)[value of: 27] to the AC(27)
+115: Add M(1)[value of: 1] to the AC(28), put the result in the AC(28)
+116: Transfer contents of AC(28) to M(5)[value of: 28]
+117: Replace left address field at M(d)[value of: 60280f012] by 12 rightmost bits of AC(28)
+118: Transfer M(7)[value of: 2f] to the AC(2f)
+119: Subtract M(5)[value of: 28] from the AC(7), put the result in the AC(7)
+120: If the number in AC(7) is nonnegative, take next instruction from right half of M(c)[value of: 901e0a000]
+121: Transfer contents of register MQ to the AC(1)
+122: Subtract M(28)[value of: e] from the AC(fffffffffffffff3), put the result in the AC(fffffffffffffff3)
+123: If the number in AC(fffffffffffffff3) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+124: Transfer M(5)[value of: 28] to the AC(28)
+125: Add M(1)[value of: 1] to the AC(29), put the result in the AC(29)
+126: Transfer contents of AC(29) to M(5)[value of: 29]
+127: Replace left address field at M(d)[value of: 60290f012] by 12 rightmost bits of AC(29)
+128: Transfer M(7)[value of: 2f] to the AC(2f)
+129: Subtract M(5)[value of: 29] from the AC(6), put the result in the AC(6)
+130: If the number in AC(6) is nonnegative, take next instruction from right half of M(c)[value of: 901e0a000]
+131: Transfer contents of register MQ to the AC(1)
+132: Subtract M(29)[value of: ae] from the AC(ffffffffffffff53), put the result in the AC(ffffffffffffff53)
+133: If the number in AC(ffffffffffffff53) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+134: Transfer M(5)[value of: 29] to the AC(29)
+135: Add M(1)[value of: 1] to the AC(2a), put the result in the AC(2a)
+136: Transfer contents of AC(2a) to M(5)[value of: 2a]
+137: Replace left address field at M(d)[value of: 602a0f012] by 12 rightmost bits of AC(2a)
+138: Transfer M(7)[value of: 2f] to the AC(2f)
+139: Subtract M(5)[value of: 2a] from the AC(5), put the result in the AC(5)
+140: If the number in AC(5) is nonnegative, take next instruction from right half of M(c)[value of: 901e0a000]
+141: Transfer contents of register MQ to the AC(1)
+142: Subtract M(2a)[value of: bc] from the AC(ffffffffffffff45), put the result in the AC(ffffffffffffff45)
+143: If the number in AC(ffffffffffffff45) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+144: Transfer M(5)[value of: 2a] to the AC(2a)
+145: Add M(1)[value of: 1] to the AC(2b), put the result in the AC(2b)
+146: Transfer contents of AC(2b) to M(5)[value of: 2b]
+147: Replace left address field at M(d)[value of: 602b0f012] by 12 rightmost bits of AC(2b)
+148: Transfer M(7)[value of: 2f] to the AC(2f)
+149: Subtract M(5)[value of: 2b] from the AC(4), put the result in the AC(4)
+150: If the number in AC(4) is nonnegative, take next instruction from right half of M(c)[value of: 901e0a000]
+151: Transfer contents of register MQ to the AC(1)
+152: Subtract M(2b)[value of: fe] from the AC(ffffffffffffff03), put the result in the AC(ffffffffffffff03)
+153: If the number in AC(ffffffffffffff03) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+154: Transfer M(5)[value of: 2b] to the AC(2b)
+155: Add M(1)[value of: 1] to the AC(2c), put the result in the AC(2c)
+156: Transfer contents of AC(2c) to M(5)[value of: 2c]
+157: Replace left address field at M(d)[value of: 602c0f012] by 12 rightmost bits of AC(2c)
+158: Transfer M(7)[value of: 2f] to the AC(2f)
+159: Subtract M(5)[value of: 2c] from the AC(3), put the result in the AC(3)
+160: If the number in AC(3) is nonnegative, take next instruction from right half of M(c)[value of: 901e0a000]
+161: Transfer contents of register MQ to the AC(1)
+162: Subtract M(2c)[value of: 2a] from the AC(ffffffffffffffd7), put the result in the AC(ffffffffffffffd7)
+163: If the number in AC(ffffffffffffffd7) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+164: Transfer M(5)[value of: 2c] to the AC(2c)
+165: Add M(1)[value of: 1] to the AC(2d), put the result in the AC(2d)
+166: Transfer contents of AC(2d) to M(5)[value of: 2d]
+167: Replace left address field at M(d)[value of: 602d0f012] by 12 rightmost bits of AC(2d)
+168: Transfer M(7)[value of: 2f] to the AC(2f)
+169: Subtract M(5)[value of: 2d] from the AC(2), put the result in the AC(2)
+170: If the number in AC(2) is nonnegative, take next instruction from right half of M(c)[value of: 901e0a000]
+171: Transfer contents of register MQ to the AC(1)
+172: Subtract M(2d)[value of: 3c] from the AC(ffffffffffffffc5), put the result in the AC(ffffffffffffffc5)
+173: If the number in AC(ffffffffffffffc5) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+174: Transfer M(5)[value of: 2d] to the AC(2d)
+175: Add M(1)[value of: 1] to the AC(2e), put the result in the AC(2e)
+176: Transfer contents of AC(2e) to M(5)[value of: 2e]
+177: Replace left address field at M(d)[value of: 602e0f012] by 12 rightmost bits of AC(2e)
+178: Transfer M(7)[value of: 2f] to the AC(2f)
+179: Subtract M(5)[value of: 2e] from the AC(1), put the result in the AC(1)
+180: If the number in AC(1) is nonnegative, take next instruction from right half of M(c)[value of: 901e0a000]
+181: Transfer contents of register MQ to the AC(1)
+182: Subtract M(2e)[value of: 5f] from the AC(ffffffffffffffa2), put the result in the AC(ffffffffffffffa2)
+183: If the number in AC(ffffffffffffffa2) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+184: Transfer M(5)[value of: 2e] to the AC(2e)
+185: Add M(1)[value of: 1] to the AC(2f), put the result in the AC(2f)
+186: Transfer contents of AC(2f) to M(5)[value of: 2f]
+187: Replace left address field at M(d)[value of: 602f0f012] by 12 rightmost bits of AC(2f)
+188: Transfer M(7)[value of: 2f] to the AC(2f)
+189: Subtract M(5)[value of: 2f] from the AC(0), put the result in the AC(0)
+190: If the number in AC(0) is nonnegative, take next instruction from right half of M(c)[value of: 901e0a000]
+191: Take next instruction from right half of M(14)[value of: d00e01004]
+192: Transfer M(4)[value of: 1e] to the AC(1e)
+193: Replace left address field at M(17)[value of: 101e21000] by 12 rightmost bits of AC(1e)
+194: Replace right address field at M(18)[value of: a0002101e] by 12 rightmost bits of AC(1e)
+195: Transfer M(3)[value of: 26] to the AC(26)
+196: Replace right address field at M(17)[value of: 101e21026] by 12 rightmost bits of AC(26)
+197: Transfer M(1e)[value of: 3cb] to the AC(3cb)
+198: Transfer contents of AC(3cb) to M(26)[value of: 3cb]
+199: Transfer contents of register MQ to the AC(1)
+200: Transfer contents of AC(1) to M(1e)[value of: 1]
+201: Transfer M(4)[value of: 1e] to the AC(1e)
+202: Add M(1)[value of: 1] to the AC(1f), put the result in the AC(1f)
+203: Replace right address field at M(4)[value of: 1f] by 12 rightmost bits of AC(1f)
+204: Replace right address field at M(6)[value of: 1f] by 12 rightmost bits of AC(1f)
+205: Add M(1)[value of: 1] to the AC(20), put the result in the AC(20)
+206: Transfer contents of AC(20) to M(5)[value of: 20]
+207: Transfer M(7)[value of: 2f] to the AC(2f)
+208: Subtract M(5)[value of: 20] from the AC(f), put the result in the AC(f)
+209: If the number in AC(f) is nonnegative, take next instruction from left half of M(8)[value of: 10061200c]
+210: Transfer M(6)[value of: 1f] to the AC(1f)
+211: Replace left address field at M(c)[value of: 901f0a000] by 12 rightmost bits of AC(1f)
+212: Replace right address field at M(3)[value of: 1f] by 12 rightmost bits of AC(1f)
+213: Take next instruction from left half of M(a)[value of: 1300405001]
+214: Replace right address field at M(4)[value of: 1f] by 12 rightmost bits of AC(1f)
+215: Add M(1)[value of: 1] to the AC(20), put the result in the AC(20)
+216: Replace right address field at M(5)[value of: 20] by 12 rightmost bits of AC(20)
+217: Replace left address field at M(d)[value of: 60200f012] by 12 rightmost bits of AC(20)
+218: Transfer contents of M(1f)[value of: 25] to MQ
+219: Transfer contents of register MQ to the AC(25)
+220: Subtract M(20)[value of: fff] from the AC(fffffffffffff026), put the result in the AC(fffffffffffff026)
+221: If the number in AC(fffffffffffff026) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+222: Transfer M(5)[value of: 20] to the AC(20)
+223: Add M(1)[value of: 1] to the AC(21), put the result in the AC(21)
+224: Transfer contents of AC(21) to M(5)[value of: 21]
+225: Replace left address field at M(d)[value of: 60210f012] by 12 rightmost bits of AC(21)
+226: Transfer M(7)[value of: 2f] to the AC(2f)
+227: Subtract M(5)[value of: 21] from the AC(e), put the result in the AC(e)
+228: If the number in AC(e) is nonnegative, take next instruction from right half of M(c)[value of: 901f0a000]
+229: Transfer contents of register MQ to the AC(25)
+230: Subtract M(21)[value of: 7] from the AC(1e), put the result in the AC(1e)
+231: If the number in AC(1e) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+232: Transfer M(5)[value of: 21] to the AC(21)
+233: Replace left address field at M(13)[value of: 902121003] by 12 rightmost bits of AC(21)
+234: Transfer contents of M(21)[value of: 7] to MQ
+235: Transfer contents of AC(21) to M(3)[value of: 21]
+236: Take next instruction from left half of M(e)[value of: 100505001]
+237: Transfer M(5)[value of: 21] to the AC(21)
+238: Add M(1)[value of: 1] to the AC(22), put the result in the AC(22)
+239: Transfer contents of AC(22) to M(5)[value of: 22]
+240: Replace left address field at M(d)[value of: 60220f012] by 12 rightmost bits of AC(22)
+241: Transfer M(7)[value of: 2f] to the AC(2f)
+242: Subtract M(5)[value of: 22] from the AC(d), put the result in the AC(d)
+243: If the number in AC(d) is nonnegative, take next instruction from right half of M(c)[value of: 901f0a000]
+244: Transfer contents of register MQ to the AC(7)
+245: Subtract M(22)[value of: a0] from the AC(ffffffffffffff67), put the result in the AC(ffffffffffffff67)
+246: If the number in AC(ffffffffffffff67) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+247: Transfer M(5)[value of: 22] to the AC(22)
+248: Add M(1)[value of: 1] to the AC(23), put the result in the AC(23)
+249: Transfer contents of AC(23) to M(5)[value of: 23]
+250: Replace left address field at M(d)[value of: 60230f012] by 12 rightmost bits of AC(23)
+251: Transfer M(7)[value of: 2f] to the AC(2f)
+252: Subtract M(5)[value of: 23] from the AC(c), put the result in the AC(c)
+253: If the number in AC(c) is nonnegative, take next instruction from right half of M(c)[value of: 901f0a000]
+254: Transfer contents of register MQ to the AC(7)
+255: Subtract M(23)[value of: 3] from the AC(4), put the result in the AC(4)
+256: If the number in AC(4) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+257: Transfer M(5)[value of: 23] to the AC(23)
+258: Replace left address field at M(13)[value of: 902321003] by 12 rightmost bits of AC(23)
+259: Transfer contents of M(23)[value of: 3] to MQ
+260: Transfer contents of AC(23) to M(3)[value of: 23]
+261: Take next instruction from left half of M(e)[value of: 100505001]
+262: Transfer M(5)[value of: 23] to the AC(23)
+263: Add M(1)[value of: 1] to the AC(24), put the result in the AC(24)
+264: Transfer contents of AC(24) to M(5)[value of: 24]
+265: Replace left address field at M(d)[value of: 60240f012] by 12 rightmost bits of AC(24)
+266: Transfer M(7)[value of: 2f] to the AC(2f)
+267: Subtract M(5)[value of: 24] from the AC(b), put the result in the AC(b)
+268: If the number in AC(b) is nonnegative, take next instruction from right half of M(c)[value of: 901f0a000]
+269: Transfer contents of register MQ to the AC(3)
+270: Subtract M(24)[value of: c] from the AC(fffffffffffffff7), put the result in the AC(fffffffffffffff7)
+271: If the number in AC(fffffffffffffff7) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+272: Transfer M(5)[value of: 24] to the AC(24)
+273: Add M(1)[value of: 1] to the AC(25), put the result in the AC(25)
+274: Transfer contents of AC(25) to M(5)[value of: 25]
+275: Replace left address field at M(d)[value of: 60250f012] by 12 rightmost bits of AC(25)
+276: Transfer M(7)[value of: 2f] to the AC(2f)
+277: Subtract M(5)[value of: 25] from the AC(a), put the result in the AC(a)
+278: If the number in AC(a) is nonnegative, take next instruction from right half of M(c)[value of: 901f0a000]
+279: Transfer contents of register MQ to the AC(3)
+280: Subtract M(25)[value of: f] from the AC(fffffffffffffff4), put the result in the AC(fffffffffffffff4)
+281: If the number in AC(fffffffffffffff4) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+282: Transfer M(5)[value of: 25] to the AC(25)
+283: Add M(1)[value of: 1] to the AC(26), put the result in the AC(26)
+284: Transfer contents of AC(26) to M(5)[value of: 26]
+285: Replace left address field at M(d)[value of: 60260f012] by 12 rightmost bits of AC(26)
+286: Transfer M(7)[value of: 2f] to the AC(2f)
+287: Subtract M(5)[value of: 26] from the AC(9), put the result in the AC(9)
+288: If the number in AC(9) is nonnegative, take next instruction from right half of M(c)[value of: 901f0a000]
+289: Transfer contents of register MQ to the AC(3)
+290: Subtract M(26)[value of: 3cb] from the AC(fffffffffffffc38), put the result in the AC(fffffffffffffc38)
+291: If the number in AC(fffffffffffffc38) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+292: Transfer M(5)[value of: 26] to the AC(26)
+293: Add M(1)[value of: 1] to the AC(27), put the result in the AC(27)
+294: Transfer contents of AC(27) to M(5)[value of: 27]
+295: Replace left address field at M(d)[value of: 60270f012] by 12 rightmost bits of AC(27)
+296: Transfer M(7)[value of: 2f] to the AC(2f)
+297: Subtract M(5)[value of: 27] from the AC(8), put the result in the AC(8)
+298: If the number in AC(8) is nonnegative, take next instruction from right half of M(c)[value of: 901f0a000]
+299: Transfer contents of register MQ to the AC(3)
+300: Subtract M(27)[value of: b1] from the AC(ffffffffffffff52), put the result in the AC(ffffffffffffff52)
+301: If the number in AC(ffffffffffffff52) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+302: Transfer M(5)[value of: 27] to the AC(27)
+303: Add M(1)[value of: 1] to the AC(28), put the result in the AC(28)
+304: Transfer contents of AC(28) to M(5)[value of: 28]
+305: Replace left address field at M(d)[value of: 60280f012] by 12 rightmost bits of AC(28)
+306: Transfer M(7)[value of: 2f] to the AC(2f)
+307: Subtract M(5)[value of: 28] from the AC(7), put the result in the AC(7)
+308: If the number in AC(7) is nonnegative, take next instruction from right half of M(c)[value of: 901f0a000]
+309: Transfer contents of register MQ to the AC(3)
+310: Subtract M(28)[value of: e] from the AC(fffffffffffffff5), put the result in the AC(fffffffffffffff5)
+311: If the number in AC(fffffffffffffff5) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+312: Transfer M(5)[value of: 28] to the AC(28)
+313: Add M(1)[value of: 1] to the AC(29), put the result in the AC(29)
+314: Transfer contents of AC(29) to M(5)[value of: 29]
+315: Replace left address field at M(d)[value of: 60290f012] by 12 rightmost bits of AC(29)
+316: Transfer M(7)[value of: 2f] to the AC(2f)
+317: Subtract M(5)[value of: 29] from the AC(6), put the result in the AC(6)
+318: If the number in AC(6) is nonnegative, take next instruction from right half of M(c)[value of: 901f0a000]
+319: Transfer contents of register MQ to the AC(3)
+320: Subtract M(29)[value of: ae] from the AC(ffffffffffffff55), put the result in the AC(ffffffffffffff55)
+321: If the number in AC(ffffffffffffff55) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+322: Transfer M(5)[value of: 29] to the AC(29)
+323: Add M(1)[value of: 1] to the AC(2a), put the result in the AC(2a)
+324: Transfer contents of AC(2a) to M(5)[value of: 2a]
+325: Replace left address field at M(d)[value of: 602a0f012] by 12 rightmost bits of AC(2a)
+326: Transfer M(7)[value of: 2f] to the AC(2f)
+327: Subtract M(5)[value of: 2a] from the AC(5), put the result in the AC(5)
+328: If the number in AC(5) is nonnegative, take next instruction from right half of M(c)[value of: 901f0a000]
+329: Transfer contents of register MQ to the AC(3)
+330: Subtract M(2a)[value of: bc] from the AC(ffffffffffffff47), put the result in the AC(ffffffffffffff47)
+331: If the number in AC(ffffffffffffff47) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+332: Transfer M(5)[value of: 2a] to the AC(2a)
+333: Add M(1)[value of: 1] to the AC(2b), put the result in the AC(2b)
+334: Transfer contents of AC(2b) to M(5)[value of: 2b]
+335: Replace left address field at M(d)[value of: 602b0f012] by 12 rightmost bits of AC(2b)
+336: Transfer M(7)[value of: 2f] to the AC(2f)
+337: Subtract M(5)[value of: 2b] from the AC(4), put the result in the AC(4)
+338: If the number in AC(4) is nonnegative, take next instruction from right half of M(c)[value of: 901f0a000]
+339: Transfer contents of register MQ to the AC(3)
+340: Subtract M(2b)[value of: fe] from the AC(ffffffffffffff05), put the result in the AC(ffffffffffffff05)
+341: If the number in AC(ffffffffffffff05) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+342: Transfer M(5)[value of: 2b] to the AC(2b)
+343: Add M(1)[value of: 1] to the AC(2c), put the result in the AC(2c)
+344: Transfer contents of AC(2c) to M(5)[value of: 2c]
+345: Replace left address field at M(d)[value of: 602c0f012] by 12 rightmost bits of AC(2c)
+346: Transfer M(7)[value of: 2f] to the AC(2f)
+347: Subtract M(5)[value of: 2c] from the AC(3), put the result in the AC(3)
+348: If the number in AC(3) is nonnegative, take next instruction from right half of M(c)[value of: 901f0a000]
+349: Transfer contents of register MQ to the AC(3)
+350: Subtract M(2c)[value of: 2a] from the AC(ffffffffffffffd9), put the result in the AC(ffffffffffffffd9)
+351: If the number in AC(ffffffffffffffd9) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+352: Transfer M(5)[value of: 2c] to the AC(2c)
+353: Add M(1)[value of: 1] to the AC(2d), put the result in the AC(2d)
+354: Transfer contents of AC(2d) to M(5)[value of: 2d]
+355: Replace left address field at M(d)[value of: 602d0f012] by 12 rightmost bits of AC(2d)
+356: Transfer M(7)[value of: 2f] to the AC(2f)
+357: Subtract M(5)[value of: 2d] from the AC(2), put the result in the AC(2)
+358: If the number in AC(2) is nonnegative, take next instruction from right half of M(c)[value of: 901f0a000]
+359: Transfer contents of register MQ to the AC(3)
+360: Subtract M(2d)[value of: 3c] from the AC(ffffffffffffffc7), put the result in the AC(ffffffffffffffc7)
+361: If the number in AC(ffffffffffffffc7) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+362: Transfer M(5)[value of: 2d] to the AC(2d)
+363: Add M(1)[value of: 1] to the AC(2e), put the result in the AC(2e)
+364: Transfer contents of AC(2e) to M(5)[value of: 2e]
+365: Replace left address field at M(d)[value of: 602e0f012] by 12 rightmost bits of AC(2e)
+366: Transfer M(7)[value of: 2f] to the AC(2f)
+367: Subtract M(5)[value of: 2e] from the AC(1), put the result in the AC(1)
+368: If the number in AC(1) is nonnegative, take next instruction from right half of M(c)[value of: 901f0a000]
+369: Transfer contents of register MQ to the AC(3)
+370: Subtract M(2e)[value of: 5f] from the AC(ffffffffffffffa4), put the result in the AC(ffffffffffffffa4)
+371: If the number in AC(ffffffffffffffa4) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+372: Transfer M(5)[value of: 2e] to the AC(2e)
+373: Add M(1)[value of: 1] to the AC(2f), put the result in the AC(2f)
+374: Transfer contents of AC(2f) to M(5)[value of: 2f]
+375: Replace left address field at M(d)[value of: 602f0f012] by 12 rightmost bits of AC(2f)
+376: Transfer M(7)[value of: 2f] to the AC(2f)
+377: Subtract M(5)[value of: 2f] from the AC(0), put the result in the AC(0)
+378: If the number in AC(0) is nonnegative, take next instruction from right half of M(c)[value of: 901f0a000]
+379: Take next instruction from right half of M(14)[value of: d00e01004]
+380: Transfer M(4)[value of: 1f] to the AC(1f)
+381: Replace left address field at M(17)[value of: 101f21026] by 12 rightmost bits of AC(1f)
+382: Replace right address field at M(18)[value of: a0002101f] by 12 rightmost bits of AC(1f)
+383: Transfer M(3)[value of: 23] to the AC(23)
+384: Replace right address field at M(17)[value of: 101f21023] by 12 rightmost bits of AC(23)
+385: Transfer M(1f)[value of: 25] to the AC(25)
+386: Transfer contents of AC(25) to M(23)[value of: 25]
+387: Transfer contents of register MQ to the AC(3)
+388: Transfer contents of AC(3) to M(1f)[value of: 3]
+389: Transfer M(4)[value of: 1f] to the AC(1f)
+390: Add M(1)[value of: 1] to the AC(20), put the result in the AC(20)
+391: Replace right address field at M(4)[value of: 20] by 12 rightmost bits of AC(20)
+392: Replace right address field at M(6)[value of: 20] by 12 rightmost bits of AC(20)
+393: Add M(1)[value of: 1] to the AC(21), put the result in the AC(21)
+394: Transfer contents of AC(21) to M(5)[value of: 21]
+395: Transfer M(7)[value of: 2f] to the AC(2f)
+396: Subtract M(5)[value of: 21] from the AC(e), put the result in the AC(e)
+397: If the number in AC(e) is nonnegative, take next instruction from left half of M(8)[value of: 10061200c]
+398: Transfer M(6)[value of: 20] to the AC(20)
+399: Replace left address field at M(c)[value of: 90200a000] by 12 rightmost bits of AC(20)
+400: Replace right address field at M(3)[value of: 20] by 12 rightmost bits of AC(20)
+401: Take next instruction from left half of M(a)[value of: 1300405001]
+402: Replace right address field at M(4)[value of: 20] by 12 rightmost bits of AC(20)
+403: Add M(1)[value of: 1] to the AC(21), put the result in the AC(21)
+404: Replace right address field at M(5)[value of: 21] by 12 rightmost bits of AC(21)
+405: Replace left address field at M(d)[value of: 60210f012] by 12 rightmost bits of AC(21)
+406: Transfer contents of M(20)[value of: fff] to MQ
+407: Transfer contents of register MQ to the AC(fff)
+408: Subtract M(21)[value of: 7] from the AC(ff8), put the result in the AC(ff8)
+409: If the number in AC(ff8) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+410: Transfer M(5)[value of: 21] to the AC(21)
+411: Replace left address field at M(13)[value of: 902121003] by 12 rightmost bits of AC(21)
+412: Transfer contents of M(21)[value of: 7] to MQ
+413: Transfer contents of AC(21) to M(3)[value of: 21]
+414: Take next instruction from left half of M(e)[value of: 100505001]
+415: Transfer M(5)[value of: 21] to the AC(21)
+416: Add M(1)[value of: 1] to the AC(22), put the result in the AC(22)
+417: Transfer contents of AC(22) to M(5)[value of: 22]
+418: Replace left address field at M(d)[value of: 60220f012] by 12 rightmost bits of AC(22)
+419: Transfer M(7)[value of: 2f] to the AC(2f)
+420: Subtract M(5)[value of: 22] from the AC(d), put the result in the AC(d)
+421: If the number in AC(d) is nonnegative, take next instruction from right half of M(c)[value of: 90200a000]
+422: Transfer contents of register MQ to the AC(7)
+423: Subtract M(22)[value of: a0] from the AC(ffffffffffffff67), put the result in the AC(ffffffffffffff67)
+424: If the number in AC(ffffffffffffff67) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+425: Transfer M(5)[value of: 22] to the AC(22)
+426: Add M(1)[value of: 1] to the AC(23), put the result in the AC(23)
+427: Transfer contents of AC(23) to M(5)[value of: 23]
+428: Replace left address field at M(d)[value of: 60230f012] by 12 rightmost bits of AC(23)
+429: Transfer M(7)[value of: 2f] to the AC(2f)
+430: Subtract M(5)[value of: 23] from the AC(c), put the result in the AC(c)
+431: If the number in AC(c) is nonnegative, take next instruction from right half of M(c)[value of: 90200a000]
+432: Transfer contents of register MQ to the AC(7)
+433: Subtract M(23)[value of: 25] from the AC(ffffffffffffffe2), put the result in the AC(ffffffffffffffe2)
+434: If the number in AC(ffffffffffffffe2) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+435: Transfer M(5)[value of: 23] to the AC(23)
+436: Add M(1)[value of: 1] to the AC(24), put the result in the AC(24)
+437: Transfer contents of AC(24) to M(5)[value of: 24]
+438: Replace left address field at M(d)[value of: 60240f012] by 12 rightmost bits of AC(24)
+439: Transfer M(7)[value of: 2f] to the AC(2f)
+440: Subtract M(5)[value of: 24] from the AC(b), put the result in the AC(b)
+441: If the number in AC(b) is nonnegative, take next instruction from right half of M(c)[value of: 90200a000]
+442: Transfer contents of register MQ to the AC(7)
+443: Subtract M(24)[value of: c] from the AC(fffffffffffffffb), put the result in the AC(fffffffffffffffb)
+444: If the number in AC(fffffffffffffffb) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+445: Transfer M(5)[value of: 24] to the AC(24)
+446: Add M(1)[value of: 1] to the AC(25), put the result in the AC(25)
+447: Transfer contents of AC(25) to M(5)[value of: 25]
+448: Replace left address field at M(d)[value of: 60250f012] by 12 rightmost bits of AC(25)
+449: Transfer M(7)[value of: 2f] to the AC(2f)
+450: Subtract M(5)[value of: 25] from the AC(a), put the result in the AC(a)
+451: If the number in AC(a) is nonnegative, take next instruction from right half of M(c)[value of: 90200a000]
+452: Transfer contents of register MQ to the AC(7)
+453: Subtract M(25)[value of: f] from the AC(fffffffffffffff8), put the result in the AC(fffffffffffffff8)
+454: If the number in AC(fffffffffffffff8) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+455: Transfer M(5)[value of: 25] to the AC(25)
+456: Add M(1)[value of: 1] to the AC(26), put the result in the AC(26)
+457: Transfer contents of AC(26) to M(5)[value of: 26]
+458: Replace left address field at M(d)[value of: 60260f012] by 12 rightmost bits of AC(26)
+459: Transfer M(7)[value of: 2f] to the AC(2f)
+460: Subtract M(5)[value of: 26] from the AC(9), put the result in the AC(9)
+461: If the number in AC(9) is nonnegative, take next instruction from right half of M(c)[value of: 90200a000]
+462: Transfer contents of register MQ to the AC(7)
+463: Subtract M(26)[value of: 3cb] from the AC(fffffffffffffc3c), put the result in the AC(fffffffffffffc3c)
+464: If the number in AC(fffffffffffffc3c) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+465: Transfer M(5)[value of: 26] to the AC(26)
+466: Add M(1)[value of: 1] to the AC(27), put the result in the AC(27)
+467: Transfer contents of AC(27) to M(5)[value of: 27]
+468: Replace left address field at M(d)[value of: 60270f012] by 12 rightmost bits of AC(27)
+469: Transfer M(7)[value of: 2f] to the AC(2f)
+470: Subtract M(5)[value of: 27] from the AC(8), put the result in the AC(8)
+471: If the number in AC(8) is nonnegative, take next instruction from right half of M(c)[value of: 90200a000]
+472: Transfer contents of register MQ to the AC(7)
+473: Subtract M(27)[value of: b1] from the AC(ffffffffffffff56), put the result in the AC(ffffffffffffff56)
+474: If the number in AC(ffffffffffffff56) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+475: Transfer M(5)[value of: 27] to the AC(27)
+476: Add M(1)[value of: 1] to the AC(28), put the result in the AC(28)
+477: Transfer contents of AC(28) to M(5)[value of: 28]
+478: Replace left address field at M(d)[value of: 60280f012] by 12 rightmost bits of AC(28)
+479: Transfer M(7)[value of: 2f] to the AC(2f)
+480: Subtract M(5)[value of: 28] from the AC(7), put the result in the AC(7)
+481: If the number in AC(7) is nonnegative, take next instruction from right half of M(c)[value of: 90200a000]
+482: Transfer contents of register MQ to the AC(7)
+483: Subtract M(28)[value of: e] from the AC(fffffffffffffff9), put the result in the AC(fffffffffffffff9)
+484: If the number in AC(fffffffffffffff9) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+485: Transfer M(5)[value of: 28] to the AC(28)
+486: Add M(1)[value of: 1] to the AC(29), put the result in the AC(29)
+487: Transfer contents of AC(29) to M(5)[value of: 29]
+488: Replace left address field at M(d)[value of: 60290f012] by 12 rightmost bits of AC(29)
+489: Transfer M(7)[value of: 2f] to the AC(2f)
+490: Subtract M(5)[value of: 29] from the AC(6), put the result in the AC(6)
+491: If the number in AC(6) is nonnegative, take next instruction from right half of M(c)[value of: 90200a000]
+492: Transfer contents of register MQ to the AC(7)
+493: Subtract M(29)[value of: ae] from the AC(ffffffffffffff59), put the result in the AC(ffffffffffffff59)
+494: If the number in AC(ffffffffffffff59) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+495: Transfer M(5)[value of: 29] to the AC(29)
+496: Add M(1)[value of: 1] to the AC(2a), put the result in the AC(2a)
+497: Transfer contents of AC(2a) to M(5)[value of: 2a]
+498: Replace left address field at M(d)[value of: 602a0f012] by 12 rightmost bits of AC(2a)
+499: Transfer M(7)[value of: 2f] to the AC(2f)
+500: Subtract M(5)[value of: 2a] from the AC(5), put the result in the AC(5)
+501: If the number in AC(5) is nonnegative, take next instruction from right half of M(c)[value of: 90200a000]
+502: Transfer contents of register MQ to the AC(7)
+503: Subtract M(2a)[value of: bc] from the AC(ffffffffffffff4b), put the result in the AC(ffffffffffffff4b)
+504: If the number in AC(ffffffffffffff4b) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+505: Transfer M(5)[value of: 2a] to the AC(2a)
+506: Add M(1)[value of: 1] to the AC(2b), put the result in the AC(2b)
+507: Transfer contents of AC(2b) to M(5)[value of: 2b]
+508: Replace left address field at M(d)[value of: 602b0f012] by 12 rightmost bits of AC(2b)
+509: Transfer M(7)[value of: 2f] to the AC(2f)
+510: Subtract M(5)[value of: 2b] from the AC(4), put the result in the AC(4)
+511: If the number in AC(4) is nonnegative, take next instruction from right half of M(c)[value of: 90200a000]
+512: Transfer contents of register MQ to the AC(7)
+513: Subtract M(2b)[value of: fe] from the AC(ffffffffffffff09), put the result in the AC(ffffffffffffff09)
+514: If the number in AC(ffffffffffffff09) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+515: Transfer M(5)[value of: 2b] to the AC(2b)
+516: Add M(1)[value of: 1] to the AC(2c), put the result in the AC(2c)
+517: Transfer contents of AC(2c) to M(5)[value of: 2c]
+518: Replace left address field at M(d)[value of: 602c0f012] by 12 rightmost bits of AC(2c)
+519: Transfer M(7)[value of: 2f] to the AC(2f)
+520: Subtract M(5)[value of: 2c] from the AC(3), put the result in the AC(3)
+521: If the number in AC(3) is nonnegative, take next instruction from right half of M(c)[value of: 90200a000]
+522: Transfer contents of register MQ to the AC(7)
+523: Subtract M(2c)[value of: 2a] from the AC(ffffffffffffffdd), put the result in the AC(ffffffffffffffdd)
+524: If the number in AC(ffffffffffffffdd) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+525: Transfer M(5)[value of: 2c] to the AC(2c)
+526: Add M(1)[value of: 1] to the AC(2d), put the result in the AC(2d)
+527: Transfer contents of AC(2d) to M(5)[value of: 2d]
+528: Replace left address field at M(d)[value of: 602d0f012] by 12 rightmost bits of AC(2d)
+529: Transfer M(7)[value of: 2f] to the AC(2f)
+530: Subtract M(5)[value of: 2d] from the AC(2), put the result in the AC(2)
+531: If the number in AC(2) is nonnegative, take next instruction from right half of M(c)[value of: 90200a000]
+532: Transfer contents of register MQ to the AC(7)
+533: Subtract M(2d)[value of: 3c] from the AC(ffffffffffffffcb), put the result in the AC(ffffffffffffffcb)
+534: If the number in AC(ffffffffffffffcb) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+535: Transfer M(5)[value of: 2d] to the AC(2d)
+536: Add M(1)[value of: 1] to the AC(2e), put the result in the AC(2e)
+537: Transfer contents of AC(2e) to M(5)[value of: 2e]
+538: Replace left address field at M(d)[value of: 602e0f012] by 12 rightmost bits of AC(2e)
+539: Transfer M(7)[value of: 2f] to the AC(2f)
+540: Subtract M(5)[value of: 2e] from the AC(1), put the result in the AC(1)
+541: If the number in AC(1) is nonnegative, take next instruction from right half of M(c)[value of: 90200a000]
+542: Transfer contents of register MQ to the AC(7)
+543: Subtract M(2e)[value of: 5f] from the AC(ffffffffffffffa8), put the result in the AC(ffffffffffffffa8)
+544: If the number in AC(ffffffffffffffa8) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+545: Transfer M(5)[value of: 2e] to the AC(2e)
+546: Add M(1)[value of: 1] to the AC(2f), put the result in the AC(2f)
+547: Transfer contents of AC(2f) to M(5)[value of: 2f]
+548: Replace left address field at M(d)[value of: 602f0f012] by 12 rightmost bits of AC(2f)
+549: Transfer M(7)[value of: 2f] to the AC(2f)
+550: Subtract M(5)[value of: 2f] from the AC(0), put the result in the AC(0)
+551: If the number in AC(0) is nonnegative, take next instruction from right half of M(c)[value of: 90200a000]
+552: Take next instruction from right half of M(14)[value of: d00e01004]
+553: Transfer M(4)[value of: 20] to the AC(20)
+554: Replace left address field at M(17)[value of: 102021023] by 12 rightmost bits of AC(20)
+555: Replace right address field at M(18)[value of: a00021020] by 12 rightmost bits of AC(20)
+556: Transfer M(3)[value of: 21] to the AC(21)
+557: Replace right address field at M(17)[value of: 102021021] by 12 rightmost bits of AC(21)
+558: Transfer M(20)[value of: fff] to the AC(fff)
+559: Transfer contents of AC(fff) to M(21)[value of: fff]
+560: Transfer contents of register MQ to the AC(7)
+561: Transfer contents of AC(7) to M(20)[value of: 7]
+562: Transfer M(4)[value of: 20] to the AC(20)
+563: Add M(1)[value of: 1] to the AC(21), put the result in the AC(21)
+564: Replace right address field at M(4)[value of: 21] by 12 rightmost bits of AC(21)
+565: Replace right address field at M(6)[value of: 21] by 12 rightmost bits of AC(21)
+566: Add M(1)[value of: 1] to the AC(22), put the result in the AC(22)
+567: Transfer contents of AC(22) to M(5)[value of: 22]
+568: Transfer M(7)[value of: 2f] to the AC(2f)
+569: Subtract M(5)[value of: 22] from the AC(d), put the result in the AC(d)
+570: If the number in AC(d) is nonnegative, take next instruction from left half of M(8)[value of: 10061200c]
+571: Transfer M(6)[value of: 21] to the AC(21)
+572: Replace left address field at M(c)[value of: 90210a000] by 12 rightmost bits of AC(21)
+573: Replace right address field at M(3)[value of: 21] by 12 rightmost bits of AC(21)
+574: Take next instruction from left half of M(a)[value of: 1300405001]
+575: Replace right address field at M(4)[value of: 21] by 12 rightmost bits of AC(21)
+576: Add M(1)[value of: 1] to the AC(22), put the result in the AC(22)
+577: Replace right address field at M(5)[value of: 22] by 12 rightmost bits of AC(22)
+578: Replace left address field at M(d)[value of: 60220f012] by 12 rightmost bits of AC(22)
+579: Transfer contents of M(21)[value of: fff] to MQ
+580: Transfer contents of register MQ to the AC(fff)
+581: Subtract M(22)[value of: a0] from the AC(f5f), put the result in the AC(f5f)
+582: If the number in AC(f5f) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+583: Transfer M(5)[value of: 22] to the AC(22)
+584: Replace left address field at M(13)[value of: 902221003] by 12 rightmost bits of AC(22)
+585: Transfer contents of M(22)[value of: a0] to MQ
+586: Transfer contents of AC(22) to M(3)[value of: 22]
+587: Take next instruction from left half of M(e)[value of: 100505001]
+588: Transfer M(5)[value of: 22] to the AC(22)
+589: Add M(1)[value of: 1] to the AC(23), put the result in the AC(23)
+590: Transfer contents of AC(23) to M(5)[value of: 23]
+591: Replace left address field at M(d)[value of: 60230f012] by 12 rightmost bits of AC(23)
+592: Transfer M(7)[value of: 2f] to the AC(2f)
+593: Subtract M(5)[value of: 23] from the AC(c), put the result in the AC(c)
+594: If the number in AC(c) is nonnegative, take next instruction from right half of M(c)[value of: 90210a000]
+595: Transfer contents of register MQ to the AC(a0)
+596: Subtract M(23)[value of: 25] from the AC(7b), put the result in the AC(7b)
+597: If the number in AC(7b) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+598: Transfer M(5)[value of: 23] to the AC(23)
+599: Replace left address field at M(13)[value of: 902321003] by 12 rightmost bits of AC(23)
+600: Transfer contents of M(23)[value of: 25] to MQ
+601: Transfer contents of AC(23) to M(3)[value of: 23]
+602: Take next instruction from left half of M(e)[value of: 100505001]
+603: Transfer M(5)[value of: 23] to the AC(23)
+604: Add M(1)[value of: 1] to the AC(24), put the result in the AC(24)
+605: Transfer contents of AC(24) to M(5)[value of: 24]
+606: Replace left address field at M(d)[value of: 60240f012] by 12 rightmost bits of AC(24)
+607: Transfer M(7)[value of: 2f] to the AC(2f)
+608: Subtract M(5)[value of: 24] from the AC(b), put the result in the AC(b)
+609: If the number in AC(b) is nonnegative, take next instruction from right half of M(c)[value of: 90210a000]
+610: Transfer contents of register MQ to the AC(25)
+611: Subtract M(24)[value of: c] from the AC(19), put the result in the AC(19)
+612: If the number in AC(19) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+613: Transfer M(5)[value of: 24] to the AC(24)
+614: Replace left address field at M(13)[value of: 902421003] by 12 rightmost bits of AC(24)
+615: Transfer contents of M(24)[value of: c] to MQ
+616: Transfer contents of AC(24) to M(3)[value of: 24]
+617: Take next instruction from left half of M(e)[value of: 100505001]
+618: Transfer M(5)[value of: 24] to the AC(24)
+619: Add M(1)[value of: 1] to the AC(25), put the result in the AC(25)
+620: Transfer contents of AC(25) to M(5)[value of: 25]
+621: Replace left address field at M(d)[value of: 60250f012] by 12 rightmost bits of AC(25)
+622: Transfer M(7)[value of: 2f] to the AC(2f)
+623: Subtract M(5)[value of: 25] from the AC(a), put the result in the AC(a)
+624: If the number in AC(a) is nonnegative, take next instruction from right half of M(c)[value of: 90210a000]
+625: Transfer contents of register MQ to the AC(c)
+626: Subtract M(25)[value of: f] from the AC(fffffffffffffffd), put the result in the AC(fffffffffffffffd)
+627: If the number in AC(fffffffffffffffd) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+628: Transfer M(5)[value of: 25] to the AC(25)
+629: Add M(1)[value of: 1] to the AC(26), put the result in the AC(26)
+630: Transfer contents of AC(26) to M(5)[value of: 26]
+631: Replace left address field at M(d)[value of: 60260f012] by 12 rightmost bits of AC(26)
+632: Transfer M(7)[value of: 2f] to the AC(2f)
+633: Subtract M(5)[value of: 26] from the AC(9), put the result in the AC(9)
+634: If the number in AC(9) is nonnegative, take next instruction from right half of M(c)[value of: 90210a000]
+635: Transfer contents of register MQ to the AC(c)
+636: Subtract M(26)[value of: 3cb] from the AC(fffffffffffffc41), put the result in the AC(fffffffffffffc41)
+637: If the number in AC(fffffffffffffc41) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+638: Transfer M(5)[value of: 26] to the AC(26)
+639: Add M(1)[value of: 1] to the AC(27), put the result in the AC(27)
+640: Transfer contents of AC(27) to M(5)[value of: 27]
+641: Replace left address field at M(d)[value of: 60270f012] by 12 rightmost bits of AC(27)
+642: Transfer M(7)[value of: 2f] to the AC(2f)
+643: Subtract M(5)[value of: 27] from the AC(8), put the result in the AC(8)
+644: If the number in AC(8) is nonnegative, take next instruction from right half of M(c)[value of: 90210a000]
+645: Transfer contents of register MQ to the AC(c)
+646: Subtract M(27)[value of: b1] from the AC(ffffffffffffff5b), put the result in the AC(ffffffffffffff5b)
+647: If the number in AC(ffffffffffffff5b) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+648: Transfer M(5)[value of: 27] to the AC(27)
+649: Add M(1)[value of: 1] to the AC(28), put the result in the AC(28)
+650: Transfer contents of AC(28) to M(5)[value of: 28]
+651: Replace left address field at M(d)[value of: 60280f012] by 12 rightmost bits of AC(28)
+652: Transfer M(7)[value of: 2f] to the AC(2f)
+653: Subtract M(5)[value of: 28] from the AC(7), put the result in the AC(7)
+654: If the number in AC(7) is nonnegative, take next instruction from right half of M(c)[value of: 90210a000]
+655: Transfer contents of register MQ to the AC(c)
+656: Subtract M(28)[value of: e] from the AC(fffffffffffffffe), put the result in the AC(fffffffffffffffe)
+657: If the number in AC(fffffffffffffffe) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+658: Transfer M(5)[value of: 28] to the AC(28)
+659: Add M(1)[value of: 1] to the AC(29), put the result in the AC(29)
+660: Transfer contents of AC(29) to M(5)[value of: 29]
+661: Replace left address field at M(d)[value of: 60290f012] by 12 rightmost bits of AC(29)
+662: Transfer M(7)[value of: 2f] to the AC(2f)
+663: Subtract M(5)[value of: 29] from the AC(6), put the result in the AC(6)
+664: If the number in AC(6) is nonnegative, take next instruction from right half of M(c)[value of: 90210a000]
+665: Transfer contents of register MQ to the AC(c)
+666: Subtract M(29)[value of: ae] from the AC(ffffffffffffff5e), put the result in the AC(ffffffffffffff5e)
+667: If the number in AC(ffffffffffffff5e) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+668: Transfer M(5)[value of: 29] to the AC(29)
+669: Add M(1)[value of: 1] to the AC(2a), put the result in the AC(2a)
+670: Transfer contents of AC(2a) to M(5)[value of: 2a]
+671: Replace left address field at M(d)[value of: 602a0f012] by 12 rightmost bits of AC(2a)
+672: Transfer M(7)[value of: 2f] to the AC(2f)
+673: Subtract M(5)[value of: 2a] from the AC(5), put the result in the AC(5)
+674: If the number in AC(5) is nonnegative, take next instruction from right half of M(c)[value of: 90210a000]
+675: Transfer contents of register MQ to the AC(c)
+676: Subtract M(2a)[value of: bc] from the AC(ffffffffffffff50), put the result in the AC(ffffffffffffff50)
+677: If the number in AC(ffffffffffffff50) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+678: Transfer M(5)[value of: 2a] to the AC(2a)
+679: Add M(1)[value of: 1] to the AC(2b), put the result in the AC(2b)
+680: Transfer contents of AC(2b) to M(5)[value of: 2b]
+681: Replace left address field at M(d)[value of: 602b0f012] by 12 rightmost bits of AC(2b)
+682: Transfer M(7)[value of: 2f] to the AC(2f)
+683: Subtract M(5)[value of: 2b] from the AC(4), put the result in the AC(4)
+684: If the number in AC(4) is nonnegative, take next instruction from right half of M(c)[value of: 90210a000]
+685: Transfer contents of register MQ to the AC(c)
+686: Subtract M(2b)[value of: fe] from the AC(ffffffffffffff0e), put the result in the AC(ffffffffffffff0e)
+687: If the number in AC(ffffffffffffff0e) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+688: Transfer M(5)[value of: 2b] to the AC(2b)
+689: Add M(1)[value of: 1] to the AC(2c), put the result in the AC(2c)
+690: Transfer contents of AC(2c) to M(5)[value of: 2c]
+691: Replace left address field at M(d)[value of: 602c0f012] by 12 rightmost bits of AC(2c)
+692: Transfer M(7)[value of: 2f] to the AC(2f)
+693: Subtract M(5)[value of: 2c] from the AC(3), put the result in the AC(3)
+694: If the number in AC(3) is nonnegative, take next instruction from right half of M(c)[value of: 90210a000]
+695: Transfer contents of register MQ to the AC(c)
+696: Subtract M(2c)[value of: 2a] from the AC(ffffffffffffffe2), put the result in the AC(ffffffffffffffe2)
+697: If the number in AC(ffffffffffffffe2) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+698: Transfer M(5)[value of: 2c] to the AC(2c)
+699: Add M(1)[value of: 1] to the AC(2d), put the result in the AC(2d)
+700: Transfer contents of AC(2d) to M(5)[value of: 2d]
+701: Replace left address field at M(d)[value of: 602d0f012] by 12 rightmost bits of AC(2d)
+702: Transfer M(7)[value of: 2f] to the AC(2f)
+703: Subtract M(5)[value of: 2d] from the AC(2), put the result in the AC(2)
+704: If the number in AC(2) is nonnegative, take next instruction from right half of M(c)[value of: 90210a000]
+705: Transfer contents of register MQ to the AC(c)
+706: Subtract M(2d)[value of: 3c] from the AC(ffffffffffffffd0), put the result in the AC(ffffffffffffffd0)
+707: If the number in AC(ffffffffffffffd0) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+708: Transfer M(5)[value of: 2d] to the AC(2d)
+709: Add M(1)[value of: 1] to the AC(2e), put the result in the AC(2e)
+710: Transfer contents of AC(2e) to M(5)[value of: 2e]
+711: Replace left address field at M(d)[value of: 602e0f012] by 12 rightmost bits of AC(2e)
+712: Transfer M(7)[value of: 2f] to the AC(2f)
+713: Subtract M(5)[value of: 2e] from the AC(1), put the result in the AC(1)
+714: If the number in AC(1) is nonnegative, take next instruction from right half of M(c)[value of: 90210a000]
+715: Transfer contents of register MQ to the AC(c)
+716: Subtract M(2e)[value of: 5f] from the AC(ffffffffffffffad), put the result in the AC(ffffffffffffffad)
+717: If the number in AC(ffffffffffffffad) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+718: Transfer M(5)[value of: 2e] to the AC(2e)
+719: Add M(1)[value of: 1] to the AC(2f), put the result in the AC(2f)
+720: Transfer contents of AC(2f) to M(5)[value of: 2f]
+721: Replace left address field at M(d)[value of: 602f0f012] by 12 rightmost bits of AC(2f)
+722: Transfer M(7)[value of: 2f] to the AC(2f)
+723: Subtract M(5)[value of: 2f] from the AC(0), put the result in the AC(0)
+724: If the number in AC(0) is nonnegative, take next instruction from right half of M(c)[value of: 90210a000]
+725: Take next instruction from right half of M(14)[value of: d00e01004]
+726: Transfer M(4)[value of: 21] to the AC(21)
+727: Replace left address field at M(17)[value of: 102121021] by 12 rightmost bits of AC(21)
+728: Replace right address field at M(18)[value of: a00021021] by 12 rightmost bits of AC(21)
+729: Transfer M(3)[value of: 24] to the AC(24)
+730: Replace right address field at M(17)[value of: 102121024] by 12 rightmost bits of AC(24)
+731: Transfer M(21)[value of: fff] to the AC(fff)
+732: Transfer contents of AC(fff) to M(24)[value of: fff]
+733: Transfer contents of register MQ to the AC(c)
+734: Transfer contents of AC(c) to M(21)[value of: c]
+735: Transfer M(4)[value of: 21] to the AC(21)
+736: Add M(1)[value of: 1] to the AC(22), put the result in the AC(22)
+737: Replace right address field at M(4)[value of: 22] by 12 rightmost bits of AC(22)
+738: Replace right address field at M(6)[value of: 22] by 12 rightmost bits of AC(22)
+739: Add M(1)[value of: 1] to the AC(23), put the result in the AC(23)
+740: Transfer contents of AC(23) to M(5)[value of: 23]
+741: Transfer M(7)[value of: 2f] to the AC(2f)
+742: Subtract M(5)[value of: 23] from the AC(c), put the result in the AC(c)
+743: If the number in AC(c) is nonnegative, take next instruction from left half of M(8)[value of: 10061200c]
+744: Transfer M(6)[value of: 22] to the AC(22)
+745: Replace left address field at M(c)[value of: 90220a000] by 12 rightmost bits of AC(22)
+746: Replace right address field at M(3)[value of: 22] by 12 rightmost bits of AC(22)
+747: Take next instruction from left half of M(a)[value of: 1300405001]
+748: Replace right address field at M(4)[value of: 22] by 12 rightmost bits of AC(22)
+749: Add M(1)[value of: 1] to the AC(23), put the result in the AC(23)
+750: Replace right address field at M(5)[value of: 23] by 12 rightmost bits of AC(23)
+751: Replace left address field at M(d)[value of: 60230f012] by 12 rightmost bits of AC(23)
+752: Transfer contents of M(22)[value of: a0] to MQ
+753: Transfer contents of register MQ to the AC(a0)
+754: Subtract M(23)[value of: 25] from the AC(7b), put the result in the AC(7b)
+755: If the number in AC(7b) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+756: Transfer M(5)[value of: 23] to the AC(23)
+757: Replace left address field at M(13)[value of: 902321003] by 12 rightmost bits of AC(23)
+758: Transfer contents of M(23)[value of: 25] to MQ
+759: Transfer contents of AC(23) to M(3)[value of: 23]
+760: Take next instruction from left half of M(e)[value of: 100505001]
+761: Transfer M(5)[value of: 23] to the AC(23)
+762: Add M(1)[value of: 1] to the AC(24), put the result in the AC(24)
+763: Transfer contents of AC(24) to M(5)[value of: 24]
+764: Replace left address field at M(d)[value of: 60240f012] by 12 rightmost bits of AC(24)
+765: Transfer M(7)[value of: 2f] to the AC(2f)
+766: Subtract M(5)[value of: 24] from the AC(b), put the result in the AC(b)
+767: If the number in AC(b) is nonnegative, take next instruction from right half of M(c)[value of: 90220a000]
+768: Transfer contents of register MQ to the AC(25)
+769: Subtract M(24)[value of: fff] from the AC(fffffffffffff026), put the result in the AC(fffffffffffff026)
+770: If the number in AC(fffffffffffff026) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+771: Transfer M(5)[value of: 24] to the AC(24)
+772: Add M(1)[value of: 1] to the AC(25), put the result in the AC(25)
+773: Transfer contents of AC(25) to M(5)[value of: 25]
+774: Replace left address field at M(d)[value of: 60250f012] by 12 rightmost bits of AC(25)
+775: Transfer M(7)[value of: 2f] to the AC(2f)
+776: Subtract M(5)[value of: 25] from the AC(a), put the result in the AC(a)
+777: If the number in AC(a) is nonnegative, take next instruction from right half of M(c)[value of: 90220a000]
+778: Transfer contents of register MQ to the AC(25)
+779: Subtract M(25)[value of: f] from the AC(16), put the result in the AC(16)
+780: If the number in AC(16) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+781: Transfer M(5)[value of: 25] to the AC(25)
+782: Replace left address field at M(13)[value of: 902521003] by 12 rightmost bits of AC(25)
+783: Transfer contents of M(25)[value of: f] to MQ
+784: Transfer contents of AC(25) to M(3)[value of: 25]
+785: Take next instruction from left half of M(e)[value of: 100505001]
+786: Transfer M(5)[value of: 25] to the AC(25)
+787: Add M(1)[value of: 1] to the AC(26), put the result in the AC(26)
+788: Transfer contents of AC(26) to M(5)[value of: 26]
+789: Replace left address field at M(d)[value of: 60260f012] by 12 rightmost bits of AC(26)
+790: Transfer M(7)[value of: 2f] to the AC(2f)
+791: Subtract M(5)[value of: 26] from the AC(9), put the result in the AC(9)
+792: If the number in AC(9) is nonnegative, take next instruction from right half of M(c)[value of: 90220a000]
+793: Transfer contents of register MQ to the AC(f)
+794: Subtract M(26)[value of: 3cb] from the AC(fffffffffffffc44), put the result in the AC(fffffffffffffc44)
+795: If the number in AC(fffffffffffffc44) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+796: Transfer M(5)[value of: 26] to the AC(26)
+797: Add M(1)[value of: 1] to the AC(27), put the result in the AC(27)
+798: Transfer contents of AC(27) to M(5)[value of: 27]
+799: Replace left address field at M(d)[value of: 60270f012] by 12 rightmost bits of AC(27)
+800: Transfer M(7)[value of: 2f] to the AC(2f)
+801: Subtract M(5)[value of: 27] from the AC(8), put the result in the AC(8)
+802: If the number in AC(8) is nonnegative, take next instruction from right half of M(c)[value of: 90220a000]
+803: Transfer contents of register MQ to the AC(f)
+804: Subtract M(27)[value of: b1] from the AC(ffffffffffffff5e), put the result in the AC(ffffffffffffff5e)
+805: If the number in AC(ffffffffffffff5e) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+806: Transfer M(5)[value of: 27] to the AC(27)
+807: Add M(1)[value of: 1] to the AC(28), put the result in the AC(28)
+808: Transfer contents of AC(28) to M(5)[value of: 28]
+809: Replace left address field at M(d)[value of: 60280f012] by 12 rightmost bits of AC(28)
+810: Transfer M(7)[value of: 2f] to the AC(2f)
+811: Subtract M(5)[value of: 28] from the AC(7), put the result in the AC(7)
+812: If the number in AC(7) is nonnegative, take next instruction from right half of M(c)[value of: 90220a000]
+813: Transfer contents of register MQ to the AC(f)
+814: Subtract M(28)[value of: e] from the AC(1), put the result in the AC(1)
+815: If the number in AC(1) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+816: Transfer M(5)[value of: 28] to the AC(28)
+817: Replace left address field at M(13)[value of: 902821003] by 12 rightmost bits of AC(28)
+818: Transfer contents of M(28)[value of: e] to MQ
+819: Transfer contents of AC(28) to M(3)[value of: 28]
+820: Take next instruction from left half of M(e)[value of: 100505001]
+821: Transfer M(5)[value of: 28] to the AC(28)
+822: Add M(1)[value of: 1] to the AC(29), put the result in the AC(29)
+823: Transfer contents of AC(29) to M(5)[value of: 29]
+824: Replace left address field at M(d)[value of: 60290f012] by 12 rightmost bits of AC(29)
+825: Transfer M(7)[value of: 2f] to the AC(2f)
+826: Subtract M(5)[value of: 29] from the AC(6), put the result in the AC(6)
+827: If the number in AC(6) is nonnegative, take next instruction from right half of M(c)[value of: 90220a000]
+828: Transfer contents of register MQ to the AC(e)
+829: Subtract M(29)[value of: ae] from the AC(ffffffffffffff60), put the result in the AC(ffffffffffffff60)
+830: If the number in AC(ffffffffffffff60) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+831: Transfer M(5)[value of: 29] to the AC(29)
+832: Add M(1)[value of: 1] to the AC(2a), put the result in the AC(2a)
+833: Transfer contents of AC(2a) to M(5)[value of: 2a]
+834: Replace left address field at M(d)[value of: 602a0f012] by 12 rightmost bits of AC(2a)
+835: Transfer M(7)[value of: 2f] to the AC(2f)
+836: Subtract M(5)[value of: 2a] from the AC(5), put the result in the AC(5)
+837: If the number in AC(5) is nonnegative, take next instruction from right half of M(c)[value of: 90220a000]
+838: Transfer contents of register MQ to the AC(e)
+839: Subtract M(2a)[value of: bc] from the AC(ffffffffffffff52), put the result in the AC(ffffffffffffff52)
+840: If the number in AC(ffffffffffffff52) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+841: Transfer M(5)[value of: 2a] to the AC(2a)
+842: Add M(1)[value of: 1] to the AC(2b), put the result in the AC(2b)
+843: Transfer contents of AC(2b) to M(5)[value of: 2b]
+844: Replace left address field at M(d)[value of: 602b0f012] by 12 rightmost bits of AC(2b)
+845: Transfer M(7)[value of: 2f] to the AC(2f)
+846: Subtract M(5)[value of: 2b] from the AC(4), put the result in the AC(4)
+847: If the number in AC(4) is nonnegative, take next instruction from right half of M(c)[value of: 90220a000]
+848: Transfer contents of register MQ to the AC(e)
+849: Subtract M(2b)[value of: fe] from the AC(ffffffffffffff10), put the result in the AC(ffffffffffffff10)
+850: If the number in AC(ffffffffffffff10) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+851: Transfer M(5)[value of: 2b] to the AC(2b)
+852: Add M(1)[value of: 1] to the AC(2c), put the result in the AC(2c)
+853: Transfer contents of AC(2c) to M(5)[value of: 2c]
+854: Replace left address field at M(d)[value of: 602c0f012] by 12 rightmost bits of AC(2c)
+855: Transfer M(7)[value of: 2f] to the AC(2f)
+856: Subtract M(5)[value of: 2c] from the AC(3), put the result in the AC(3)
+857: If the number in AC(3) is nonnegative, take next instruction from right half of M(c)[value of: 90220a000]
+858: Transfer contents of register MQ to the AC(e)
+859: Subtract M(2c)[value of: 2a] from the AC(ffffffffffffffe4), put the result in the AC(ffffffffffffffe4)
+860: If the number in AC(ffffffffffffffe4) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+861: Transfer M(5)[value of: 2c] to the AC(2c)
+862: Add M(1)[value of: 1] to the AC(2d), put the result in the AC(2d)
+863: Transfer contents of AC(2d) to M(5)[value of: 2d]
+864: Replace left address field at M(d)[value of: 602d0f012] by 12 rightmost bits of AC(2d)
+865: Transfer M(7)[value of: 2f] to the AC(2f)
+866: Subtract M(5)[value of: 2d] from the AC(2), put the result in the AC(2)
+867: If the number in AC(2) is nonnegative, take next instruction from right half of M(c)[value of: 90220a000]
+868: Transfer contents of register MQ to the AC(e)
+869: Subtract M(2d)[value of: 3c] from the AC(ffffffffffffffd2), put the result in the AC(ffffffffffffffd2)
+870: If the number in AC(ffffffffffffffd2) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+871: Transfer M(5)[value of: 2d] to the AC(2d)
+872: Add M(1)[value of: 1] to the AC(2e), put the result in the AC(2e)
+873: Transfer contents of AC(2e) to M(5)[value of: 2e]
+874: Replace left address field at M(d)[value of: 602e0f012] by 12 rightmost bits of AC(2e)
+875: Transfer M(7)[value of: 2f] to the AC(2f)
+876: Subtract M(5)[value of: 2e] from the AC(1), put the result in the AC(1)
+877: If the number in AC(1) is nonnegative, take next instruction from right half of M(c)[value of: 90220a000]
+878: Transfer contents of register MQ to the AC(e)
+879: Subtract M(2e)[value of: 5f] from the AC(ffffffffffffffaf), put the result in the AC(ffffffffffffffaf)
+880: If the number in AC(ffffffffffffffaf) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+881: Transfer M(5)[value of: 2e] to the AC(2e)
+882: Add M(1)[value of: 1] to the AC(2f), put the result in the AC(2f)
+883: Transfer contents of AC(2f) to M(5)[value of: 2f]
+884: Replace left address field at M(d)[value of: 602f0f012] by 12 rightmost bits of AC(2f)
+885: Transfer M(7)[value of: 2f] to the AC(2f)
+886: Subtract M(5)[value of: 2f] from the AC(0), put the result in the AC(0)
+887: If the number in AC(0) is nonnegative, take next instruction from right half of M(c)[value of: 90220a000]
+888: Take next instruction from right half of M(14)[value of: d00e01004]
+889: Transfer M(4)[value of: 22] to the AC(22)
+890: Replace left address field at M(17)[value of: 102221024] by 12 rightmost bits of AC(22)
+891: Replace right address field at M(18)[value of: a00021022] by 12 rightmost bits of AC(22)
+892: Transfer M(3)[value of: 28] to the AC(28)
+893: Replace right address field at M(17)[value of: 102221028] by 12 rightmost bits of AC(28)
+894: Transfer M(22)[value of: a0] to the AC(a0)
+895: Transfer contents of AC(a0) to M(28)[value of: a0]
+896: Transfer contents of register MQ to the AC(e)
+897: Transfer contents of AC(e) to M(22)[value of: e]
+898: Transfer M(4)[value of: 22] to the AC(22)
+899: Add M(1)[value of: 1] to the AC(23), put the result in the AC(23)
+900: Replace right address field at M(4)[value of: 23] by 12 rightmost bits of AC(23)
+901: Replace right address field at M(6)[value of: 23] by 12 rightmost bits of AC(23)
+902: Add M(1)[value of: 1] to the AC(24), put the result in the AC(24)
+903: Transfer contents of AC(24) to M(5)[value of: 24]
+904: Transfer M(7)[value of: 2f] to the AC(2f)
+905: Subtract M(5)[value of: 24] from the AC(b), put the result in the AC(b)
+906: If the number in AC(b) is nonnegative, take next instruction from left half of M(8)[value of: 10061200c]
+907: Transfer M(6)[value of: 23] to the AC(23)
+908: Replace left address field at M(c)[value of: 90230a000] by 12 rightmost bits of AC(23)
+909: Replace right address field at M(3)[value of: 23] by 12 rightmost bits of AC(23)
+910: Take next instruction from left half of M(a)[value of: 1300405001]
+911: Replace right address field at M(4)[value of: 23] by 12 rightmost bits of AC(23)
+912: Add M(1)[value of: 1] to the AC(24), put the result in the AC(24)
+913: Replace right address field at M(5)[value of: 24] by 12 rightmost bits of AC(24)
+914: Replace left address field at M(d)[value of: 60240f012] by 12 rightmost bits of AC(24)
+915: Transfer contents of M(23)[value of: 25] to MQ
+916: Transfer contents of register MQ to the AC(25)
+917: Subtract M(24)[value of: fff] from the AC(fffffffffffff026), put the result in the AC(fffffffffffff026)
+918: If the number in AC(fffffffffffff026) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+919: Transfer M(5)[value of: 24] to the AC(24)
+920: Add M(1)[value of: 1] to the AC(25), put the result in the AC(25)
+921: Transfer contents of AC(25) to M(5)[value of: 25]
+922: Replace left address field at M(d)[value of: 60250f012] by 12 rightmost bits of AC(25)
+923: Transfer M(7)[value of: 2f] to the AC(2f)
+924: Subtract M(5)[value of: 25] from the AC(a), put the result in the AC(a)
+925: If the number in AC(a) is nonnegative, take next instruction from right half of M(c)[value of: 90230a000]
+926: Transfer contents of register MQ to the AC(25)
+927: Subtract M(25)[value of: f] from the AC(16), put the result in the AC(16)
+928: If the number in AC(16) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+929: Transfer M(5)[value of: 25] to the AC(25)
+930: Replace left address field at M(13)[value of: 902521003] by 12 rightmost bits of AC(25)
+931: Transfer contents of M(25)[value of: f] to MQ
+932: Transfer contents of AC(25) to M(3)[value of: 25]
+933: Take next instruction from left half of M(e)[value of: 100505001]
+934: Transfer M(5)[value of: 25] to the AC(25)
+935: Add M(1)[value of: 1] to the AC(26), put the result in the AC(26)
+936: Transfer contents of AC(26) to M(5)[value of: 26]
+937: Replace left address field at M(d)[value of: 60260f012] by 12 rightmost bits of AC(26)
+938: Transfer M(7)[value of: 2f] to the AC(2f)
+939: Subtract M(5)[value of: 26] from the AC(9), put the result in the AC(9)
+940: If the number in AC(9) is nonnegative, take next instruction from right half of M(c)[value of: 90230a000]
+941: Transfer contents of register MQ to the AC(f)
+942: Subtract M(26)[value of: 3cb] from the AC(fffffffffffffc44), put the result in the AC(fffffffffffffc44)
+943: If the number in AC(fffffffffffffc44) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+944: Transfer M(5)[value of: 26] to the AC(26)
+945: Add M(1)[value of: 1] to the AC(27), put the result in the AC(27)
+946: Transfer contents of AC(27) to M(5)[value of: 27]
+947: Replace left address field at M(d)[value of: 60270f012] by 12 rightmost bits of AC(27)
+948: Transfer M(7)[value of: 2f] to the AC(2f)
+949: Subtract M(5)[value of: 27] from the AC(8), put the result in the AC(8)
+950: If the number in AC(8) is nonnegative, take next instruction from right half of M(c)[value of: 90230a000]
+951: Transfer contents of register MQ to the AC(f)
+952: Subtract M(27)[value of: b1] from the AC(ffffffffffffff5e), put the result in the AC(ffffffffffffff5e)
+953: If the number in AC(ffffffffffffff5e) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+954: Transfer M(5)[value of: 27] to the AC(27)
+955: Add M(1)[value of: 1] to the AC(28), put the result in the AC(28)
+956: Transfer contents of AC(28) to M(5)[value of: 28]
+957: Replace left address field at M(d)[value of: 60280f012] by 12 rightmost bits of AC(28)
+958: Transfer M(7)[value of: 2f] to the AC(2f)
+959: Subtract M(5)[value of: 28] from the AC(7), put the result in the AC(7)
+960: If the number in AC(7) is nonnegative, take next instruction from right half of M(c)[value of: 90230a000]
+961: Transfer contents of register MQ to the AC(f)
+962: Subtract M(28)[value of: a0] from the AC(ffffffffffffff6f), put the result in the AC(ffffffffffffff6f)
+963: If the number in AC(ffffffffffffff6f) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+964: Transfer M(5)[value of: 28] to the AC(28)
+965: Add M(1)[value of: 1] to the AC(29), put the result in the AC(29)
+966: Transfer contents of AC(29) to M(5)[value of: 29]
+967: Replace left address field at M(d)[value of: 60290f012] by 12 rightmost bits of AC(29)
+968: Transfer M(7)[value of: 2f] to the AC(2f)
+969: Subtract M(5)[value of: 29] from the AC(6), put the result in the AC(6)
+970: If the number in AC(6) is nonnegative, take next instruction from right half of M(c)[value of: 90230a000]
+971: Transfer contents of register MQ to the AC(f)
+972: Subtract M(29)[value of: ae] from the AC(ffffffffffffff61), put the result in the AC(ffffffffffffff61)
+973: If the number in AC(ffffffffffffff61) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+974: Transfer M(5)[value of: 29] to the AC(29)
+975: Add M(1)[value of: 1] to the AC(2a), put the result in the AC(2a)
+976: Transfer contents of AC(2a) to M(5)[value of: 2a]
+977: Replace left address field at M(d)[value of: 602a0f012] by 12 rightmost bits of AC(2a)
+978: Transfer M(7)[value of: 2f] to the AC(2f)
+979: Subtract M(5)[value of: 2a] from the AC(5), put the result in the AC(5)
+980: If the number in AC(5) is nonnegative, take next instruction from right half of M(c)[value of: 90230a000]
+981: Transfer contents of register MQ to the AC(f)
+982: Subtract M(2a)[value of: bc] from the AC(ffffffffffffff53), put the result in the AC(ffffffffffffff53)
+983: If the number in AC(ffffffffffffff53) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+984: Transfer M(5)[value of: 2a] to the AC(2a)
+985: Add M(1)[value of: 1] to the AC(2b), put the result in the AC(2b)
+986: Transfer contents of AC(2b) to M(5)[value of: 2b]
+987: Replace left address field at M(d)[value of: 602b0f012] by 12 rightmost bits of AC(2b)
+988: Transfer M(7)[value of: 2f] to the AC(2f)
+989: Subtract M(5)[value of: 2b] from the AC(4), put the result in the AC(4)
+990: If the number in AC(4) is nonnegative, take next instruction from right half of M(c)[value of: 90230a000]
+991: Transfer contents of register MQ to the AC(f)
+992: Subtract M(2b)[value of: fe] from the AC(ffffffffffffff11), put the result in the AC(ffffffffffffff11)
+993: If the number in AC(ffffffffffffff11) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+994: Transfer M(5)[value of: 2b] to the AC(2b)
+995: Add M(1)[value of: 1] to the AC(2c), put the result in the AC(2c)
+996: Transfer contents of AC(2c) to M(5)[value of: 2c]
+997: Replace left address field at M(d)[value of: 602c0f012] by 12 rightmost bits of AC(2c)
+998: Transfer M(7)[value of: 2f] to the AC(2f)
+999: Subtract M(5)[value of: 2c] from the AC(3), put the result in the AC(3)
+1000: If the number in AC(3) is nonnegative, take next instruction from right half of M(c)[value of: 90230a000]
+1001: Transfer contents of register MQ to the AC(f)
+1002: Subtract M(2c)[value of: 2a] from the AC(ffffffffffffffe5), put the result in the AC(ffffffffffffffe5)
+1003: If the number in AC(ffffffffffffffe5) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1004: Transfer M(5)[value of: 2c] to the AC(2c)
+1005: Add M(1)[value of: 1] to the AC(2d), put the result in the AC(2d)
+1006: Transfer contents of AC(2d) to M(5)[value of: 2d]
+1007: Replace left address field at M(d)[value of: 602d0f012] by 12 rightmost bits of AC(2d)
+1008: Transfer M(7)[value of: 2f] to the AC(2f)
+1009: Subtract M(5)[value of: 2d] from the AC(2), put the result in the AC(2)
+1010: If the number in AC(2) is nonnegative, take next instruction from right half of M(c)[value of: 90230a000]
+1011: Transfer contents of register MQ to the AC(f)
+1012: Subtract M(2d)[value of: 3c] from the AC(ffffffffffffffd3), put the result in the AC(ffffffffffffffd3)
+1013: If the number in AC(ffffffffffffffd3) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1014: Transfer M(5)[value of: 2d] to the AC(2d)
+1015: Add M(1)[value of: 1] to the AC(2e), put the result in the AC(2e)
+1016: Transfer contents of AC(2e) to M(5)[value of: 2e]
+1017: Replace left address field at M(d)[value of: 602e0f012] by 12 rightmost bits of AC(2e)
+1018: Transfer M(7)[value of: 2f] to the AC(2f)
+1019: Subtract M(5)[value of: 2e] from the AC(1), put the result in the AC(1)
+1020: If the number in AC(1) is nonnegative, take next instruction from right half of M(c)[value of: 90230a000]
+1021: Transfer contents of register MQ to the AC(f)
+1022: Subtract M(2e)[value of: 5f] from the AC(ffffffffffffffb0), put the result in the AC(ffffffffffffffb0)
+1023: If the number in AC(ffffffffffffffb0) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1024: Transfer M(5)[value of: 2e] to the AC(2e)
+1025: Add M(1)[value of: 1] to the AC(2f), put the result in the AC(2f)
+1026: Transfer contents of AC(2f) to M(5)[value of: 2f]
+1027: Replace left address field at M(d)[value of: 602f0f012] by 12 rightmost bits of AC(2f)
+1028: Transfer M(7)[value of: 2f] to the AC(2f)
+1029: Subtract M(5)[value of: 2f] from the AC(0), put the result in the AC(0)
+1030: If the number in AC(0) is nonnegative, take next instruction from right half of M(c)[value of: 90230a000]
+1031: Take next instruction from right half of M(14)[value of: d00e01004]
+1032: Transfer M(4)[value of: 23] to the AC(23)
+1033: Replace left address field at M(17)[value of: 102321028] by 12 rightmost bits of AC(23)
+1034: Replace right address field at M(18)[value of: a00021023] by 12 rightmost bits of AC(23)
+1035: Transfer M(3)[value of: 25] to the AC(25)
+1036: Replace right address field at M(17)[value of: 102321025] by 12 rightmost bits of AC(25)
+1037: Transfer M(23)[value of: 25] to the AC(25)
+1038: Transfer contents of AC(25) to M(25)[value of: 25]
+1039: Transfer contents of register MQ to the AC(f)
+1040: Transfer contents of AC(f) to M(23)[value of: f]
+1041: Transfer M(4)[value of: 23] to the AC(23)
+1042: Add M(1)[value of: 1] to the AC(24), put the result in the AC(24)
+1043: Replace right address field at M(4)[value of: 24] by 12 rightmost bits of AC(24)
+1044: Replace right address field at M(6)[value of: 24] by 12 rightmost bits of AC(24)
+1045: Add M(1)[value of: 1] to the AC(25), put the result in the AC(25)
+1046: Transfer contents of AC(25) to M(5)[value of: 25]
+1047: Transfer M(7)[value of: 2f] to the AC(2f)
+1048: Subtract M(5)[value of: 25] from the AC(a), put the result in the AC(a)
+1049: If the number in AC(a) is nonnegative, take next instruction from left half of M(8)[value of: 10061200c]
+1050: Transfer M(6)[value of: 24] to the AC(24)
+1051: Replace left address field at M(c)[value of: 90240a000] by 12 rightmost bits of AC(24)
+1052: Replace right address field at M(3)[value of: 24] by 12 rightmost bits of AC(24)
+1053: Take next instruction from left half of M(a)[value of: 1300405001]
+1054: Replace right address field at M(4)[value of: 24] by 12 rightmost bits of AC(24)
+1055: Add M(1)[value of: 1] to the AC(25), put the result in the AC(25)
+1056: Replace right address field at M(5)[value of: 25] by 12 rightmost bits of AC(25)
+1057: Replace left address field at M(d)[value of: 60250f012] by 12 rightmost bits of AC(25)
+1058: Transfer contents of M(24)[value of: fff] to MQ
+1059: Transfer contents of register MQ to the AC(fff)
+1060: Subtract M(25)[value of: 25] from the AC(fda), put the result in the AC(fda)
+1061: If the number in AC(fda) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1062: Transfer M(5)[value of: 25] to the AC(25)
+1063: Replace left address field at M(13)[value of: 902521003] by 12 rightmost bits of AC(25)
+1064: Transfer contents of M(25)[value of: 25] to MQ
+1065: Transfer contents of AC(25) to M(3)[value of: 25]
+1066: Take next instruction from left half of M(e)[value of: 100505001]
+1067: Transfer M(5)[value of: 25] to the AC(25)
+1068: Add M(1)[value of: 1] to the AC(26), put the result in the AC(26)
+1069: Transfer contents of AC(26) to M(5)[value of: 26]
+1070: Replace left address field at M(d)[value of: 60260f012] by 12 rightmost bits of AC(26)
+1071: Transfer M(7)[value of: 2f] to the AC(2f)
+1072: Subtract M(5)[value of: 26] from the AC(9), put the result in the AC(9)
+1073: If the number in AC(9) is nonnegative, take next instruction from right half of M(c)[value of: 90240a000]
+1074: Transfer contents of register MQ to the AC(25)
+1075: Subtract M(26)[value of: 3cb] from the AC(fffffffffffffc5a), put the result in the AC(fffffffffffffc5a)
+1076: If the number in AC(fffffffffffffc5a) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1077: Transfer M(5)[value of: 26] to the AC(26)
+1078: Add M(1)[value of: 1] to the AC(27), put the result in the AC(27)
+1079: Transfer contents of AC(27) to M(5)[value of: 27]
+1080: Replace left address field at M(d)[value of: 60270f012] by 12 rightmost bits of AC(27)
+1081: Transfer M(7)[value of: 2f] to the AC(2f)
+1082: Subtract M(5)[value of: 27] from the AC(8), put the result in the AC(8)
+1083: If the number in AC(8) is nonnegative, take next instruction from right half of M(c)[value of: 90240a000]
+1084: Transfer contents of register MQ to the AC(25)
+1085: Subtract M(27)[value of: b1] from the AC(ffffffffffffff74), put the result in the AC(ffffffffffffff74)
+1086: If the number in AC(ffffffffffffff74) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1087: Transfer M(5)[value of: 27] to the AC(27)
+1088: Add M(1)[value of: 1] to the AC(28), put the result in the AC(28)
+1089: Transfer contents of AC(28) to M(5)[value of: 28]
+1090: Replace left address field at M(d)[value of: 60280f012] by 12 rightmost bits of AC(28)
+1091: Transfer M(7)[value of: 2f] to the AC(2f)
+1092: Subtract M(5)[value of: 28] from the AC(7), put the result in the AC(7)
+1093: If the number in AC(7) is nonnegative, take next instruction from right half of M(c)[value of: 90240a000]
+1094: Transfer contents of register MQ to the AC(25)
+1095: Subtract M(28)[value of: a0] from the AC(ffffffffffffff85), put the result in the AC(ffffffffffffff85)
+1096: If the number in AC(ffffffffffffff85) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1097: Transfer M(5)[value of: 28] to the AC(28)
+1098: Add M(1)[value of: 1] to the AC(29), put the result in the AC(29)
+1099: Transfer contents of AC(29) to M(5)[value of: 29]
+1100: Replace left address field at M(d)[value of: 60290f012] by 12 rightmost bits of AC(29)
+1101: Transfer M(7)[value of: 2f] to the AC(2f)
+1102: Subtract M(5)[value of: 29] from the AC(6), put the result in the AC(6)
+1103: If the number in AC(6) is nonnegative, take next instruction from right half of M(c)[value of: 90240a000]
+1104: Transfer contents of register MQ to the AC(25)
+1105: Subtract M(29)[value of: ae] from the AC(ffffffffffffff77), put the result in the AC(ffffffffffffff77)
+1106: If the number in AC(ffffffffffffff77) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1107: Transfer M(5)[value of: 29] to the AC(29)
+1108: Add M(1)[value of: 1] to the AC(2a), put the result in the AC(2a)
+1109: Transfer contents of AC(2a) to M(5)[value of: 2a]
+1110: Replace left address field at M(d)[value of: 602a0f012] by 12 rightmost bits of AC(2a)
+1111: Transfer M(7)[value of: 2f] to the AC(2f)
+1112: Subtract M(5)[value of: 2a] from the AC(5), put the result in the AC(5)
+1113: If the number in AC(5) is nonnegative, take next instruction from right half of M(c)[value of: 90240a000]
+1114: Transfer contents of register MQ to the AC(25)
+1115: Subtract M(2a)[value of: bc] from the AC(ffffffffffffff69), put the result in the AC(ffffffffffffff69)
+1116: If the number in AC(ffffffffffffff69) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1117: Transfer M(5)[value of: 2a] to the AC(2a)
+1118: Add M(1)[value of: 1] to the AC(2b), put the result in the AC(2b)
+1119: Transfer contents of AC(2b) to M(5)[value of: 2b]
+1120: Replace left address field at M(d)[value of: 602b0f012] by 12 rightmost bits of AC(2b)
+1121: Transfer M(7)[value of: 2f] to the AC(2f)
+1122: Subtract M(5)[value of: 2b] from the AC(4), put the result in the AC(4)
+1123: If the number in AC(4) is nonnegative, take next instruction from right half of M(c)[value of: 90240a000]
+1124: Transfer contents of register MQ to the AC(25)
+1125: Subtract M(2b)[value of: fe] from the AC(ffffffffffffff27), put the result in the AC(ffffffffffffff27)
+1126: If the number in AC(ffffffffffffff27) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1127: Transfer M(5)[value of: 2b] to the AC(2b)
+1128: Add M(1)[value of: 1] to the AC(2c), put the result in the AC(2c)
+1129: Transfer contents of AC(2c) to M(5)[value of: 2c]
+1130: Replace left address field at M(d)[value of: 602c0f012] by 12 rightmost bits of AC(2c)
+1131: Transfer M(7)[value of: 2f] to the AC(2f)
+1132: Subtract M(5)[value of: 2c] from the AC(3), put the result in the AC(3)
+1133: If the number in AC(3) is nonnegative, take next instruction from right half of M(c)[value of: 90240a000]
+1134: Transfer contents of register MQ to the AC(25)
+1135: Subtract M(2c)[value of: 2a] from the AC(fffffffffffffffb), put the result in the AC(fffffffffffffffb)
+1136: If the number in AC(fffffffffffffffb) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1137: Transfer M(5)[value of: 2c] to the AC(2c)
+1138: Add M(1)[value of: 1] to the AC(2d), put the result in the AC(2d)
+1139: Transfer contents of AC(2d) to M(5)[value of: 2d]
+1140: Replace left address field at M(d)[value of: 602d0f012] by 12 rightmost bits of AC(2d)
+1141: Transfer M(7)[value of: 2f] to the AC(2f)
+1142: Subtract M(5)[value of: 2d] from the AC(2), put the result in the AC(2)
+1143: If the number in AC(2) is nonnegative, take next instruction from right half of M(c)[value of: 90240a000]
+1144: Transfer contents of register MQ to the AC(25)
+1145: Subtract M(2d)[value of: 3c] from the AC(ffffffffffffffe9), put the result in the AC(ffffffffffffffe9)
+1146: If the number in AC(ffffffffffffffe9) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1147: Transfer M(5)[value of: 2d] to the AC(2d)
+1148: Add M(1)[value of: 1] to the AC(2e), put the result in the AC(2e)
+1149: Transfer contents of AC(2e) to M(5)[value of: 2e]
+1150: Replace left address field at M(d)[value of: 602e0f012] by 12 rightmost bits of AC(2e)
+1151: Transfer M(7)[value of: 2f] to the AC(2f)
+1152: Subtract M(5)[value of: 2e] from the AC(1), put the result in the AC(1)
+1153: If the number in AC(1) is nonnegative, take next instruction from right half of M(c)[value of: 90240a000]
+1154: Transfer contents of register MQ to the AC(25)
+1155: Subtract M(2e)[value of: 5f] from the AC(ffffffffffffffc6), put the result in the AC(ffffffffffffffc6)
+1156: If the number in AC(ffffffffffffffc6) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1157: Transfer M(5)[value of: 2e] to the AC(2e)
+1158: Add M(1)[value of: 1] to the AC(2f), put the result in the AC(2f)
+1159: Transfer contents of AC(2f) to M(5)[value of: 2f]
+1160: Replace left address field at M(d)[value of: 602f0f012] by 12 rightmost bits of AC(2f)
+1161: Transfer M(7)[value of: 2f] to the AC(2f)
+1162: Subtract M(5)[value of: 2f] from the AC(0), put the result in the AC(0)
+1163: If the number in AC(0) is nonnegative, take next instruction from right half of M(c)[value of: 90240a000]
+1164: Take next instruction from right half of M(14)[value of: d00e01004]
+1165: Transfer M(4)[value of: 24] to the AC(24)
+1166: Replace left address field at M(17)[value of: 102421025] by 12 rightmost bits of AC(24)
+1167: Replace right address field at M(18)[value of: a00021024] by 12 rightmost bits of AC(24)
+1168: Transfer M(3)[value of: 25] to the AC(25)
+1169: Replace right address field at M(17)[value of: 102421025] by 12 rightmost bits of AC(25)
+1170: Transfer M(24)[value of: fff] to the AC(fff)
+1171: Transfer contents of AC(fff) to M(25)[value of: fff]
+1172: Transfer contents of register MQ to the AC(25)
+1173: Transfer contents of AC(25) to M(24)[value of: 25]
+1174: Transfer M(4)[value of: 24] to the AC(24)
+1175: Add M(1)[value of: 1] to the AC(25), put the result in the AC(25)
+1176: Replace right address field at M(4)[value of: 25] by 12 rightmost bits of AC(25)
+1177: Replace right address field at M(6)[value of: 25] by 12 rightmost bits of AC(25)
+1178: Add M(1)[value of: 1] to the AC(26), put the result in the AC(26)
+1179: Transfer contents of AC(26) to M(5)[value of: 26]
+1180: Transfer M(7)[value of: 2f] to the AC(2f)
+1181: Subtract M(5)[value of: 26] from the AC(9), put the result in the AC(9)
+1182: If the number in AC(9) is nonnegative, take next instruction from left half of M(8)[value of: 10061200c]
+1183: Transfer M(6)[value of: 25] to the AC(25)
+1184: Replace left address field at M(c)[value of: 90250a000] by 12 rightmost bits of AC(25)
+1185: Replace right address field at M(3)[value of: 25] by 12 rightmost bits of AC(25)
+1186: Take next instruction from left half of M(a)[value of: 1300405001]
+1187: Replace right address field at M(4)[value of: 25] by 12 rightmost bits of AC(25)
+1188: Add M(1)[value of: 1] to the AC(26), put the result in the AC(26)
+1189: Replace right address field at M(5)[value of: 26] by 12 rightmost bits of AC(26)
+1190: Replace left address field at M(d)[value of: 60260f012] by 12 rightmost bits of AC(26)
+1191: Transfer contents of M(25)[value of: fff] to MQ
+1192: Transfer contents of register MQ to the AC(fff)
+1193: Subtract M(26)[value of: 3cb] from the AC(c34), put the result in the AC(c34)
+1194: If the number in AC(c34) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1195: Transfer M(5)[value of: 26] to the AC(26)
+1196: Replace left address field at M(13)[value of: 902621003] by 12 rightmost bits of AC(26)
+1197: Transfer contents of M(26)[value of: 3cb] to MQ
+1198: Transfer contents of AC(26) to M(3)[value of: 26]
+1199: Take next instruction from left half of M(e)[value of: 100505001]
+1200: Transfer M(5)[value of: 26] to the AC(26)
+1201: Add M(1)[value of: 1] to the AC(27), put the result in the AC(27)
+1202: Transfer contents of AC(27) to M(5)[value of: 27]
+1203: Replace left address field at M(d)[value of: 60270f012] by 12 rightmost bits of AC(27)
+1204: Transfer M(7)[value of: 2f] to the AC(2f)
+1205: Subtract M(5)[value of: 27] from the AC(8), put the result in the AC(8)
+1206: If the number in AC(8) is nonnegative, take next instruction from right half of M(c)[value of: 90250a000]
+1207: Transfer contents of register MQ to the AC(3cb)
+1208: Subtract M(27)[value of: b1] from the AC(31a), put the result in the AC(31a)
+1209: If the number in AC(31a) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1210: Transfer M(5)[value of: 27] to the AC(27)
+1211: Replace left address field at M(13)[value of: 902721003] by 12 rightmost bits of AC(27)
+1212: Transfer contents of M(27)[value of: b1] to MQ
+1213: Transfer contents of AC(27) to M(3)[value of: 27]
+1214: Take next instruction from left half of M(e)[value of: 100505001]
+1215: Transfer M(5)[value of: 27] to the AC(27)
+1216: Add M(1)[value of: 1] to the AC(28), put the result in the AC(28)
+1217: Transfer contents of AC(28) to M(5)[value of: 28]
+1218: Replace left address field at M(d)[value of: 60280f012] by 12 rightmost bits of AC(28)
+1219: Transfer M(7)[value of: 2f] to the AC(2f)
+1220: Subtract M(5)[value of: 28] from the AC(7), put the result in the AC(7)
+1221: If the number in AC(7) is nonnegative, take next instruction from right half of M(c)[value of: 90250a000]
+1222: Transfer contents of register MQ to the AC(b1)
+1223: Subtract M(28)[value of: a0] from the AC(11), put the result in the AC(11)
+1224: If the number in AC(11) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1225: Transfer M(5)[value of: 28] to the AC(28)
+1226: Replace left address field at M(13)[value of: 902821003] by 12 rightmost bits of AC(28)
+1227: Transfer contents of M(28)[value of: a0] to MQ
+1228: Transfer contents of AC(28) to M(3)[value of: 28]
+1229: Take next instruction from left half of M(e)[value of: 100505001]
+1230: Transfer M(5)[value of: 28] to the AC(28)
+1231: Add M(1)[value of: 1] to the AC(29), put the result in the AC(29)
+1232: Transfer contents of AC(29) to M(5)[value of: 29]
+1233: Replace left address field at M(d)[value of: 60290f012] by 12 rightmost bits of AC(29)
+1234: Transfer M(7)[value of: 2f] to the AC(2f)
+1235: Subtract M(5)[value of: 29] from the AC(6), put the result in the AC(6)
+1236: If the number in AC(6) is nonnegative, take next instruction from right half of M(c)[value of: 90250a000]
+1237: Transfer contents of register MQ to the AC(a0)
+1238: Subtract M(29)[value of: ae] from the AC(fffffffffffffff2), put the result in the AC(fffffffffffffff2)
+1239: If the number in AC(fffffffffffffff2) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1240: Transfer M(5)[value of: 29] to the AC(29)
+1241: Add M(1)[value of: 1] to the AC(2a), put the result in the AC(2a)
+1242: Transfer contents of AC(2a) to M(5)[value of: 2a]
+1243: Replace left address field at M(d)[value of: 602a0f012] by 12 rightmost bits of AC(2a)
+1244: Transfer M(7)[value of: 2f] to the AC(2f)
+1245: Subtract M(5)[value of: 2a] from the AC(5), put the result in the AC(5)
+1246: If the number in AC(5) is nonnegative, take next instruction from right half of M(c)[value of: 90250a000]
+1247: Transfer contents of register MQ to the AC(a0)
+1248: Subtract M(2a)[value of: bc] from the AC(ffffffffffffffe4), put the result in the AC(ffffffffffffffe4)
+1249: If the number in AC(ffffffffffffffe4) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1250: Transfer M(5)[value of: 2a] to the AC(2a)
+1251: Add M(1)[value of: 1] to the AC(2b), put the result in the AC(2b)
+1252: Transfer contents of AC(2b) to M(5)[value of: 2b]
+1253: Replace left address field at M(d)[value of: 602b0f012] by 12 rightmost bits of AC(2b)
+1254: Transfer M(7)[value of: 2f] to the AC(2f)
+1255: Subtract M(5)[value of: 2b] from the AC(4), put the result in the AC(4)
+1256: If the number in AC(4) is nonnegative, take next instruction from right half of M(c)[value of: 90250a000]
+1257: Transfer contents of register MQ to the AC(a0)
+1258: Subtract M(2b)[value of: fe] from the AC(ffffffffffffffa2), put the result in the AC(ffffffffffffffa2)
+1259: If the number in AC(ffffffffffffffa2) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1260: Transfer M(5)[value of: 2b] to the AC(2b)
+1261: Add M(1)[value of: 1] to the AC(2c), put the result in the AC(2c)
+1262: Transfer contents of AC(2c) to M(5)[value of: 2c]
+1263: Replace left address field at M(d)[value of: 602c0f012] by 12 rightmost bits of AC(2c)
+1264: Transfer M(7)[value of: 2f] to the AC(2f)
+1265: Subtract M(5)[value of: 2c] from the AC(3), put the result in the AC(3)
+1266: If the number in AC(3) is nonnegative, take next instruction from right half of M(c)[value of: 90250a000]
+1267: Transfer contents of register MQ to the AC(a0)
+1268: Subtract M(2c)[value of: 2a] from the AC(76), put the result in the AC(76)
+1269: If the number in AC(76) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1270: Transfer M(5)[value of: 2c] to the AC(2c)
+1271: Replace left address field at M(13)[value of: 902c21003] by 12 rightmost bits of AC(2c)
+1272: Transfer contents of M(2c)[value of: 2a] to MQ
+1273: Transfer contents of AC(2c) to M(3)[value of: 2c]
+1274: Take next instruction from left half of M(e)[value of: 100505001]
+1275: Transfer M(5)[value of: 2c] to the AC(2c)
+1276: Add M(1)[value of: 1] to the AC(2d), put the result in the AC(2d)
+1277: Transfer contents of AC(2d) to M(5)[value of: 2d]
+1278: Replace left address field at M(d)[value of: 602d0f012] by 12 rightmost bits of AC(2d)
+1279: Transfer M(7)[value of: 2f] to the AC(2f)
+1280: Subtract M(5)[value of: 2d] from the AC(2), put the result in the AC(2)
+1281: If the number in AC(2) is nonnegative, take next instruction from right half of M(c)[value of: 90250a000]
+1282: Transfer contents of register MQ to the AC(2a)
+1283: Subtract M(2d)[value of: 3c] from the AC(ffffffffffffffee), put the result in the AC(ffffffffffffffee)
+1284: If the number in AC(ffffffffffffffee) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1285: Transfer M(5)[value of: 2d] to the AC(2d)
+1286: Add M(1)[value of: 1] to the AC(2e), put the result in the AC(2e)
+1287: Transfer contents of AC(2e) to M(5)[value of: 2e]
+1288: Replace left address field at M(d)[value of: 602e0f012] by 12 rightmost bits of AC(2e)
+1289: Transfer M(7)[value of: 2f] to the AC(2f)
+1290: Subtract M(5)[value of: 2e] from the AC(1), put the result in the AC(1)
+1291: If the number in AC(1) is nonnegative, take next instruction from right half of M(c)[value of: 90250a000]
+1292: Transfer contents of register MQ to the AC(2a)
+1293: Subtract M(2e)[value of: 5f] from the AC(ffffffffffffffcb), put the result in the AC(ffffffffffffffcb)
+1294: If the number in AC(ffffffffffffffcb) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1295: Transfer M(5)[value of: 2e] to the AC(2e)
+1296: Add M(1)[value of: 1] to the AC(2f), put the result in the AC(2f)
+1297: Transfer contents of AC(2f) to M(5)[value of: 2f]
+1298: Replace left address field at M(d)[value of: 602f0f012] by 12 rightmost bits of AC(2f)
+1299: Transfer M(7)[value of: 2f] to the AC(2f)
+1300: Subtract M(5)[value of: 2f] from the AC(0), put the result in the AC(0)
+1301: If the number in AC(0) is nonnegative, take next instruction from right half of M(c)[value of: 90250a000]
+1302: Take next instruction from right half of M(14)[value of: d00e01004]
+1303: Transfer M(4)[value of: 25] to the AC(25)
+1304: Replace left address field at M(17)[value of: 102521025] by 12 rightmost bits of AC(25)
+1305: Replace right address field at M(18)[value of: a00021025] by 12 rightmost bits of AC(25)
+1306: Transfer M(3)[value of: 2c] to the AC(2c)
+1307: Replace right address field at M(17)[value of: 10252102c] by 12 rightmost bits of AC(2c)
+1308: Transfer M(25)[value of: fff] to the AC(fff)
+1309: Transfer contents of AC(fff) to M(2c)[value of: fff]
+1310: Transfer contents of register MQ to the AC(2a)
+1311: Transfer contents of AC(2a) to M(25)[value of: 2a]
+1312: Transfer M(4)[value of: 25] to the AC(25)
+1313: Add M(1)[value of: 1] to the AC(26), put the result in the AC(26)
+1314: Replace right address field at M(4)[value of: 26] by 12 rightmost bits of AC(26)
+1315: Replace right address field at M(6)[value of: 26] by 12 rightmost bits of AC(26)
+1316: Add M(1)[value of: 1] to the AC(27), put the result in the AC(27)
+1317: Transfer contents of AC(27) to M(5)[value of: 27]
+1318: Transfer M(7)[value of: 2f] to the AC(2f)
+1319: Subtract M(5)[value of: 27] from the AC(8), put the result in the AC(8)
+1320: If the number in AC(8) is nonnegative, take next instruction from left half of M(8)[value of: 10061200c]
+1321: Transfer M(6)[value of: 26] to the AC(26)
+1322: Replace left address field at M(c)[value of: 90260a000] by 12 rightmost bits of AC(26)
+1323: Replace right address field at M(3)[value of: 26] by 12 rightmost bits of AC(26)
+1324: Take next instruction from left half of M(a)[value of: 1300405001]
+1325: Replace right address field at M(4)[value of: 26] by 12 rightmost bits of AC(26)
+1326: Add M(1)[value of: 1] to the AC(27), put the result in the AC(27)
+1327: Replace right address field at M(5)[value of: 27] by 12 rightmost bits of AC(27)
+1328: Replace left address field at M(d)[value of: 60270f012] by 12 rightmost bits of AC(27)
+1329: Transfer contents of M(26)[value of: 3cb] to MQ
+1330: Transfer contents of register MQ to the AC(3cb)
+1331: Subtract M(27)[value of: b1] from the AC(31a), put the result in the AC(31a)
+1332: If the number in AC(31a) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1333: Transfer M(5)[value of: 27] to the AC(27)
+1334: Replace left address field at M(13)[value of: 902721003] by 12 rightmost bits of AC(27)
+1335: Transfer contents of M(27)[value of: b1] to MQ
+1336: Transfer contents of AC(27) to M(3)[value of: 27]
+1337: Take next instruction from left half of M(e)[value of: 100505001]
+1338: Transfer M(5)[value of: 27] to the AC(27)
+1339: Add M(1)[value of: 1] to the AC(28), put the result in the AC(28)
+1340: Transfer contents of AC(28) to M(5)[value of: 28]
+1341: Replace left address field at M(d)[value of: 60280f012] by 12 rightmost bits of AC(28)
+1342: Transfer M(7)[value of: 2f] to the AC(2f)
+1343: Subtract M(5)[value of: 28] from the AC(7), put the result in the AC(7)
+1344: If the number in AC(7) is nonnegative, take next instruction from right half of M(c)[value of: 90260a000]
+1345: Transfer contents of register MQ to the AC(b1)
+1346: Subtract M(28)[value of: a0] from the AC(11), put the result in the AC(11)
+1347: If the number in AC(11) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1348: Transfer M(5)[value of: 28] to the AC(28)
+1349: Replace left address field at M(13)[value of: 902821003] by 12 rightmost bits of AC(28)
+1350: Transfer contents of M(28)[value of: a0] to MQ
+1351: Transfer contents of AC(28) to M(3)[value of: 28]
+1352: Take next instruction from left half of M(e)[value of: 100505001]
+1353: Transfer M(5)[value of: 28] to the AC(28)
+1354: Add M(1)[value of: 1] to the AC(29), put the result in the AC(29)
+1355: Transfer contents of AC(29) to M(5)[value of: 29]
+1356: Replace left address field at M(d)[value of: 60290f012] by 12 rightmost bits of AC(29)
+1357: Transfer M(7)[value of: 2f] to the AC(2f)
+1358: Subtract M(5)[value of: 29] from the AC(6), put the result in the AC(6)
+1359: If the number in AC(6) is nonnegative, take next instruction from right half of M(c)[value of: 90260a000]
+1360: Transfer contents of register MQ to the AC(a0)
+1361: Subtract M(29)[value of: ae] from the AC(fffffffffffffff2), put the result in the AC(fffffffffffffff2)
+1362: If the number in AC(fffffffffffffff2) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1363: Transfer M(5)[value of: 29] to the AC(29)
+1364: Add M(1)[value of: 1] to the AC(2a), put the result in the AC(2a)
+1365: Transfer contents of AC(2a) to M(5)[value of: 2a]
+1366: Replace left address field at M(d)[value of: 602a0f012] by 12 rightmost bits of AC(2a)
+1367: Transfer M(7)[value of: 2f] to the AC(2f)
+1368: Subtract M(5)[value of: 2a] from the AC(5), put the result in the AC(5)
+1369: If the number in AC(5) is nonnegative, take next instruction from right half of M(c)[value of: 90260a000]
+1370: Transfer contents of register MQ to the AC(a0)
+1371: Subtract M(2a)[value of: bc] from the AC(ffffffffffffffe4), put the result in the AC(ffffffffffffffe4)
+1372: If the number in AC(ffffffffffffffe4) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1373: Transfer M(5)[value of: 2a] to the AC(2a)
+1374: Add M(1)[value of: 1] to the AC(2b), put the result in the AC(2b)
+1375: Transfer contents of AC(2b) to M(5)[value of: 2b]
+1376: Replace left address field at M(d)[value of: 602b0f012] by 12 rightmost bits of AC(2b)
+1377: Transfer M(7)[value of: 2f] to the AC(2f)
+1378: Subtract M(5)[value of: 2b] from the AC(4), put the result in the AC(4)
+1379: If the number in AC(4) is nonnegative, take next instruction from right half of M(c)[value of: 90260a000]
+1380: Transfer contents of register MQ to the AC(a0)
+1381: Subtract M(2b)[value of: fe] from the AC(ffffffffffffffa2), put the result in the AC(ffffffffffffffa2)
+1382: If the number in AC(ffffffffffffffa2) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1383: Transfer M(5)[value of: 2b] to the AC(2b)
+1384: Add M(1)[value of: 1] to the AC(2c), put the result in the AC(2c)
+1385: Transfer contents of AC(2c) to M(5)[value of: 2c]
+1386: Replace left address field at M(d)[value of: 602c0f012] by 12 rightmost bits of AC(2c)
+1387: Transfer M(7)[value of: 2f] to the AC(2f)
+1388: Subtract M(5)[value of: 2c] from the AC(3), put the result in the AC(3)
+1389: If the number in AC(3) is nonnegative, take next instruction from right half of M(c)[value of: 90260a000]
+1390: Transfer contents of register MQ to the AC(a0)
+1391: Subtract M(2c)[value of: fff] from the AC(fffffffffffff0a1), put the result in the AC(fffffffffffff0a1)
+1392: If the number in AC(fffffffffffff0a1) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1393: Transfer M(5)[value of: 2c] to the AC(2c)
+1394: Add M(1)[value of: 1] to the AC(2d), put the result in the AC(2d)
+1395: Transfer contents of AC(2d) to M(5)[value of: 2d]
+1396: Replace left address field at M(d)[value of: 602d0f012] by 12 rightmost bits of AC(2d)
+1397: Transfer M(7)[value of: 2f] to the AC(2f)
+1398: Subtract M(5)[value of: 2d] from the AC(2), put the result in the AC(2)
+1399: If the number in AC(2) is nonnegative, take next instruction from right half of M(c)[value of: 90260a000]
+1400: Transfer contents of register MQ to the AC(a0)
+1401: Subtract M(2d)[value of: 3c] from the AC(64), put the result in the AC(64)
+1402: If the number in AC(64) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1403: Transfer M(5)[value of: 2d] to the AC(2d)
+1404: Replace left address field at M(13)[value of: 902d21003] by 12 rightmost bits of AC(2d)
+1405: Transfer contents of M(2d)[value of: 3c] to MQ
+1406: Transfer contents of AC(2d) to M(3)[value of: 2d]
+1407: Take next instruction from left half of M(e)[value of: 100505001]
+1408: Transfer M(5)[value of: 2d] to the AC(2d)
+1409: Add M(1)[value of: 1] to the AC(2e), put the result in the AC(2e)
+1410: Transfer contents of AC(2e) to M(5)[value of: 2e]
+1411: Replace left address field at M(d)[value of: 602e0f012] by 12 rightmost bits of AC(2e)
+1412: Transfer M(7)[value of: 2f] to the AC(2f)
+1413: Subtract M(5)[value of: 2e] from the AC(1), put the result in the AC(1)
+1414: If the number in AC(1) is nonnegative, take next instruction from right half of M(c)[value of: 90260a000]
+1415: Transfer contents of register MQ to the AC(3c)
+1416: Subtract M(2e)[value of: 5f] from the AC(ffffffffffffffdd), put the result in the AC(ffffffffffffffdd)
+1417: If the number in AC(ffffffffffffffdd) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1418: Transfer M(5)[value of: 2e] to the AC(2e)
+1419: Add M(1)[value of: 1] to the AC(2f), put the result in the AC(2f)
+1420: Transfer contents of AC(2f) to M(5)[value of: 2f]
+1421: Replace left address field at M(d)[value of: 602f0f012] by 12 rightmost bits of AC(2f)
+1422: Transfer M(7)[value of: 2f] to the AC(2f)
+1423: Subtract M(5)[value of: 2f] from the AC(0), put the result in the AC(0)
+1424: If the number in AC(0) is nonnegative, take next instruction from right half of M(c)[value of: 90260a000]
+1425: Take next instruction from right half of M(14)[value of: d00e01004]
+1426: Transfer M(4)[value of: 26] to the AC(26)
+1427: Replace left address field at M(17)[value of: 10262102c] by 12 rightmost bits of AC(26)
+1428: Replace right address field at M(18)[value of: a00021026] by 12 rightmost bits of AC(26)
+1429: Transfer M(3)[value of: 2d] to the AC(2d)
+1430: Replace right address field at M(17)[value of: 10262102d] by 12 rightmost bits of AC(2d)
+1431: Transfer M(26)[value of: 3cb] to the AC(3cb)
+1432: Transfer contents of AC(3cb) to M(2d)[value of: 3cb]
+1433: Transfer contents of register MQ to the AC(3c)
+1434: Transfer contents of AC(3c) to M(26)[value of: 3c]
+1435: Transfer M(4)[value of: 26] to the AC(26)
+1436: Add M(1)[value of: 1] to the AC(27), put the result in the AC(27)
+1437: Replace right address field at M(4)[value of: 27] by 12 rightmost bits of AC(27)
+1438: Replace right address field at M(6)[value of: 27] by 12 rightmost bits of AC(27)
+1439: Add M(1)[value of: 1] to the AC(28), put the result in the AC(28)
+1440: Transfer contents of AC(28) to M(5)[value of: 28]
+1441: Transfer M(7)[value of: 2f] to the AC(2f)
+1442: Subtract M(5)[value of: 28] from the AC(7), put the result in the AC(7)
+1443: If the number in AC(7) is nonnegative, take next instruction from left half of M(8)[value of: 10061200c]
+1444: Transfer M(6)[value of: 27] to the AC(27)
+1445: Replace left address field at M(c)[value of: 90270a000] by 12 rightmost bits of AC(27)
+1446: Replace right address field at M(3)[value of: 27] by 12 rightmost bits of AC(27)
+1447: Take next instruction from left half of M(a)[value of: 1300405001]
+1448: Replace right address field at M(4)[value of: 27] by 12 rightmost bits of AC(27)
+1449: Add M(1)[value of: 1] to the AC(28), put the result in the AC(28)
+1450: Replace right address field at M(5)[value of: 28] by 12 rightmost bits of AC(28)
+1451: Replace left address field at M(d)[value of: 60280f012] by 12 rightmost bits of AC(28)
+1452: Transfer contents of M(27)[value of: b1] to MQ
+1453: Transfer contents of register MQ to the AC(b1)
+1454: Subtract M(28)[value of: a0] from the AC(11), put the result in the AC(11)
+1455: If the number in AC(11) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1456: Transfer M(5)[value of: 28] to the AC(28)
+1457: Replace left address field at M(13)[value of: 902821003] by 12 rightmost bits of AC(28)
+1458: Transfer contents of M(28)[value of: a0] to MQ
+1459: Transfer contents of AC(28) to M(3)[value of: 28]
+1460: Take next instruction from left half of M(e)[value of: 100505001]
+1461: Transfer M(5)[value of: 28] to the AC(28)
+1462: Add M(1)[value of: 1] to the AC(29), put the result in the AC(29)
+1463: Transfer contents of AC(29) to M(5)[value of: 29]
+1464: Replace left address field at M(d)[value of: 60290f012] by 12 rightmost bits of AC(29)
+1465: Transfer M(7)[value of: 2f] to the AC(2f)
+1466: Subtract M(5)[value of: 29] from the AC(6), put the result in the AC(6)
+1467: If the number in AC(6) is nonnegative, take next instruction from right half of M(c)[value of: 90270a000]
+1468: Transfer contents of register MQ to the AC(a0)
+1469: Subtract M(29)[value of: ae] from the AC(fffffffffffffff2), put the result in the AC(fffffffffffffff2)
+1470: If the number in AC(fffffffffffffff2) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1471: Transfer M(5)[value of: 29] to the AC(29)
+1472: Add M(1)[value of: 1] to the AC(2a), put the result in the AC(2a)
+1473: Transfer contents of AC(2a) to M(5)[value of: 2a]
+1474: Replace left address field at M(d)[value of: 602a0f012] by 12 rightmost bits of AC(2a)
+1475: Transfer M(7)[value of: 2f] to the AC(2f)
+1476: Subtract M(5)[value of: 2a] from the AC(5), put the result in the AC(5)
+1477: If the number in AC(5) is nonnegative, take next instruction from right half of M(c)[value of: 90270a000]
+1478: Transfer contents of register MQ to the AC(a0)
+1479: Subtract M(2a)[value of: bc] from the AC(ffffffffffffffe4), put the result in the AC(ffffffffffffffe4)
+1480: If the number in AC(ffffffffffffffe4) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1481: Transfer M(5)[value of: 2a] to the AC(2a)
+1482: Add M(1)[value of: 1] to the AC(2b), put the result in the AC(2b)
+1483: Transfer contents of AC(2b) to M(5)[value of: 2b]
+1484: Replace left address field at M(d)[value of: 602b0f012] by 12 rightmost bits of AC(2b)
+1485: Transfer M(7)[value of: 2f] to the AC(2f)
+1486: Subtract M(5)[value of: 2b] from the AC(4), put the result in the AC(4)
+1487: If the number in AC(4) is nonnegative, take next instruction from right half of M(c)[value of: 90270a000]
+1488: Transfer contents of register MQ to the AC(a0)
+1489: Subtract M(2b)[value of: fe] from the AC(ffffffffffffffa2), put the result in the AC(ffffffffffffffa2)
+1490: If the number in AC(ffffffffffffffa2) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1491: Transfer M(5)[value of: 2b] to the AC(2b)
+1492: Add M(1)[value of: 1] to the AC(2c), put the result in the AC(2c)
+1493: Transfer contents of AC(2c) to M(5)[value of: 2c]
+1494: Replace left address field at M(d)[value of: 602c0f012] by 12 rightmost bits of AC(2c)
+1495: Transfer M(7)[value of: 2f] to the AC(2f)
+1496: Subtract M(5)[value of: 2c] from the AC(3), put the result in the AC(3)
+1497: If the number in AC(3) is nonnegative, take next instruction from right half of M(c)[value of: 90270a000]
+1498: Transfer contents of register MQ to the AC(a0)
+1499: Subtract M(2c)[value of: fff] from the AC(fffffffffffff0a1), put the result in the AC(fffffffffffff0a1)
+1500: If the number in AC(fffffffffffff0a1) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1501: Transfer M(5)[value of: 2c] to the AC(2c)
+1502: Add M(1)[value of: 1] to the AC(2d), put the result in the AC(2d)
+1503: Transfer contents of AC(2d) to M(5)[value of: 2d]
+1504: Replace left address field at M(d)[value of: 602d0f012] by 12 rightmost bits of AC(2d)
+1505: Transfer M(7)[value of: 2f] to the AC(2f)
+1506: Subtract M(5)[value of: 2d] from the AC(2), put the result in the AC(2)
+1507: If the number in AC(2) is nonnegative, take next instruction from right half of M(c)[value of: 90270a000]
+1508: Transfer contents of register MQ to the AC(a0)
+1509: Subtract M(2d)[value of: 3cb] from the AC(fffffffffffffcd5), put the result in the AC(fffffffffffffcd5)
+1510: If the number in AC(fffffffffffffcd5) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1511: Transfer M(5)[value of: 2d] to the AC(2d)
+1512: Add M(1)[value of: 1] to the AC(2e), put the result in the AC(2e)
+1513: Transfer contents of AC(2e) to M(5)[value of: 2e]
+1514: Replace left address field at M(d)[value of: 602e0f012] by 12 rightmost bits of AC(2e)
+1515: Transfer M(7)[value of: 2f] to the AC(2f)
+1516: Subtract M(5)[value of: 2e] from the AC(1), put the result in the AC(1)
+1517: If the number in AC(1) is nonnegative, take next instruction from right half of M(c)[value of: 90270a000]
+1518: Transfer contents of register MQ to the AC(a0)
+1519: Subtract M(2e)[value of: 5f] from the AC(41), put the result in the AC(41)
+1520: If the number in AC(41) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1521: Transfer M(5)[value of: 2e] to the AC(2e)
+1522: Replace left address field at M(13)[value of: 902e21003] by 12 rightmost bits of AC(2e)
+1523: Transfer contents of M(2e)[value of: 5f] to MQ
+1524: Transfer contents of AC(2e) to M(3)[value of: 2e]
+1525: Take next instruction from left half of M(e)[value of: 100505001]
+1526: Transfer M(5)[value of: 2e] to the AC(2e)
+1527: Add M(1)[value of: 1] to the AC(2f), put the result in the AC(2f)
+1528: Transfer contents of AC(2f) to M(5)[value of: 2f]
+1529: Replace left address field at M(d)[value of: 602f0f012] by 12 rightmost bits of AC(2f)
+1530: Transfer M(7)[value of: 2f] to the AC(2f)
+1531: Subtract M(5)[value of: 2f] from the AC(0), put the result in the AC(0)
+1532: If the number in AC(0) is nonnegative, take next instruction from right half of M(c)[value of: 90270a000]
+1533: Take next instruction from right half of M(14)[value of: d00e01004]
+1534: Transfer M(4)[value of: 27] to the AC(27)
+1535: Replace left address field at M(17)[value of: 10272102d] by 12 rightmost bits of AC(27)
+1536: Replace right address field at M(18)[value of: a00021027] by 12 rightmost bits of AC(27)
+1537: Transfer M(3)[value of: 2e] to the AC(2e)
+1538: Replace right address field at M(17)[value of: 10272102e] by 12 rightmost bits of AC(2e)
+1539: Transfer M(27)[value of: b1] to the AC(b1)
+1540: Transfer contents of AC(b1) to M(2e)[value of: b1]
+1541: Transfer contents of register MQ to the AC(5f)
+1542: Transfer contents of AC(5f) to M(27)[value of: 5f]
+1543: Transfer M(4)[value of: 27] to the AC(27)
+1544: Add M(1)[value of: 1] to the AC(28), put the result in the AC(28)
+1545: Replace right address field at M(4)[value of: 28] by 12 rightmost bits of AC(28)
+1546: Replace right address field at M(6)[value of: 28] by 12 rightmost bits of AC(28)
+1547: Add M(1)[value of: 1] to the AC(29), put the result in the AC(29)
+1548: Transfer contents of AC(29) to M(5)[value of: 29]
+1549: Transfer M(7)[value of: 2f] to the AC(2f)
+1550: Subtract M(5)[value of: 29] from the AC(6), put the result in the AC(6)
+1551: If the number in AC(6) is nonnegative, take next instruction from left half of M(8)[value of: 10061200c]
+1552: Transfer M(6)[value of: 28] to the AC(28)
+1553: Replace left address field at M(c)[value of: 90280a000] by 12 rightmost bits of AC(28)
+1554: Replace right address field at M(3)[value of: 28] by 12 rightmost bits of AC(28)
+1555: Take next instruction from left half of M(a)[value of: 1300405001]
+1556: Replace right address field at M(4)[value of: 28] by 12 rightmost bits of AC(28)
+1557: Add M(1)[value of: 1] to the AC(29), put the result in the AC(29)
+1558: Replace right address field at M(5)[value of: 29] by 12 rightmost bits of AC(29)
+1559: Replace left address field at M(d)[value of: 60290f012] by 12 rightmost bits of AC(29)
+1560: Transfer contents of M(28)[value of: a0] to MQ
+1561: Transfer contents of register MQ to the AC(a0)
+1562: Subtract M(29)[value of: ae] from the AC(fffffffffffffff2), put the result in the AC(fffffffffffffff2)
+1563: If the number in AC(fffffffffffffff2) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1564: Transfer M(5)[value of: 29] to the AC(29)
+1565: Add M(1)[value of: 1] to the AC(2a), put the result in the AC(2a)
+1566: Transfer contents of AC(2a) to M(5)[value of: 2a]
+1567: Replace left address field at M(d)[value of: 602a0f012] by 12 rightmost bits of AC(2a)
+1568: Transfer M(7)[value of: 2f] to the AC(2f)
+1569: Subtract M(5)[value of: 2a] from the AC(5), put the result in the AC(5)
+1570: If the number in AC(5) is nonnegative, take next instruction from right half of M(c)[value of: 90280a000]
+1571: Transfer contents of register MQ to the AC(a0)
+1572: Subtract M(2a)[value of: bc] from the AC(ffffffffffffffe4), put the result in the AC(ffffffffffffffe4)
+1573: If the number in AC(ffffffffffffffe4) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1574: Transfer M(5)[value of: 2a] to the AC(2a)
+1575: Add M(1)[value of: 1] to the AC(2b), put the result in the AC(2b)
+1576: Transfer contents of AC(2b) to M(5)[value of: 2b]
+1577: Replace left address field at M(d)[value of: 602b0f012] by 12 rightmost bits of AC(2b)
+1578: Transfer M(7)[value of: 2f] to the AC(2f)
+1579: Subtract M(5)[value of: 2b] from the AC(4), put the result in the AC(4)
+1580: If the number in AC(4) is nonnegative, take next instruction from right half of M(c)[value of: 90280a000]
+1581: Transfer contents of register MQ to the AC(a0)
+1582: Subtract M(2b)[value of: fe] from the AC(ffffffffffffffa2), put the result in the AC(ffffffffffffffa2)
+1583: If the number in AC(ffffffffffffffa2) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1584: Transfer M(5)[value of: 2b] to the AC(2b)
+1585: Add M(1)[value of: 1] to the AC(2c), put the result in the AC(2c)
+1586: Transfer contents of AC(2c) to M(5)[value of: 2c]
+1587: Replace left address field at M(d)[value of: 602c0f012] by 12 rightmost bits of AC(2c)
+1588: Transfer M(7)[value of: 2f] to the AC(2f)
+1589: Subtract M(5)[value of: 2c] from the AC(3), put the result in the AC(3)
+1590: If the number in AC(3) is nonnegative, take next instruction from right half of M(c)[value of: 90280a000]
+1591: Transfer contents of register MQ to the AC(a0)
+1592: Subtract M(2c)[value of: fff] from the AC(fffffffffffff0a1), put the result in the AC(fffffffffffff0a1)
+1593: If the number in AC(fffffffffffff0a1) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1594: Transfer M(5)[value of: 2c] to the AC(2c)
+1595: Add M(1)[value of: 1] to the AC(2d), put the result in the AC(2d)
+1596: Transfer contents of AC(2d) to M(5)[value of: 2d]
+1597: Replace left address field at M(d)[value of: 602d0f012] by 12 rightmost bits of AC(2d)
+1598: Transfer M(7)[value of: 2f] to the AC(2f)
+1599: Subtract M(5)[value of: 2d] from the AC(2), put the result in the AC(2)
+1600: If the number in AC(2) is nonnegative, take next instruction from right half of M(c)[value of: 90280a000]
+1601: Transfer contents of register MQ to the AC(a0)
+1602: Subtract M(2d)[value of: 3cb] from the AC(fffffffffffffcd5), put the result in the AC(fffffffffffffcd5)
+1603: If the number in AC(fffffffffffffcd5) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1604: Transfer M(5)[value of: 2d] to the AC(2d)
+1605: Add M(1)[value of: 1] to the AC(2e), put the result in the AC(2e)
+1606: Transfer contents of AC(2e) to M(5)[value of: 2e]
+1607: Replace left address field at M(d)[value of: 602e0f012] by 12 rightmost bits of AC(2e)
+1608: Transfer M(7)[value of: 2f] to the AC(2f)
+1609: Subtract M(5)[value of: 2e] from the AC(1), put the result in the AC(1)
+1610: If the number in AC(1) is nonnegative, take next instruction from right half of M(c)[value of: 90280a000]
+1611: Transfer contents of register MQ to the AC(a0)
+1612: Subtract M(2e)[value of: b1] from the AC(ffffffffffffffef), put the result in the AC(ffffffffffffffef)
+1613: If the number in AC(ffffffffffffffef) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1614: Transfer M(5)[value of: 2e] to the AC(2e)
+1615: Add M(1)[value of: 1] to the AC(2f), put the result in the AC(2f)
+1616: Transfer contents of AC(2f) to M(5)[value of: 2f]
+1617: Replace left address field at M(d)[value of: 602f0f012] by 12 rightmost bits of AC(2f)
+1618: Transfer M(7)[value of: 2f] to the AC(2f)
+1619: Subtract M(5)[value of: 2f] from the AC(0), put the result in the AC(0)
+1620: If the number in AC(0) is nonnegative, take next instruction from right half of M(c)[value of: 90280a000]
+1621: Take next instruction from right half of M(14)[value of: d00e01004]
+1622: Transfer M(4)[value of: 28] to the AC(28)
+1623: Replace left address field at M(17)[value of: 10282102e] by 12 rightmost bits of AC(28)
+1624: Replace right address field at M(18)[value of: a00021028] by 12 rightmost bits of AC(28)
+1625: Transfer M(3)[value of: 28] to the AC(28)
+1626: Replace right address field at M(17)[value of: 102821028] by 12 rightmost bits of AC(28)
+1627: Transfer M(28)[value of: a0] to the AC(a0)
+1628: Transfer contents of AC(a0) to M(28)[value of: a0]
+1629: Transfer contents of register MQ to the AC(a0)
+1630: Transfer contents of AC(a0) to M(28)[value of: a0]
+1631: Transfer M(4)[value of: 28] to the AC(28)
+1632: Add M(1)[value of: 1] to the AC(29), put the result in the AC(29)
+1633: Replace right address field at M(4)[value of: 29] by 12 rightmost bits of AC(29)
+1634: Replace right address field at M(6)[value of: 29] by 12 rightmost bits of AC(29)
+1635: Add M(1)[value of: 1] to the AC(2a), put the result in the AC(2a)
+1636: Transfer contents of AC(2a) to M(5)[value of: 2a]
+1637: Transfer M(7)[value of: 2f] to the AC(2f)
+1638: Subtract M(5)[value of: 2a] from the AC(5), put the result in the AC(5)
+1639: If the number in AC(5) is nonnegative, take next instruction from left half of M(8)[value of: 10061200c]
+1640: Transfer M(6)[value of: 29] to the AC(29)
+1641: Replace left address field at M(c)[value of: 90290a000] by 12 rightmost bits of AC(29)
+1642: Replace right address field at M(3)[value of: 29] by 12 rightmost bits of AC(29)
+1643: Take next instruction from left half of M(a)[value of: 1300405001]
+1644: Replace right address field at M(4)[value of: 29] by 12 rightmost bits of AC(29)
+1645: Add M(1)[value of: 1] to the AC(2a), put the result in the AC(2a)
+1646: Replace right address field at M(5)[value of: 2a] by 12 rightmost bits of AC(2a)
+1647: Replace left address field at M(d)[value of: 602a0f012] by 12 rightmost bits of AC(2a)
+1648: Transfer contents of M(29)[value of: ae] to MQ
+1649: Transfer contents of register MQ to the AC(ae)
+1650: Subtract M(2a)[value of: bc] from the AC(fffffffffffffff2), put the result in the AC(fffffffffffffff2)
+1651: If the number in AC(fffffffffffffff2) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1652: Transfer M(5)[value of: 2a] to the AC(2a)
+1653: Add M(1)[value of: 1] to the AC(2b), put the result in the AC(2b)
+1654: Transfer contents of AC(2b) to M(5)[value of: 2b]
+1655: Replace left address field at M(d)[value of: 602b0f012] by 12 rightmost bits of AC(2b)
+1656: Transfer M(7)[value of: 2f] to the AC(2f)
+1657: Subtract M(5)[value of: 2b] from the AC(4), put the result in the AC(4)
+1658: If the number in AC(4) is nonnegative, take next instruction from right half of M(c)[value of: 90290a000]
+1659: Transfer contents of register MQ to the AC(ae)
+1660: Subtract M(2b)[value of: fe] from the AC(ffffffffffffffb0), put the result in the AC(ffffffffffffffb0)
+1661: If the number in AC(ffffffffffffffb0) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1662: Transfer M(5)[value of: 2b] to the AC(2b)
+1663: Add M(1)[value of: 1] to the AC(2c), put the result in the AC(2c)
+1664: Transfer contents of AC(2c) to M(5)[value of: 2c]
+1665: Replace left address field at M(d)[value of: 602c0f012] by 12 rightmost bits of AC(2c)
+1666: Transfer M(7)[value of: 2f] to the AC(2f)
+1667: Subtract M(5)[value of: 2c] from the AC(3), put the result in the AC(3)
+1668: If the number in AC(3) is nonnegative, take next instruction from right half of M(c)[value of: 90290a000]
+1669: Transfer contents of register MQ to the AC(ae)
+1670: Subtract M(2c)[value of: fff] from the AC(fffffffffffff0af), put the result in the AC(fffffffffffff0af)
+1671: If the number in AC(fffffffffffff0af) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1672: Transfer M(5)[value of: 2c] to the AC(2c)
+1673: Add M(1)[value of: 1] to the AC(2d), put the result in the AC(2d)
+1674: Transfer contents of AC(2d) to M(5)[value of: 2d]
+1675: Replace left address field at M(d)[value of: 602d0f012] by 12 rightmost bits of AC(2d)
+1676: Transfer M(7)[value of: 2f] to the AC(2f)
+1677: Subtract M(5)[value of: 2d] from the AC(2), put the result in the AC(2)
+1678: If the number in AC(2) is nonnegative, take next instruction from right half of M(c)[value of: 90290a000]
+1679: Transfer contents of register MQ to the AC(ae)
+1680: Subtract M(2d)[value of: 3cb] from the AC(fffffffffffffce3), put the result in the AC(fffffffffffffce3)
+1681: If the number in AC(fffffffffffffce3) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1682: Transfer M(5)[value of: 2d] to the AC(2d)
+1683: Add M(1)[value of: 1] to the AC(2e), put the result in the AC(2e)
+1684: Transfer contents of AC(2e) to M(5)[value of: 2e]
+1685: Replace left address field at M(d)[value of: 602e0f012] by 12 rightmost bits of AC(2e)
+1686: Transfer M(7)[value of: 2f] to the AC(2f)
+1687: Subtract M(5)[value of: 2e] from the AC(1), put the result in the AC(1)
+1688: If the number in AC(1) is nonnegative, take next instruction from right half of M(c)[value of: 90290a000]
+1689: Transfer contents of register MQ to the AC(ae)
+1690: Subtract M(2e)[value of: b1] from the AC(fffffffffffffffd), put the result in the AC(fffffffffffffffd)
+1691: If the number in AC(fffffffffffffffd) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1692: Transfer M(5)[value of: 2e] to the AC(2e)
+1693: Add M(1)[value of: 1] to the AC(2f), put the result in the AC(2f)
+1694: Transfer contents of AC(2f) to M(5)[value of: 2f]
+1695: Replace left address field at M(d)[value of: 602f0f012] by 12 rightmost bits of AC(2f)
+1696: Transfer M(7)[value of: 2f] to the AC(2f)
+1697: Subtract M(5)[value of: 2f] from the AC(0), put the result in the AC(0)
+1698: If the number in AC(0) is nonnegative, take next instruction from right half of M(c)[value of: 90290a000]
+1699: Take next instruction from right half of M(14)[value of: d00e01004]
+1700: Transfer M(4)[value of: 29] to the AC(29)
+1701: Replace left address field at M(17)[value of: 102921028] by 12 rightmost bits of AC(29)
+1702: Replace right address field at M(18)[value of: a00021029] by 12 rightmost bits of AC(29)
+1703: Transfer M(3)[value of: 29] to the AC(29)
+1704: Replace right address field at M(17)[value of: 102921029] by 12 rightmost bits of AC(29)
+1705: Transfer M(29)[value of: ae] to the AC(ae)
+1706: Transfer contents of AC(ae) to M(29)[value of: ae]
+1707: Transfer contents of register MQ to the AC(ae)
+1708: Transfer contents of AC(ae) to M(29)[value of: ae]
+1709: Transfer M(4)[value of: 29] to the AC(29)
+1710: Add M(1)[value of: 1] to the AC(2a), put the result in the AC(2a)
+1711: Replace right address field at M(4)[value of: 2a] by 12 rightmost bits of AC(2a)
+1712: Replace right address field at M(6)[value of: 2a] by 12 rightmost bits of AC(2a)
+1713: Add M(1)[value of: 1] to the AC(2b), put the result in the AC(2b)
+1714: Transfer contents of AC(2b) to M(5)[value of: 2b]
+1715: Transfer M(7)[value of: 2f] to the AC(2f)
+1716: Subtract M(5)[value of: 2b] from the AC(4), put the result in the AC(4)
+1717: If the number in AC(4) is nonnegative, take next instruction from left half of M(8)[value of: 10061200c]
+1718: Transfer M(6)[value of: 2a] to the AC(2a)
+1719: Replace left address field at M(c)[value of: 902a0a000] by 12 rightmost bits of AC(2a)
+1720: Replace right address field at M(3)[value of: 2a] by 12 rightmost bits of AC(2a)
+1721: Take next instruction from left half of M(a)[value of: 1300405001]
+1722: Replace right address field at M(4)[value of: 2a] by 12 rightmost bits of AC(2a)
+1723: Add M(1)[value of: 1] to the AC(2b), put the result in the AC(2b)
+1724: Replace right address field at M(5)[value of: 2b] by 12 rightmost bits of AC(2b)
+1725: Replace left address field at M(d)[value of: 602b0f012] by 12 rightmost bits of AC(2b)
+1726: Transfer contents of M(2a)[value of: bc] to MQ
+1727: Transfer contents of register MQ to the AC(bc)
+1728: Subtract M(2b)[value of: fe] from the AC(ffffffffffffffbe), put the result in the AC(ffffffffffffffbe)
+1729: If the number in AC(ffffffffffffffbe) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1730: Transfer M(5)[value of: 2b] to the AC(2b)
+1731: Add M(1)[value of: 1] to the AC(2c), put the result in the AC(2c)
+1732: Transfer contents of AC(2c) to M(5)[value of: 2c]
+1733: Replace left address field at M(d)[value of: 602c0f012] by 12 rightmost bits of AC(2c)
+1734: Transfer M(7)[value of: 2f] to the AC(2f)
+1735: Subtract M(5)[value of: 2c] from the AC(3), put the result in the AC(3)
+1736: If the number in AC(3) is nonnegative, take next instruction from right half of M(c)[value of: 902a0a000]
+1737: Transfer contents of register MQ to the AC(bc)
+1738: Subtract M(2c)[value of: fff] from the AC(fffffffffffff0bd), put the result in the AC(fffffffffffff0bd)
+1739: If the number in AC(fffffffffffff0bd) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1740: Transfer M(5)[value of: 2c] to the AC(2c)
+1741: Add M(1)[value of: 1] to the AC(2d), put the result in the AC(2d)
+1742: Transfer contents of AC(2d) to M(5)[value of: 2d]
+1743: Replace left address field at M(d)[value of: 602d0f012] by 12 rightmost bits of AC(2d)
+1744: Transfer M(7)[value of: 2f] to the AC(2f)
+1745: Subtract M(5)[value of: 2d] from the AC(2), put the result in the AC(2)
+1746: If the number in AC(2) is nonnegative, take next instruction from right half of M(c)[value of: 902a0a000]
+1747: Transfer contents of register MQ to the AC(bc)
+1748: Subtract M(2d)[value of: 3cb] from the AC(fffffffffffffcf1), put the result in the AC(fffffffffffffcf1)
+1749: If the number in AC(fffffffffffffcf1) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1750: Transfer M(5)[value of: 2d] to the AC(2d)
+1751: Add M(1)[value of: 1] to the AC(2e), put the result in the AC(2e)
+1752: Transfer contents of AC(2e) to M(5)[value of: 2e]
+1753: Replace left address field at M(d)[value of: 602e0f012] by 12 rightmost bits of AC(2e)
+1754: Transfer M(7)[value of: 2f] to the AC(2f)
+1755: Subtract M(5)[value of: 2e] from the AC(1), put the result in the AC(1)
+1756: If the number in AC(1) is nonnegative, take next instruction from right half of M(c)[value of: 902a0a000]
+1757: Transfer contents of register MQ to the AC(bc)
+1758: Subtract M(2e)[value of: b1] from the AC(b), put the result in the AC(b)
+1759: If the number in AC(b) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1760: Transfer M(5)[value of: 2e] to the AC(2e)
+1761: Replace left address field at M(13)[value of: 902e21003] by 12 rightmost bits of AC(2e)
+1762: Transfer contents of M(2e)[value of: b1] to MQ
+1763: Transfer contents of AC(2e) to M(3)[value of: 2e]
+1764: Take next instruction from left half of M(e)[value of: 100505001]
+1765: Transfer M(5)[value of: 2e] to the AC(2e)
+1766: Add M(1)[value of: 1] to the AC(2f), put the result in the AC(2f)
+1767: Transfer contents of AC(2f) to M(5)[value of: 2f]
+1768: Replace left address field at M(d)[value of: 602f0f012] by 12 rightmost bits of AC(2f)
+1769: Transfer M(7)[value of: 2f] to the AC(2f)
+1770: Subtract M(5)[value of: 2f] from the AC(0), put the result in the AC(0)
+1771: If the number in AC(0) is nonnegative, take next instruction from right half of M(c)[value of: 902a0a000]
+1772: Take next instruction from right half of M(14)[value of: d00e01004]
+1773: Transfer M(4)[value of: 2a] to the AC(2a)
+1774: Replace left address field at M(17)[value of: 102a21029] by 12 rightmost bits of AC(2a)
+1775: Replace right address field at M(18)[value of: a0002102a] by 12 rightmost bits of AC(2a)
+1776: Transfer M(3)[value of: 2e] to the AC(2e)
+1777: Replace right address field at M(17)[value of: 102a2102e] by 12 rightmost bits of AC(2e)
+1778: Transfer M(2a)[value of: bc] to the AC(bc)
+1779: Transfer contents of AC(bc) to M(2e)[value of: bc]
+1780: Transfer contents of register MQ to the AC(b1)
+1781: Transfer contents of AC(b1) to M(2a)[value of: b1]
+1782: Transfer M(4)[value of: 2a] to the AC(2a)
+1783: Add M(1)[value of: 1] to the AC(2b), put the result in the AC(2b)
+1784: Replace right address field at M(4)[value of: 2b] by 12 rightmost bits of AC(2b)
+1785: Replace right address field at M(6)[value of: 2b] by 12 rightmost bits of AC(2b)
+1786: Add M(1)[value of: 1] to the AC(2c), put the result in the AC(2c)
+1787: Transfer contents of AC(2c) to M(5)[value of: 2c]
+1788: Transfer M(7)[value of: 2f] to the AC(2f)
+1789: Subtract M(5)[value of: 2c] from the AC(3), put the result in the AC(3)
+1790: If the number in AC(3) is nonnegative, take next instruction from left half of M(8)[value of: 10061200c]
+1791: Transfer M(6)[value of: 2b] to the AC(2b)
+1792: Replace left address field at M(c)[value of: 902b0a000] by 12 rightmost bits of AC(2b)
+1793: Replace right address field at M(3)[value of: 2b] by 12 rightmost bits of AC(2b)
+1794: Take next instruction from left half of M(a)[value of: 1300405001]
+1795: Replace right address field at M(4)[value of: 2b] by 12 rightmost bits of AC(2b)
+1796: Add M(1)[value of: 1] to the AC(2c), put the result in the AC(2c)
+1797: Replace right address field at M(5)[value of: 2c] by 12 rightmost bits of AC(2c)
+1798: Replace left address field at M(d)[value of: 602c0f012] by 12 rightmost bits of AC(2c)
+1799: Transfer contents of M(2b)[value of: fe] to MQ
+1800: Transfer contents of register MQ to the AC(fe)
+1801: Subtract M(2c)[value of: fff] from the AC(fffffffffffff0ff), put the result in the AC(fffffffffffff0ff)
+1802: If the number in AC(fffffffffffff0ff) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1803: Transfer M(5)[value of: 2c] to the AC(2c)
+1804: Add M(1)[value of: 1] to the AC(2d), put the result in the AC(2d)
+1805: Transfer contents of AC(2d) to M(5)[value of: 2d]
+1806: Replace left address field at M(d)[value of: 602d0f012] by 12 rightmost bits of AC(2d)
+1807: Transfer M(7)[value of: 2f] to the AC(2f)
+1808: Subtract M(5)[value of: 2d] from the AC(2), put the result in the AC(2)
+1809: If the number in AC(2) is nonnegative, take next instruction from right half of M(c)[value of: 902b0a000]
+1810: Transfer contents of register MQ to the AC(fe)
+1811: Subtract M(2d)[value of: 3cb] from the AC(fffffffffffffd33), put the result in the AC(fffffffffffffd33)
+1812: If the number in AC(fffffffffffffd33) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1813: Transfer M(5)[value of: 2d] to the AC(2d)
+1814: Add M(1)[value of: 1] to the AC(2e), put the result in the AC(2e)
+1815: Transfer contents of AC(2e) to M(5)[value of: 2e]
+1816: Replace left address field at M(d)[value of: 602e0f012] by 12 rightmost bits of AC(2e)
+1817: Transfer M(7)[value of: 2f] to the AC(2f)
+1818: Subtract M(5)[value of: 2e] from the AC(1), put the result in the AC(1)
+1819: If the number in AC(1) is nonnegative, take next instruction from right half of M(c)[value of: 902b0a000]
+1820: Transfer contents of register MQ to the AC(fe)
+1821: Subtract M(2e)[value of: bc] from the AC(42), put the result in the AC(42)
+1822: If the number in AC(42) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1823: Transfer M(5)[value of: 2e] to the AC(2e)
+1824: Replace left address field at M(13)[value of: 902e21003] by 12 rightmost bits of AC(2e)
+1825: Transfer contents of M(2e)[value of: bc] to MQ
+1826: Transfer contents of AC(2e) to M(3)[value of: 2e]
+1827: Take next instruction from left half of M(e)[value of: 100505001]
+1828: Transfer M(5)[value of: 2e] to the AC(2e)
+1829: Add M(1)[value of: 1] to the AC(2f), put the result in the AC(2f)
+1830: Transfer contents of AC(2f) to M(5)[value of: 2f]
+1831: Replace left address field at M(d)[value of: 602f0f012] by 12 rightmost bits of AC(2f)
+1832: Transfer M(7)[value of: 2f] to the AC(2f)
+1833: Subtract M(5)[value of: 2f] from the AC(0), put the result in the AC(0)
+1834: If the number in AC(0) is nonnegative, take next instruction from right half of M(c)[value of: 902b0a000]
+1835: Take next instruction from right half of M(14)[value of: d00e01004]
+1836: Transfer M(4)[value of: 2b] to the AC(2b)
+1837: Replace left address field at M(17)[value of: 102b2102e] by 12 rightmost bits of AC(2b)
+1838: Replace right address field at M(18)[value of: a0002102b] by 12 rightmost bits of AC(2b)
+1839: Transfer M(3)[value of: 2e] to the AC(2e)
+1840: Replace right address field at M(17)[value of: 102b2102e] by 12 rightmost bits of AC(2e)
+1841: Transfer M(2b)[value of: fe] to the AC(fe)
+1842: Transfer contents of AC(fe) to M(2e)[value of: fe]
+1843: Transfer contents of register MQ to the AC(bc)
+1844: Transfer contents of AC(bc) to M(2b)[value of: bc]
+1845: Transfer M(4)[value of: 2b] to the AC(2b)
+1846: Add M(1)[value of: 1] to the AC(2c), put the result in the AC(2c)
+1847: Replace right address field at M(4)[value of: 2c] by 12 rightmost bits of AC(2c)
+1848: Replace right address field at M(6)[value of: 2c] by 12 rightmost bits of AC(2c)
+1849: Add M(1)[value of: 1] to the AC(2d), put the result in the AC(2d)
+1850: Transfer contents of AC(2d) to M(5)[value of: 2d]
+1851: Transfer M(7)[value of: 2f] to the AC(2f)
+1852: Subtract M(5)[value of: 2d] from the AC(2), put the result in the AC(2)
+1853: If the number in AC(2) is nonnegative, take next instruction from left half of M(8)[value of: 10061200c]
+1854: Transfer M(6)[value of: 2c] to the AC(2c)
+1855: Replace left address field at M(c)[value of: 902c0a000] by 12 rightmost bits of AC(2c)
+1856: Replace right address field at M(3)[value of: 2c] by 12 rightmost bits of AC(2c)
+1857: Take next instruction from left half of M(a)[value of: 1300405001]
+1858: Replace right address field at M(4)[value of: 2c] by 12 rightmost bits of AC(2c)
+1859: Add M(1)[value of: 1] to the AC(2d), put the result in the AC(2d)
+1860: Replace right address field at M(5)[value of: 2d] by 12 rightmost bits of AC(2d)
+1861: Replace left address field at M(d)[value of: 602d0f012] by 12 rightmost bits of AC(2d)
+1862: Transfer contents of M(2c)[value of: fff] to MQ
+1863: Transfer contents of register MQ to the AC(fff)
+1864: Subtract M(2d)[value of: 3cb] from the AC(c34), put the result in the AC(c34)
+1865: If the number in AC(c34) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1866: Transfer M(5)[value of: 2d] to the AC(2d)
+1867: Replace left address field at M(13)[value of: 902d21003] by 12 rightmost bits of AC(2d)
+1868: Transfer contents of M(2d)[value of: 3cb] to MQ
+1869: Transfer contents of AC(2d) to M(3)[value of: 2d]
+1870: Take next instruction from left half of M(e)[value of: 100505001]
+1871: Transfer M(5)[value of: 2d] to the AC(2d)
+1872: Add M(1)[value of: 1] to the AC(2e), put the result in the AC(2e)
+1873: Transfer contents of AC(2e) to M(5)[value of: 2e]
+1874: Replace left address field at M(d)[value of: 602e0f012] by 12 rightmost bits of AC(2e)
+1875: Transfer M(7)[value of: 2f] to the AC(2f)
+1876: Subtract M(5)[value of: 2e] from the AC(1), put the result in the AC(1)
+1877: If the number in AC(1) is nonnegative, take next instruction from right half of M(c)[value of: 902c0a000]
+1878: Transfer contents of register MQ to the AC(3cb)
+1879: Subtract M(2e)[value of: fe] from the AC(2cd), put the result in the AC(2cd)
+1880: If the number in AC(2cd) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1881: Transfer M(5)[value of: 2e] to the AC(2e)
+1882: Replace left address field at M(13)[value of: 902e21003] by 12 rightmost bits of AC(2e)
+1883: Transfer contents of M(2e)[value of: fe] to MQ
+1884: Transfer contents of AC(2e) to M(3)[value of: 2e]
+1885: Take next instruction from left half of M(e)[value of: 100505001]
+1886: Transfer M(5)[value of: 2e] to the AC(2e)
+1887: Add M(1)[value of: 1] to the AC(2f), put the result in the AC(2f)
+1888: Transfer contents of AC(2f) to M(5)[value of: 2f]
+1889: Replace left address field at M(d)[value of: 602f0f012] by 12 rightmost bits of AC(2f)
+1890: Transfer M(7)[value of: 2f] to the AC(2f)
+1891: Subtract M(5)[value of: 2f] from the AC(0), put the result in the AC(0)
+1892: If the number in AC(0) is nonnegative, take next instruction from right half of M(c)[value of: 902c0a000]
+1893: Take next instruction from right half of M(14)[value of: d00e01004]
+1894: Transfer M(4)[value of: 2c] to the AC(2c)
+1895: Replace left address field at M(17)[value of: 102c2102e] by 12 rightmost bits of AC(2c)
+1896: Replace right address field at M(18)[value of: a0002102c] by 12 rightmost bits of AC(2c)
+1897: Transfer M(3)[value of: 2e] to the AC(2e)
+1898: Replace right address field at M(17)[value of: 102c2102e] by 12 rightmost bits of AC(2e)
+1899: Transfer M(2c)[value of: fff] to the AC(fff)
+1900: Transfer contents of AC(fff) to M(2e)[value of: fff]
+1901: Transfer contents of register MQ to the AC(fe)
+1902: Transfer contents of AC(fe) to M(2c)[value of: fe]
+1903: Transfer M(4)[value of: 2c] to the AC(2c)
+1904: Add M(1)[value of: 1] to the AC(2d), put the result in the AC(2d)
+1905: Replace right address field at M(4)[value of: 2d] by 12 rightmost bits of AC(2d)
+1906: Replace right address field at M(6)[value of: 2d] by 12 rightmost bits of AC(2d)
+1907: Add M(1)[value of: 1] to the AC(2e), put the result in the AC(2e)
+1908: Transfer contents of AC(2e) to M(5)[value of: 2e]
+1909: Transfer M(7)[value of: 2f] to the AC(2f)
+1910: Subtract M(5)[value of: 2e] from the AC(1), put the result in the AC(1)
+1911: If the number in AC(1) is nonnegative, take next instruction from left half of M(8)[value of: 10061200c]
+1912: Transfer M(6)[value of: 2d] to the AC(2d)
+1913: Replace left address field at M(c)[value of: 902d0a000] by 12 rightmost bits of AC(2d)
+1914: Replace right address field at M(3)[value of: 2d] by 12 rightmost bits of AC(2d)
+1915: Take next instruction from left half of M(a)[value of: 1300405001]
+1916: Replace right address field at M(4)[value of: 2d] by 12 rightmost bits of AC(2d)
+1917: Add M(1)[value of: 1] to the AC(2e), put the result in the AC(2e)
+1918: Replace right address field at M(5)[value of: 2e] by 12 rightmost bits of AC(2e)
+1919: Replace left address field at M(d)[value of: 602e0f012] by 12 rightmost bits of AC(2e)
+1920: Transfer contents of M(2d)[value of: 3cb] to MQ
+1921: Transfer contents of register MQ to the AC(3cb)
+1922: Subtract M(2e)[value of: fff] from the AC(fffffffffffff3cc), put the result in the AC(fffffffffffff3cc)
+1923: If the number in AC(fffffffffffff3cc) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+1924: Transfer M(5)[value of: 2e] to the AC(2e)
+1925: Add M(1)[value of: 1] to the AC(2f), put the result in the AC(2f)
+1926: Transfer contents of AC(2f) to M(5)[value of: 2f]
+1927: Replace left address field at M(d)[value of: 602f0f012] by 12 rightmost bits of AC(2f)
+1928: Transfer M(7)[value of: 2f] to the AC(2f)
+1929: Subtract M(5)[value of: 2f] from the AC(0), put the result in the AC(0)
+1930: If the number in AC(0) is nonnegative, take next instruction from right half of M(c)[value of: 902d0a000]
+1931: Take next instruction from right half of M(14)[value of: d00e01004]
+1932: Transfer M(4)[value of: 2d] to the AC(2d)
+1933: Replace left address field at M(17)[value of: 102d2102e] by 12 rightmost bits of AC(2d)
+1934: Replace right address field at M(18)[value of: a0002102d] by 12 rightmost bits of AC(2d)
+1935: Transfer M(3)[value of: 2d] to the AC(2d)
+1936: Replace right address field at M(17)[value of: 102d2102d] by 12 rightmost bits of AC(2d)
+1937: Transfer M(2d)[value of: 3cb] to the AC(3cb)
+1938: Transfer contents of AC(3cb) to M(2d)[value of: 3cb]
+1939: Transfer contents of register MQ to the AC(3cb)
+1940: Transfer contents of AC(3cb) to M(2d)[value of: 3cb]
+1941: Transfer M(4)[value of: 2d] to the AC(2d)
+1942: Add M(1)[value of: 1] to the AC(2e), put the result in the AC(2e)
+1943: Replace right address field at M(4)[value of: 2e] by 12 rightmost bits of AC(2e)
+1944: Replace right address field at M(6)[value of: 2e] by 12 rightmost bits of AC(2e)
+1945: Add M(1)[value of: 1] to the AC(2f), put the result in the AC(2f)
+1946: Transfer contents of AC(2f) to M(5)[value of: 2f]
+1947: Transfer M(7)[value of: 2f] to the AC(2f)
+1948: Subtract M(5)[value of: 2f] from the AC(0), put the result in the AC(0)
+1949: If the number in AC(0) is nonnegative, take next instruction from left half of M(8)[value of: 10061200c]
+
+1: Take next instruction from left half of M(8)[value of: 10061200c]
+2: Transfer M(6)[value of: 1e] to the AC(1e)
+3: Replace left address field at M(c)[value of: 901e0a000] by 12 rightmost bits of AC(1e)
+4: Replace right address field at M(3)[value of: 1e] by 12 rightmost bits of AC(1e)
+5: Take next instruction from left half of M(a)[value of: 1300405001]
+6: Replace right address field at M(4)[value of: 1e] by 12 rightmost bits of AC(1e)
+7: Add M(1)[value of: 1] to the AC(1f), put the result in the AC(1f)
+8: Replace right address field at M(5)[value of: 1f] by 12 rightmost bits of AC(1f)
+9: Replace left address field at M(d)[value of: 601f0f012] by 12 rightmost bits of AC(1f)
+10: Transfer contents of M(1e)[value of: d] to MQ
+11: Transfer contents of register MQ to the AC(d)
+12: Subtract M(1f)[value of: 7] from the AC(6), put the result in the AC(6)
+13: If the number in AC(6) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+14: Transfer M(5)[value of: 1f] to the AC(1f)
+15: Replace left address field at M(13)[value of: 901f21003] by 12 rightmost bits of AC(1f)
+16: Transfer contents of M(1f)[value of: 7] to MQ
+17: Transfer contents of AC(1f) to M(3)[value of: 1f]
+18: Take next instruction from left half of M(e)[value of: 100505001]
+19: Transfer M(5)[value of: 1f] to the AC(1f)
+20: Add M(1)[value of: 1] to the AC(20), put the result in the AC(20)
+21: Transfer contents of AC(20) to M(5)[value of: 20]
+22: Replace left address field at M(d)[value of: 60200f012] by 12 rightmost bits of AC(20)
+23: Transfer M(7)[value of: 23] to the AC(23)
+24: Subtract M(5)[value of: 20] from the AC(3), put the result in the AC(3)
+25: If the number in AC(3) is nonnegative, take next instruction from right half of M(c)[value of: 901e0a000]
+26: Transfer contents of register MQ to the AC(7)
+27: Subtract M(20)[value of: 3] from the AC(4), put the result in the AC(4)
+28: If the number in AC(4) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+29: Transfer M(5)[value of: 20] to the AC(20)
+30: Replace left address field at M(13)[value of: 902021003] by 12 rightmost bits of AC(20)
+31: Transfer contents of M(20)[value of: 3] to MQ
+32: Transfer contents of AC(20) to M(3)[value of: 20]
+33: Take next instruction from left half of M(e)[value of: 100505001]
+34: Transfer M(5)[value of: 20] to the AC(20)
+35: Add M(1)[value of: 1] to the AC(21), put the result in the AC(21)
+36: Transfer contents of AC(21) to M(5)[value of: 21]
+37: Replace left address field at M(d)[value of: 60210f012] by 12 rightmost bits of AC(21)
+38: Transfer M(7)[value of: 23] to the AC(23)
+39: Subtract M(5)[value of: 21] from the AC(2), put the result in the AC(2)
+40: If the number in AC(2) is nonnegative, take next instruction from right half of M(c)[value of: 901e0a000]
+41: Transfer contents of register MQ to the AC(3)
+42: Subtract M(21)[value of: 18] from the AC(ffffffffffffffeb), put the result in the AC(ffffffffffffffeb)
+43: If the number in AC(ffffffffffffffeb) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+44: Transfer M(5)[value of: 21] to the AC(21)
+45: Add M(1)[value of: 1] to the AC(22), put the result in the AC(22)
+46: Transfer contents of AC(22) to M(5)[value of: 22]
+47: Replace left address field at M(d)[value of: 60220f012] by 12 rightmost bits of AC(22)
+48: Transfer M(7)[value of: 23] to the AC(23)
+49: Subtract M(5)[value of: 22] from the AC(1), put the result in the AC(1)
+50: If the number in AC(1) is nonnegative, take next instruction from right half of M(c)[value of: 901e0a000]
+51: Transfer contents of register MQ to the AC(3)
+52: Subtract M(22)[value of: 3] from the AC(0), put the result in the AC(0)
+53: If the number in AC(0) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+54: Transfer M(5)[value of: 22] to the AC(22)
+55: Add M(1)[value of: 1] to the AC(23), put the result in the AC(23)
+56: Transfer contents of AC(23) to M(5)[value of: 23]
+57: Replace left address field at M(d)[value of: 60230f012] by 12 rightmost bits of AC(23)
+58: Transfer M(7)[value of: 23] to the AC(23)
+59: Subtract M(5)[value of: 23] from the AC(0), put the result in the AC(0)
+60: If the number in AC(0) is nonnegative, take next instruction from right half of M(c)[value of: 901e0a000]
+61: Take next instruction from right half of M(14)[value of: d00e01004]
+62: Transfer M(4)[value of: 1e] to the AC(1e)
+63: Replace left address field at M(17)[value of: 101e21000] by 12 rightmost bits of AC(1e)
+64: Replace right address field at M(18)[value of: a0002101e] by 12 rightmost bits of AC(1e)
+65: Transfer M(3)[value of: 20] to the AC(20)
+66: Replace right address field at M(17)[value of: 101e21020] by 12 rightmost bits of AC(20)
+67: Transfer M(1e)[value of: d] to the AC(d)
+68: Transfer contents of AC(d) to M(20)[value of: d]
+69: Transfer contents of register MQ to the AC(3)
+70: Transfer contents of AC(3) to M(1e)[value of: 3]
+71: Transfer M(4)[value of: 1e] to the AC(1e)
+72: Add M(1)[value of: 1] to the AC(1f), put the result in the AC(1f)
+73: Replace right address field at M(4)[value of: 1f] by 12 rightmost bits of AC(1f)
+74: Replace right address field at M(6)[value of: 1f] by 12 rightmost bits of AC(1f)
+75: Add M(1)[value of: 1] to the AC(20), put the result in the AC(20)
+76: Transfer contents of AC(20) to M(5)[value of: 20]
+77: Transfer M(7)[value of: 23] to the AC(23)
+78: Subtract M(5)[value of: 20] from the AC(3), put the result in the AC(3)
+79: If the number in AC(3) is nonnegative, take next instruction from left half of M(8)[value of: 10061200c]
+80: Transfer M(6)[value of: 1f] to the AC(1f)
+81: Replace left address field at M(c)[value of: 901f0a000] by 12 rightmost bits of AC(1f)
+82: Replace right address field at M(3)[value of: 1f] by 12 rightmost bits of AC(1f)
+83: Take next instruction from left half of M(a)[value of: 1300405001]
+84: Replace right address field at M(4)[value of: 1f] by 12 rightmost bits of AC(1f)
+85: Add M(1)[value of: 1] to the AC(20), put the result in the AC(20)
+86: Replace right address field at M(5)[value of: 20] by 12 rightmost bits of AC(20)
+87: Replace left address field at M(d)[value of: 60200f012] by 12 rightmost bits of AC(20)
+88: Transfer contents of M(1f)[value of: 7] to MQ
+89: Transfer contents of register MQ to the AC(7)
+90: Subtract M(20)[value of: d] from the AC(fffffffffffffffa), put the result in the AC(fffffffffffffffa)
+91: If the number in AC(fffffffffffffffa) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+92: Transfer M(5)[value of: 20] to the AC(20)
+93: Add M(1)[value of: 1] to the AC(21), put the result in the AC(21)
+94: Transfer contents of AC(21) to M(5)[value of: 21]
+95: Replace left address field at M(d)[value of: 60210f012] by 12 rightmost bits of AC(21)
+96: Transfer M(7)[value of: 23] to the AC(23)
+97: Subtract M(5)[value of: 21] from the AC(2), put the result in the AC(2)
+98: If the number in AC(2) is nonnegative, take next instruction from right half of M(c)[value of: 901f0a000]
+99: Transfer contents of register MQ to the AC(7)
+100: Subtract M(21)[value of: 18] from the AC(ffffffffffffffef), put the result in the AC(ffffffffffffffef)
+101: If the number in AC(ffffffffffffffef) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+102: Transfer M(5)[value of: 21] to the AC(21)
+103: Add M(1)[value of: 1] to the AC(22), put the result in the AC(22)
+104: Transfer contents of AC(22) to M(5)[value of: 22]
+105: Replace left address field at M(d)[value of: 60220f012] by 12 rightmost bits of AC(22)
+106: Transfer M(7)[value of: 23] to the AC(23)
+107: Subtract M(5)[value of: 22] from the AC(1), put the result in the AC(1)
+108: If the number in AC(1) is nonnegative, take next instruction from right half of M(c)[value of: 901f0a000]
+109: Transfer contents of register MQ to the AC(7)
+110: Subtract M(22)[value of: 3] from the AC(4), put the result in the AC(4)
+111: If the number in AC(4) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+112: Transfer M(5)[value of: 22] to the AC(22)
+113: Replace left address field at M(13)[value of: 902221003] by 12 rightmost bits of AC(22)
+114: Transfer contents of M(22)[value of: 3] to MQ
+115: Transfer contents of AC(22) to M(3)[value of: 22]
+116: Take next instruction from left half of M(e)[value of: 100505001]
+117: Transfer M(5)[value of: 22] to the AC(22)
+118: Add M(1)[value of: 1] to the AC(23), put the result in the AC(23)
+119: Transfer contents of AC(23) to M(5)[value of: 23]
+120: Replace left address field at M(d)[value of: 60230f012] by 12 rightmost bits of AC(23)
+121: Transfer M(7)[value of: 23] to the AC(23)
+122: Subtract M(5)[value of: 23] from the AC(0), put the result in the AC(0)
+123: If the number in AC(0) is nonnegative, take next instruction from right half of M(c)[value of: 901f0a000]
+124: Take next instruction from right half of M(14)[value of: d00e01004]
+125: Transfer M(4)[value of: 1f] to the AC(1f)
+126: Replace left address field at M(17)[value of: 101f21020] by 12 rightmost bits of AC(1f)
+127: Replace right address field at M(18)[value of: a0002101f] by 12 rightmost bits of AC(1f)
+128: Transfer M(3)[value of: 22] to the AC(22)
+129: Replace right address field at M(17)[value of: 101f21022] by 12 rightmost bits of AC(22)
+130: Transfer M(1f)[value of: 7] to the AC(7)
+131: Transfer contents of AC(7) to M(22)[value of: 7]
+132: Transfer contents of register MQ to the AC(3)
+133: Transfer contents of AC(3) to M(1f)[value of: 3]
+134: Transfer M(4)[value of: 1f] to the AC(1f)
+135: Add M(1)[value of: 1] to the AC(20), put the result in the AC(20)
+136: Replace right address field at M(4)[value of: 20] by 12 rightmost bits of AC(20)
+137: Replace right address field at M(6)[value of: 20] by 12 rightmost bits of AC(20)
+138: Add M(1)[value of: 1] to the AC(21), put the result in the AC(21)
+139: Transfer contents of AC(21) to M(5)[value of: 21]
+140: Transfer M(7)[value of: 23] to the AC(23)
+141: Subtract M(5)[value of: 21] from the AC(2), put the result in the AC(2)
+142: If the number in AC(2) is nonnegative, take next instruction from left half of M(8)[value of: 10061200c]
+143: Transfer M(6)[value of: 20] to the AC(20)
+144: Replace left address field at M(c)[value of: 90200a000] by 12 rightmost bits of AC(20)
+145: Replace right address field at M(3)[value of: 20] by 12 rightmost bits of AC(20)
+146: Take next instruction from left half of M(a)[value of: 1300405001]
+147: Replace right address field at M(4)[value of: 20] by 12 rightmost bits of AC(20)
+148: Add M(1)[value of: 1] to the AC(21), put the result in the AC(21)
+149: Replace right address field at M(5)[value of: 21] by 12 rightmost bits of AC(21)
+150: Replace left address field at M(d)[value of: 60210f012] by 12 rightmost bits of AC(21)
+151: Transfer contents of M(20)[value of: d] to MQ
+152: Transfer contents of register MQ to the AC(d)
+153: Subtract M(21)[value of: 18] from the AC(fffffffffffffff5), put the result in the AC(fffffffffffffff5)
+154: If the number in AC(fffffffffffffff5) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+155: Transfer M(5)[value of: 21] to the AC(21)
+156: Add M(1)[value of: 1] to the AC(22), put the result in the AC(22)
+157: Transfer contents of AC(22) to M(5)[value of: 22]
+158: Replace left address field at M(d)[value of: 60220f012] by 12 rightmost bits of AC(22)
+159: Transfer M(7)[value of: 23] to the AC(23)
+160: Subtract M(5)[value of: 22] from the AC(1), put the result in the AC(1)
+161: If the number in AC(1) is nonnegative, take next instruction from right half of M(c)[value of: 90200a000]
+162: Transfer contents of register MQ to the AC(d)
+163: Subtract M(22)[value of: 7] from the AC(6), put the result in the AC(6)
+164: If the number in AC(6) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+165: Transfer M(5)[value of: 22] to the AC(22)
+166: Replace left address field at M(13)[value of: 902221003] by 12 rightmost bits of AC(22)
+167: Transfer contents of M(22)[value of: 7] to MQ
+168: Transfer contents of AC(22) to M(3)[value of: 22]
+169: Take next instruction from left half of M(e)[value of: 100505001]
+170: Transfer M(5)[value of: 22] to the AC(22)
+171: Add M(1)[value of: 1] to the AC(23), put the result in the AC(23)
+172: Transfer contents of AC(23) to M(5)[value of: 23]
+173: Replace left address field at M(d)[value of: 60230f012] by 12 rightmost bits of AC(23)
+174: Transfer M(7)[value of: 23] to the AC(23)
+175: Subtract M(5)[value of: 23] from the AC(0), put the result in the AC(0)
+176: If the number in AC(0) is nonnegative, take next instruction from right half of M(c)[value of: 90200a000]
+177: Take next instruction from right half of M(14)[value of: d00e01004]
+178: Transfer M(4)[value of: 20] to the AC(20)
+179: Replace left address field at M(17)[value of: 102021022] by 12 rightmost bits of AC(20)
+180: Replace right address field at M(18)[value of: a00021020] by 12 rightmost bits of AC(20)
+181: Transfer M(3)[value of: 22] to the AC(22)
+182: Replace right address field at M(17)[value of: 102021022] by 12 rightmost bits of AC(22)
+183: Transfer M(20)[value of: d] to the AC(d)
+184: Transfer contents of AC(d) to M(22)[value of: d]
+185: Transfer contents of register MQ to the AC(7)
+186: Transfer contents of AC(7) to M(20)[value of: 7]
+187: Transfer M(4)[value of: 20] to the AC(20)
+188: Add M(1)[value of: 1] to the AC(21), put the result in the AC(21)
+189: Replace right address field at M(4)[value of: 21] by 12 rightmost bits of AC(21)
+190: Replace right address field at M(6)[value of: 21] by 12 rightmost bits of AC(21)
+191: Add M(1)[value of: 1] to the AC(22), put the result in the AC(22)
+192: Transfer contents of AC(22) to M(5)[value of: 22]
+193: Transfer M(7)[value of: 23] to the AC(23)
+194: Subtract M(5)[value of: 22] from the AC(1), put the result in the AC(1)
+195: If the number in AC(1) is nonnegative, take next instruction from left half of M(8)[value of: 10061200c]
+196: Transfer M(6)[value of: 21] to the AC(21)
+197: Replace left address field at M(c)[value of: 90210a000] by 12 rightmost bits of AC(21)
+198: Replace right address field at M(3)[value of: 21] by 12 rightmost bits of AC(21)
+199: Take next instruction from left half of M(a)[value of: 1300405001]
+200: Replace right address field at M(4)[value of: 21] by 12 rightmost bits of AC(21)
+201: Add M(1)[value of: 1] to the AC(22), put the result in the AC(22)
+202: Replace right address field at M(5)[value of: 22] by 12 rightmost bits of AC(22)
+203: Replace left address field at M(d)[value of: 60220f012] by 12 rightmost bits of AC(22)
+204: Transfer contents of M(21)[value of: 18] to MQ
+205: Transfer contents of register MQ to the AC(18)
+206: Subtract M(22)[value of: d] from the AC(b), put the result in the AC(b)
+207: If the number in AC(b) is nonnegative, take next instruction from left half of M(12)[value of: 100512013]
+208: Transfer M(5)[value of: 22] to the AC(22)
+209: Replace left address field at M(13)[value of: 902221003] by 12 rightmost bits of AC(22)
+210: Transfer contents of M(22)[value of: d] to MQ
+211: Transfer contents of AC(22) to M(3)[value of: 22]
+212: Take next instruction from left half of M(e)[value of: 100505001]
+213: Transfer M(5)[value of: 22] to the AC(22)
+214: Add M(1)[value of: 1] to the AC(23), put the result in the AC(23)
+215: Transfer contents of AC(23) to M(5)[value of: 23]
+216: Replace left address field at M(d)[value of: 60230f012] by 12 rightmost bits of AC(23)
+217: Transfer M(7)[value of: 23] to the AC(23)
+218: Subtract M(5)[value of: 23] from the AC(0), put the result in the AC(0)
+219: If the number in AC(0) is nonnegative, take next instruction from right half of M(c)[value of: 90210a000]
+220: Take next instruction from right half of M(14)[value of: d00e01004]
+221: Transfer M(4)[value of: 21] to the AC(21)
+222: Replace left address field at M(17)[value of: 102121022] by 12 rightmost bits of AC(21)
+223: Replace right address field at M(18)[value of: a00021021] by 12 rightmost bits of AC(21)
+224: Transfer M(3)[value of: 22] to the AC(22)
+225: Replace right address field at M(17)[value of: 102121022] by 12 rightmost bits of AC(22)
+226: Transfer M(21)[value of: 18] to the AC(18)
+227: Transfer contents of AC(18) to M(22)[value of: 18]
+228: Transfer contents of register MQ to the AC(d)
+229: Transfer contents of AC(d) to M(21)[value of: d]
+230: Transfer M(4)[value of: 21] to the AC(21)
+231: Add M(1)[value of: 1] to the AC(22), put the result in the AC(22)
+232: Replace right address field at M(4)[value of: 22] by 12 rightmost bits of AC(22)
+233: Replace right address field at M(6)[value of: 22] by 12 rightmost bits of AC(22)
+234: Add M(1)[value of: 1] to the AC(23), put the result in the AC(23)
+235: Transfer contents of AC(23) to M(5)[value of: 23]
+236: Transfer M(7)[value of: 23] to the AC(23)
+237: Subtract M(5)[value of: 23] from the AC(0), put the result in the AC(0)
+238: If the number in AC(0) is nonnegative, take next instruction from left half of M(8)[value of: 10061200c]
+

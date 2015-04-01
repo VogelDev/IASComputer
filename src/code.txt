@@ -4,8 +4,8 @@
 0000000000#--03 - position of lowest counter z
 0000000000#--04 - index position i
 0000000000#--05 - counter position x
-0000000021#--06 - constant first location 21
-000000002f#--07 - constant final location 2f
+000000001e#--06 - constant first location 21
+0000000026#--07 - constant final location 2f
 010061200c#--08 - load m(6) to ac / store left of 0c                        8L:START
 130030d00a#--09 - store right of m(3) / go to aL
 1300405001#--0a - store right of 4 / add m(1) to increment
@@ -28,20 +28,11 @@
 0500121005#--1b - add 1 to increment / store ac to m(5)
 0100706005#--1c - load m(7) to ac / sub m(5)
 0f00800000#--1d - if ac > 0 goto 8L / halt
-0000000000#--1e - 
-0000000000#--1f - 
-0000000000#--20 - 
+00000003cb#--1e - 
+0000000025#--1f - 
+0000000fff#--20 - 
 0000000007#--21 - 
 00000000a0#--22 - 
 0000000003#--23 - 
 000000000c#--24 - 
-000000000f#--25 - 
-0000000001#--26 - 
-00000000b1#--27 - 
-000000000e#--28 - 
-00000000ae#--29 - 
-00000000bc#--2a - 
-00000000fe#--2b - 
-000000002a#--2c - 
-000000003c#--2d - 
-000000005f#--2e - 
+000000000f#--25 -

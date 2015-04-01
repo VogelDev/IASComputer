@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Calendar;
 
 /**
  * IAS Computer for CIS126
@@ -54,9 +55,17 @@ public class Computer {
     private void write() {
         // FileWriter will find the file and add to it if it already exists
         FileWriter fwriter = null;
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTimeInMillis(System.currentTimeMillis());
+        int year = calendar.get(Calendar.YEAR);
+        int month = calendar.get(Calendar.MONTH) + 1;
+        int day = calendar.get(Calendar.DAY_OF_MONTH);
+        int hour = calendar.get(Calendar.HOUR_OF_DAY);
+        int sec = calendar.get(Calendar.SECOND);
+        String date = year+"-"+month+"-"+day+"-"+hour+"-"+sec+".txt";
+        String fileName = System.getProperty("user.name") + "-" + date;
         try {
-            fwriter = new FileWriter("operations" + System.currentTimeMillis()
-                    + ".txt", true);
+            fwriter = new FileWriter(fileName, true);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -76,6 +85,8 @@ public class Computer {
             ir = (int) (ibr >>> 12);
             // mar = ibr address
             mar = (int) (ibr & Integer.valueOf("fff", 16));
+
+            System.out.println("fetch [" + pc + "R].  IR: " + ir + ", MAR: " + mar + ", PC: " + pc);
             // pc++
             pc++;
             ibrLoad = false;
@@ -88,7 +99,7 @@ public class Computer {
                 ibr = mbr & Integer.valueOf("fffff", 16);
                 ibrLoad = true;
                 left = false;
-
+                System.out.println("fetch [" + pc + "L].  IR: " + ir + ", MAR: " + mar + ", PC: " + pc);
                 int leftIn = (int) (mbr >>> 20);
                 // ir = mbr left op
                 ir = leftIn >>> 12;
@@ -102,6 +113,7 @@ public class Computer {
                 mar = (int) (rightIn & Integer.valueOf("fff", 16));
                 left = true;
                 ibrLoad = false;
+                System.out.println("fetch [" + pc + "R].  IR: " + ir + ", MAR: " + mar + ", PC: " + pc);
                 pc++;
             }
         }
